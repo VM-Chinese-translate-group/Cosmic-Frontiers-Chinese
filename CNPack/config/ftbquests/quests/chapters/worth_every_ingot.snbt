@@ -1,0 +1,1888 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "worth_every_ingot"
+	group: "4B9C53F35CAB9BEE"
+	icon: "bloodmagic:altar"
+	id: "653B8423C4F4FB7B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71C697E52A8CE267"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "635C885360A8A8A9"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest1.subtitle}"
+			tasks: [{
+				id: "42519E57ED19EF2F"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65F7E83614AEABEA"]
+			id: "39B0489A925F7520"
+			tasks: [{
+				id: "2751893FA8DB09B0"
+				item: "gtceu:prisma_doped_raw_naquahine_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50D17DD7808A9A0D"]
+			id: "1C0040B039B5EEC3"
+			tasks: [{
+				id: "06E40AE813DB76C7"
+				item: "gtceu:fused_naquadah_emulsion_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C0040B039B5EEC3"]
+			id: "65F7E83614AEABEA"
+			tasks: [{
+				id: "572EF3038144F970"
+				item: "gtceu:raw_naquahine_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39B0489A925F7520"]
+			id: "2E8945D31DE920C9"
+			tasks: [{
+				id: "3A367D2A3A333DA0"
+				item: "gtceu:inert_naquahine_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E8945D31DE920C9"]
+			id: "3432F61794651109"
+			tasks: [{
+				id: "3C56C8F820836A56"
+				item: "gtceu:source_cut_naquahine_solution_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3432F61794651109"]
+			id: "3765B035BBEAC369"
+			tasks: [{
+				id: "203F15FC7C32C0B1"
+				item: "gtceu:naquahine_rich_mixture_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3303DCA22F0AC9C6"]
+			id: "714301AC254290AB"
+			tasks: [{
+				id: "6440842322DAAB22"
+				item: "gtceu:thunder_charged_naquahine_mixture_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3765B035BBEAC369"]
+			id: "3303DCA22F0AC9C6"
+			tasks: [{
+				id: "29FCE225F5991E6E"
+				item: "gtceu:naquahine_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["714301AC254290AB"]
+			id: "3FD359A46ACAB546"
+			tasks: [{
+				id: "6376C465F7703E41"
+				item: "gtceu:critically_steam_cracked_thundering_naquahine_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD359A46ACAB546"]
+			id: "3EB2317BA0E7EE13"
+			tasks: [{
+				id: "0CF95B5B5354C08D"
+				item: "gtceu:energized_naquahine_fuel_preperation_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EB2317BA0E7EE13"]
+			id: "489A9FFA91552D3E"
+			tasks: [{
+				id: "21153001989ADCB5"
+				item: "gtceu:aerated_naquahine_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["489A9FFA91552D3E"]
+			id: "46D8E8E4D6AAF98F"
+			shape: "hexagon"
+			tasks: [{
+				id: "7B8F75E019DB2A6C"
+				item: "gtceu:naquahine_superfuel_mk_one_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest14.description1}"
+				"{ftbquests.chapter.worth_every_ingot.quest14.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest14.description3}"
+				"{ftbquests.chapter.worth_every_ingot.quest14.description4}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest14.description5}"
+			]
+			icon: "createdeco:decal_electrical"
+			id: "50D17DD7808A9A0D"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest14.subtitle}"
+			tasks: [{
+				id: "1C726111AF1DFFF8"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46D8E8E4D6AAF98F"
+				"3030163CA604944A"
+				"3822951EF3C8636E"
+			]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest15.description1}"
+				""
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest15.description2}"
+				"{ftbquests.chapter.worth_every_ingot.quest15.description3}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest15.description4}"
+			]
+			icon: "cosmiccore:naquahine_pressure_reactor"
+			id: "52E24C3A025D1A04"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest15.subtitle}"
+			tasks: [
+				{
+					id: "7788E98C567E1635"
+					item: "cosmiccore:naquahine_pressure_reactor"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "454BC7A4DA3EC9AB"
+					item: { Count: 44, id: "gtceu:naquadah_alloy_frame" }
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "690CA757E81683E6"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "57BD1B8B93790228"
+					item: { Count: 28, id: "cosmiccore:resonantly_tuned_virtue_meld_casing" }
+					type: "item"
+				}
+				{
+					count: 169L
+					id: "326655AF3482D030"
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "351939E5D86F7102"
+					item: { Count: 51, id: "cosmiccore:fusion_grade_magnet" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D8E8E4D6AAF98F"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest16.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest16.description2}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3030163CA604944A"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest16.subtitle}"
+			tasks: [{
+				id: "5B61206BC65C98B4"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest16.title}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			id: "589E24AF4439F383"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest17.subtitle}"
+			tasks: [{
+				id: "29529FE3F1F29BB8"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["589E24AF4439F383"]
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
+			id: "5D3304BD45B278F0"
+			tasks: [
+				{
+					id: "67C6E41CD807EF68"
+					item: "gtceu:impure_enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "405296BCE4344C2A"
+					title: "{ftbquests.chapter.worth_every_ingot.quest18.task_4634932704544312362.title}"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["589E24AF4439F383"]
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
+			id: "1AE4A81373878E24"
+			tasks: [
+				{
+					id: "3A1B6E6D2CA6B0F3"
+					item: "gtceu:impure_naquadria_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "56548408E6F10CDB"
+					title: "{ftbquests.chapter.worth_every_ingot.quest19.task_6220742159074659547.title}"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D3304BD45B278F0"]
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "1095E899F62521A4"
+			tasks: [
+				{
+					id: "5A435CE2366F6BFB"
+					item: "gtceu:enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5F4C5762CD3A8050"
+					title: "{ftbquests.chapter.worth_every_ingot.quest20.task_6866959613694738512.title}"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AE4A81373878E24"]
+			icon: "gtceu:naquadria_solution_bucket"
+			id: "6D927EB32FBDB29A"
+			tasks: [
+				{
+					id: "69F568817C91631C"
+					item: "gtceu:naquadria_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5B4101D12D46B2B7"
+					title: "{ftbquests.chapter.worth_every_ingot.quest21.task_6575538928857035447.title}"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D927EB32FBDB29A"]
+			icon: "gtceu:acidic_naquadria_solution_bucket"
+			id: "12845D456116916C"
+			tasks: [
+				{
+					id: "51033A10CCFA32B0"
+					item: "gtceu:acidic_naquadria_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6749977C157BF456"
+					title: "{ftbquests.chapter.worth_every_ingot.quest22.task_7442646418398639190.title}"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1095E899F62521A4"]
+			icon: "gtceu:acidic_enriched_naquadah_solution_bucket"
+			id: "4C5C380230984642"
+			tasks: [
+				{
+					id: "76E631A2E303B755"
+					item: "gtceu:acidic_enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4387789C84F6716E"
+					title: "{ftbquests.chapter.worth_every_ingot.quest23.task_4865990536038084974.title}"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"12845D456116916C"
+				"4C5C380230984642"
+			]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest24.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest24.description2}"
+				"{ftbquests.chapter.worth_every_ingot.quest24.description3}"
+			]
+			icon: "gtceu:acidic_naquadria_solution_bucket"
+			id: "3EB72D10B03D6A71"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "068EBD0D76FB2B1E"
+					item: "gtceu:enriched_naquadah_waste_bucket"
+					type: "item"
+				}
+				{
+					id: "446014380D16BE09"
+					item: "gtceu:naquadria_waste_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.worth_every_ingot.quest24.title}"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C5C380230984642"]
+			id: "40E83856666DD961"
+			tasks: [{
+				id: "57422DD751A4D7E6"
+				item: "gtceu:enriched_naquadah_sulfate_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12845D456116916C"]
+			id: "4C3664BE7F702120"
+			tasks: [{
+				id: "09375A2D48FA1319"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AE4A81373878E24"]
+			id: "65E14C91E33A2FFA"
+			tasks: [{
+				id: "58FAB7828A308458"
+				item: "gtceu:indium_phosphide_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D3304BD45B278F0"]
+			id: "6CA80510D1A6222D"
+			tasks: [{
+				id: "583756AA97026493"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CA80510D1A6222D"]
+			id: "48EA04671E16859B"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "105DD2440F52630D"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40E83856666DD961"]
+			id: "5773A16CD9368022"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "331404E6189B719C"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C3664BE7F702120"]
+			id: "4CB55CFBB968311A"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "216DE89A748681D9"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48EA04671E16859B"]
+			id: "7700F9B9E7EA4F91"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0C5BEDC2E646AB5B"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5773A16CD9368022"]
+			id: "27C17BA22F91CDA0"
+			shape: "hexagon"
+			tasks: [{
+				id: "1446D54FE04C416D"
+				item: "cosmiccore:naquadric_superalloy_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"27C17BA22F91CDA0"
+				"7700F9B9E7EA4F91"
+				"4D0330D421EDD5B1"
+			]
+			id: "079024EEE895822F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7A421C0FDBC4FC94"
+				item: "cosmiccore:naquadric_superalloy_coil_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33EAB75E7D2CAFDA"]
+			id: "4D0330D421EDD5B1"
+			tasks: [{
+				id: "79699BBDA184D1EF"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48EA04671E16859B"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest36.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest36.description2}"
+				""
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest36.description3}"
+			]
+			id: "32EC05BCE9911025"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest36.subtitle}"
+			tasks: [{
+				id: "1D5A7EB40247C63F"
+				item: "cosmiccore:trinavine_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"32EC05BCE9911025"
+				"6CFEE9FDE64A56F5"
+			]
+			id: "33EAB75E7D2CAFDA"
+			tasks: [{
+				id: "41E621F6C01C94FD"
+				item: "cosmiccore:trinavine_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75A4495610653B26"]
+			description: ["{ftbquests.chapter.worth_every_ingot.quest38.description1}"]
+			id: "2FE7FBD01B53D1F2"
+			shape: "gear"
+			tasks: [{
+				id: "78EC6061ACD5984F"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest38.title}"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["433CFBEBF8EFB418"]
+			id: "5D5F6E9D1A21EA72"
+			tasks: [{
+				id: "40B7773B7F8F9A96"
+				item: "cosmiccore:vomahine_industrial_chemical_plant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			icon: "gtceu:ammonia_bucket"
+			id: "68AF42F991DCD6B2"
+			shape: "gear"
+			tasks: [
+				{
+					id: "0F348D52A661624C"
+					item: "gtceu:ammonia_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5680AE095E49A6BC"
+					title: "{ftbquests.chapter.worth_every_ingot.quest40.task_6233173239540590268.title}"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			icon: "gtceu:dichlorobenzidine_bucket"
+			id: "687C43EDB932FBA2"
+			tasks: [
+				{
+					id: "1BBE5B9967DA565A"
+					item: "gtceu:dichlorobenzidine_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "60E873B378DAA5DE"
+					title: "{ftbquests.chapter.worth_every_ingot.quest41.task_6982958436901889502.title}"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			icon: "gtceu:phthalic_acid_bucket"
+			id: "3C630109F2785191"
+			tasks: [
+				{
+					id: "603ECFFD2E57747D"
+					item: "gtceu:phthalic_acid_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7873B8EE2E030B93"
+					title: "{ftbquests.chapter.worth_every_ingot.quest42.task_8679484239986756499.title}"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			icon: "gtceu:phenol_bucket"
+			id: "4840CA975F57D3AD"
+			shape: "gear"
+			tasks: [
+				{
+					id: "49E65610DC6976DB"
+					item: "gtceu:phenol_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "169165DB7272C462"
+					title: "{ftbquests.chapter.worth_every_ingot.quest43.task_1626192933649826914.title}"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"687C43EDB932FBA2"
+				"68AF42F991DCD6B2"
+			]
+			icon: "gtceu:diaminobenzidine_bucket"
+			id: "13B8104B0C8CB453"
+			tasks: [
+				{
+					id: "78A0E024143121D2"
+					item: "gtceu:diaminobenzidine_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4DCED395E5E1BF0C"
+					title: "{ftbquests.chapter.worth_every_ingot.quest44.task_5606651226883211020.title}"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3C630109F2785191"
+				"4840CA975F57D3AD"
+			]
+			icon: "gtceu:diphenyl_isophthalate_bucket"
+			id: "6542A15289EA7EBB"
+			tasks: [
+				{
+					id: "3829A99D87D5A154"
+					item: "gtceu:diphenyl_isophthalate_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7D5E187AB19AF5A4"
+					title: "{ftbquests.chapter.worth_every_ingot.quest45.task_9033684817796593060.title}"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6542A15289EA7EBB"
+				"13B8104B0C8CB453"
+			]
+			id: "4620E116B11CB283"
+			tasks: [{
+				id: "3D097F52DDD20824"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4620E116B11CB283"]
+			id: "433CFBEBF8EFB418"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "03331934E24D0122"
+				item: "cosmiccore:vomahine_certified_chemically_resistant_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44D9A9E10867D1BC"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest48.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest48.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest48.description3}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest48.description4}"
+				""
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.worth_every_ingot.quest48.description5}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest48.description6}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest48.description7}"
+			]
+			id: "45AE9844B1C84454"
+			tasks: [{
+				id: "737EC64A4A9EB086"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["076D910F19A6E439"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest49.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest49.description2}"
+			]
+			id: "741EF8867F73802F"
+			shape: "hexagon"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest49.subtitle}"
+			tasks: [{
+				id: "1B5AE134D80E7986"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest49.title}"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["079024EEE895822F"]
+			id: "076D910F19A6E439"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest50.subtitle}"
+			tasks: [{
+				id: "438322CFFCF84CDD"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"33EAB75E7D2CAFDA"
+				"60F6B49FD1D129B9"
+			]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest51.description1}"
+				"{ftbquests.chapter.worth_every_ingot.quest51.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest51.description3}"
+			]
+			icon: "gtceu:luv_fusion_reactor"
+			id: "6EA6009DEC0F3345"
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest51.subtitle}"
+			tasks: [
+				{
+					id: "14ECD70017D164AC"
+					item: "gtceu:luv_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 78L
+					id: "776EB620852AF310"
+					item: "gtceu:fusion_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "50E6B807258CC24B"
+					item: { Count: 4, id: "gtceu:superconducting_coil" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3EF9EF19A90BD14C"
+					item: "gtceu:luv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6EA6009DEC0F3345"]
+			icon: "gtceu:resh_neutron_plasma_bucket"
+			id: "1A210957613D6B08"
+			tasks: [
+				{
+					id: "70542BCF4E3C7F94"
+					item: "gtceu:resh_neutron_plasma_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2B3D6A2A5FF9FD97"
+					title: "{ftbquests.chapter.worth_every_ingot.quest52.task_3115763247441640855.title}"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6EA6009DEC0F3345"]
+			icon: "gtceu:alef_neutron_plasma_bucket"
+			id: "31B3AB781CFECD8E"
+			tasks: [
+				{
+					id: "3D5771A62138EA36"
+					item: "gtceu:alef_neutron_plasma_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15FC8A30F899206A"
+					title: "{ftbquests.chapter.worth_every_ingot.quest53.task_1584293111861420138.title}"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6EA6009DEC0F3345"]
+			icon: "gtceu:pey_neutron_plasma_bucket"
+			id: "5042601C871072FB"
+			tasks: [
+				{
+					id: "087B7E20DB143F6D"
+					item: "gtceu:pey_neutron_plasma_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3D28964A078115EE"
+					title: "{ftbquests.chapter.worth_every_ingot.quest54.task_4406937480079676910.title}"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6EA6009DEC0F3345"]
+			icon: "gtceu:ayin_neutron_plasma_bucket"
+			id: "369CE2347BCAF750"
+			tasks: [
+				{
+					id: "60BA5D2CEE43C0EC"
+					item: "gtceu:ayin_neutron_plasma_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0592E51575FB280B"
+					title: "{ftbquests.chapter.worth_every_ingot.quest55.task_401635197125863435.title}"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["369CE2347BCAF750"]
+			id: "1BCE2228E409B420"
+			tasks: [{
+				id: "63407C80874BC2BC"
+				item: "gtceu:ayin_neutron_fluid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5042601C871072FB"]
+			id: "1F1B5CDE1D084ADA"
+			tasks: [{
+				id: "701C5614BFC235DA"
+				item: "gtceu:pey_neutron_gas_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A210957613D6B08"]
+			id: "2C79BF8B747DCD34"
+			tasks: [{
+				id: "04BF964A35A98062"
+				item: "gtceu:resh_neutron_meld_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["31B3AB781CFECD8E"]
+			description: ["{ftbquests.chapter.worth_every_ingot.quest59.description1}"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "608C6CF2A6388A9A"
+			shape: "gear"
+			tasks: [{
+				id: "18AAB1983997D572"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest59.title}"
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"1F1B5CDE1D084ADA"
+				"2C79BF8B747DCD34"
+				"608C6CF2A6388A9A"
+				"1BCE2228E409B420"
+			]
+			description: [""]
+			id: "1B8A508AB2E1E572"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest60.subtitle}"
+			tasks: [{
+				id: "41E0A03FBFD9EFEB"
+				item: "gtceu:neutronite_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest60.title}"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["14100610FD579908"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest61.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest61.description2}"
+			]
+			id: "3706DAF22D0DE870"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest61.subtitle}"
+			tasks: [{
+				id: "2EC67062B8069F63"
+				item: "gtceu:swamp_sediment_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1B8A508AB2E1E572"
+				"52AD639AE0BC4241"
+				"7631222987D9363E"
+			]
+			description: ["{ftbquests.chapter.worth_every_ingot.quest62.description1}"]
+			id: "3F5E81046FD4215B"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest62.subtitle}"
+			tasks: [{
+				id: "1261D80D48384705"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["27C17BA22F91CDA0"]
+			hide_dependency_lines: true
+			id: "52AD639AE0BC4241"
+			shape: "hexagon"
+			tasks: [{
+				id: "13A1E56318285544"
+				item: "cosmiccore:naquadric_superalloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["33EAB75E7D2CAFDA"]
+			hide_dependency_lines: true
+			id: "7631222987D9363E"
+			shape: "hexagon"
+			tasks: [{
+				id: "04360723AE047581"
+				item: "cosmiccore:trinavine_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"45AE9844B1C84454"
+				"6548740681BDAE49"
+				"0A2EFEC1F4B31C06"
+			]
+			id: "34E7B99E411B3E44"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7F6C109A2A311280"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"34E7B99E411B3E44"
+				"6548740681BDAE49"
+				"0A2EFEC1F4B31C06"
+			]
+			id: "688DD6F7473A121E"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "630C399C5CBC4448"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"688DD6F7473A121E"
+				"6548740681BDAE49"
+				"0A2EFEC1F4B31C06"
+			]
+			id: "0F68C0E627CE724F"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0A3F09A307D13EF3"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0F68C0E627CE724F"
+				"6548740681BDAE49"
+				"0A2EFEC1F4B31C06"
+			]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest68.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest68.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest68.description3}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest68.description4}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest68.description5}"
+				"{ftbquests.chapter.worth_every_ingot.quest68.description6}"
+			]
+			id: "6BA55FE3C9856E84"
+			rewards: [
+				{
+					count: 2560
+					id: "3C52A17D8D3B1A7D"
+					item: "cosmiccore:shard_of_perpetuity"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5DB8F07D64DEEBFC"
+					item: "cosmiccore:cluster_of_perpetuity"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest68.subtitle}"
+			tasks: [{
+				id: "51FB63A84940A52C"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["076D910F19A6E439"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest69.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest69.description2}"
+			]
+			icon: "undergarden:goo_ball"
+			id: "14100610FD579908"
+			shape: "hexagon"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest69.subtitle}"
+			tasks: [{
+				id: "752BCF58D95740DC"
+				item: "undergarden:goo_ball"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest69.title}"
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3706DAF22D0DE870"]
+			icon: "gtceu:silt_slurry_bucket"
+			id: "2B37981D5212AB24"
+			tasks: [{
+				id: "379D40C6CF948033"
+				item: "gtceu:silt_slurry_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3706DAF22D0DE870"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest71.description1}"
+				"{ftbquests.chapter.worth_every_ingot.quest71.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest71.description3}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest71.description4}"
+			]
+			icon: "gtceu:lake_water_bucket"
+			id: "6354D6CB595585EA"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest71.subtitle}"
+			tasks: [{
+				id: "24B25F3F5F952D03"
+				item: "gtceu:lake_water_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2B37981D5212AB24"
+				"41FB19EBE16E5EDD"
+			]
+			id: "7D6360542F134FA4"
+			tasks: [{
+				id: "11107E7C05B30F2D"
+				item: "gtceu:impure_silt_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			hide_dependency_lines: true
+			id: "41FB19EBE16E5EDD"
+			tasks: [{
+				id: "18E6191299D252C4"
+				item: "gtceu:silt_seperation_composite_dust"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7D6360542F134FA4"]
+			id: "3CEEF5CCC79772E6"
+			tasks: [{
+				id: "0A9BF08FAC27266E"
+				item: "gtceu:middle_grade_silicon_dust"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D6360542F134FA4"]
+			id: "40E01BADF6969CE2"
+			tasks: [{
+				id: "6D9D3B1A50AED412"
+				item: "gtceu:high_grade_silicon_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"40E01BADF6969CE2"
+				"3CEEF5CCC79772E6"
+			]
+			id: "753B2A4ED5EED437"
+			shape: "gear"
+			tasks: [{
+				id: "245DD5DF7155AA87"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"3CEEF5CCC79772E6"
+				"54FFC889D4643B1D"
+			]
+			id: "4D2F1EAC9EECE9F2"
+			tasks: [{
+				id: "2DF16F176B9E4B9B"
+				item: "gtceu:europium_blended_silicon_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1B3722A82404FB5B"]
+			dependency_requirement: "one_completed"
+			id: "54FFC889D4643B1D"
+			tasks: [{
+				id: "39CFC89D04DA7E77"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["741EF8867F73802F"]
+			icon: "gtceu:gravity_float_crucible"
+			id: "29EDE77208A90B35"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5B1871561BA34392"
+				item: "gtceu:gravity_float_crucible"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"29EDE77208A90B35"
+				"4D2F1EAC9EECE9F2"
+			]
+			id: "1E21874328BDB088"
+			tasks: [{
+				id: "0AD04A9C1AFF7E64"
+				item: "gtceu:europium_silicide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["40E01BADF6969CE2"]
+			id: "2706AEF23FE25353"
+			tasks: [{
+				id: "7013FC777D92334F"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:molten_luminent_silicon"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2706AEF23FE25353"]
+			id: "457C8C834358A6E7"
+			tasks: [{
+				id: "7B3590972C8AB9E2"
+				item: "cosmiccore:dilumixal_naquadah_doped_silicon_boule"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -14.0d
+		}
+		{
+			dependencies: ["457C8C834358A6E7"]
+			id: "170D61FE0278C787"
+			tasks: [{
+				id: "7F359122547F4416"
+				item: "cosmiccore:crystal_chiplet_base"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			hide_dependency_lines: true
+			id: "0A2EFEC1F4B31C06"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "43048A248DFE3A99"
+					item: "cosmiccore:crystalline_transistor"
+					type: "item"
+				}
+				{
+					id: "101912FF1CF8EAC8"
+					item: "cosmiccore:crystalline_resistor"
+					type: "item"
+				}
+				{
+					id: "4B7D5908674C21A6"
+					item: "cosmiccore:crystalline_capacitor"
+					type: "item"
+				}
+				{
+					id: "417240CD217F2CDE"
+					item: "cosmiccore:crystalline_diode"
+					type: "item"
+				}
+				{
+					id: "47D56A0197304AC1"
+					item: "cosmiccore:crystalline_inductor"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"35A2AB65C30E0D61"
+				"1E21874328BDB088"
+			]
+			id: "333F819E70468E50"
+			tasks: [{
+				id: "7A4EF1142B7ED2ED"
+				item: "cosmiccore:unsealed_crystal_cpu"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["741EF8867F73802F"]
+			id: "6548740681BDAE49"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "539F9F51EFEAED86"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest86.title}"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1EB2D194054C6905"
+				"5F7196C657801DBD"
+				"7B7B30CED0ECA8E0"
+			]
+			id: "6CFEE9FDE64A56F5"
+			tasks: [{
+				id: "2C1D2FD6EAEBA8A8"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CFEE9FDE64A56F5"]
+			id: "60F6B49FD1D129B9"
+			tasks: [{
+				id: "5A66A9793F73BF1C"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C231CE663DDA562"]
+			id: "23023C4EAFC98F4B"
+			tasks: [{
+				id: "07ED132A9F7A0FD3"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			hide_dependency_lines: true
+			id: "592DE900A5586BF0"
+			tasks: [{
+				id: "5E6BBE3F0881207A"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["592DE900A5586BF0"]
+			id: "1B3722A82404FB5B"
+			tasks: [{
+				id: "09A652882F74558B"
+				item: "gtceu:graphene_oxide_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["170D61FE0278C787"]
+			id: "35A2AB65C30E0D61"
+			tasks: [{
+				id: "3A28962B897337D7"
+				item: "cosmiccore:masked_crystal_chiplet_package"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -14.0d
+		}
+		{
+			dependencies: ["333F819E70468E50"]
+			id: "44D9A9E10867D1BC"
+			tasks: [{
+				id: "0CE41648307A785C"
+				item: "cosmiccore:engraved_crystal_chiplet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2C231CE663DDA562"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest94.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest94.description2}"
+			]
+			id: "3F638ACC2A023574"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest94.subtitle}"
+			tasks: [{
+				id: "0E88047C63386782"
+				item: "cosmiccore:luv_soul_input_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"60F6B49FD1D129B9"
+				"20B72AA21636E2E6"
+			]
+			icon: "cosmiccore:drygmy_grove"
+			id: "2C231CE663DDA562"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest95.subtitle}"
+			tasks: [{
+				id: "174DB3D37E7F05CA"
+				title: "{ftbquests.chapter.worth_every_ingot.quest95.task_1679195957020788170.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			id: "1EB2D194054C6905"
+			tasks: [{
+				id: "5C889CCAB6B4F17D"
+				item: "bloodmagic:reagentsuppression"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			id: "5F7196C657801DBD"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest97.subtitle}"
+			tasks: [{
+				id: "5CAB9ED23EDE2D9F"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CFEE9FDE64A56F5"]
+			id: "20B72AA21636E2E6"
+			tasks: [{
+				id: "0696580E6B9D6BC1"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EB2D194054C6905"]
+			icon: "bloodmagic:ritualdiviner"
+			id: "4E823028C4B3309D"
+			tasks: [{
+				id: "1E8AF94020657DC7"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"635C885360A8A8A9"
+				"4E823028C4B3309D"
+				"435441F1145C9166"
+			]
+			icon: "bloodmagic:dungeon_alternator"
+			id: "44290011E2FA4181"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest100.subtitle}"
+			tasks: [
+				{
+					id: "25581CA2DCC6592F"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "247A5D3B899AC7DB"
+					item: { Count: 36, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.worth_every_ingot.quest100.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44290011E2FA4181"]
+			id: "7B7B30CED0ECA8E0"
+			shape: "hexagon"
+			tasks: [{
+				id: "02E45B326B814E61"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5F7196C657801DBD"
+				"635C885360A8A8A9"
+			]
+			id: "435441F1145C9166"
+			tasks: [{
+				id: "4BF584B3A75245F4"
+				item: "bloodmagic:ritualstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C231CE663DDA562"]
+			id: "36FA67EE5DBC791C"
+			tasks: [{
+				id: "714AD23A3C4DD6B6"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest103.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E7BEAA0EA55C758"]
+			id: "15FA1625BC0CB121"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A22DCEBE5DD0529"
+				item: "cosmiccore:drygmy_grove"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36FA67EE5DBC791C"]
+			id: "75A4495610653B26"
+			tasks: [{
+				id: "0E2201E3BEC602A3"
+				item: "gtceu:essence_reactor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3F638ACC2A023574"
+				"36FA67EE5DBC791C"
+			]
+			id: "7B772D4F47A1390C"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest106.subtitle}"
+			tasks: [{
+				id: "5A9DDDE88A345B9E"
+				item: "cosmiccore:vomahine_shredder"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest106.title}"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B772D4F47A1390C"]
+			id: "5E7BEAA0EA55C758"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2C85FBBAD05CDE34"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15FA1625BC0CB121"]
+			id: "3822951EF3C8636E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7BAD96AC97F851B1"
+				item: "cosmiccore:asc_blood_orb"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23023C4EAFC98F4B"]
+			id: "0F86DD6F08DC06BB"
+			tasks: [{
+				id: "2CE2CEBCC9D37173"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0F86DD6F08DC06BB"]
+			icon: "rechiseled:netherite_block_meteoric"
+			id: "27DAD4B0E8BDA6B5"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3140062272535184"
+				item: "rechiseled:netherite_block_meteoric"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27DAD4B0E8BDA6B5"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest111.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest111.description2}"
+			]
+			id: "7E7B1E305933DFE5"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest111.subtitle}"
+			tasks: [{
+				id: "6A44888F6C11A664"
+				item: "gtceu:raw_trinium_metallic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27DAD4B0E8BDA6B5"]
+			description: ["{ftbquests.chapter.worth_every_ingot.quest112.description1}"]
+			icon: "gtceu:max_meteor_recipe_dummy"
+			id: "1D17E79C204F3DD5"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest112.subtitle}"
+			tasks: [{
+				id: "272E048A826A990F"
+				type: "checkmark"
+			}]
+			x: 5.800680272108863d
+			y: -5.77908163265311d
+		}
+		{
+			dependencies: ["27DAD4B0E8BDA6B5"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest113.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest113.description2}"
+			]
+			id: "73C9D1DF5AE3460B"
+			tasks: [{
+				id: "4B162402BDA3C95D"
+				item: "gtceu:raw_platinum"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest113.title}"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["27DAD4B0E8BDA6B5"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest114.description1}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest114.description2}"
+			]
+			id: "6DE0281898693C6C"
+			tasks: [{
+				count: 2L
+				id: "538669EE73E26EA2"
+				item: { Count: 2, id: "gtceu:raw_palladium" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest114.title}"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["27DAD4B0E8BDA6B5"]
+			id: "756DA8B06A25D9EF"
+			tasks: [{
+				id: "7F60E48235E9CEE7"
+				item: "gtceu:raw_naquadah"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["635C885360A8A8A9"]
+			hide_dependency_lines: true
+			id: "0F563AE8107A0198"
+			shape: "rsquare"
+			tasks: [{
+				id: "738F3CB6378625E0"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.worth_every_ingot.title}"
+}

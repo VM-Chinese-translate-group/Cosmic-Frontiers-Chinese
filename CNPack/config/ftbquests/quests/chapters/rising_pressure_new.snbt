@@ -1,0 +1,2625 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "rising_pressure_new"
+	group: "43A79D0106662C02"
+	icon: "gtceu:basic_electronic_circuit"
+	id: "55EDC9570618B12B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38DA0B4E0DBAC364"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest1.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest1.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest1.description3}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "30C980B828A48306"
+			rewards: [
+				{
+					id: "7665B9F97ED9265B"
+					item: {
+						Count: 1
+						id: "trofers:small_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "frontiers:materials/bronze"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "61B8C076158BC400"
+					item: "cosmiccore:shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest1.subtitle}"
+			tasks: [{
+				id: "7323CFEF591FDB00"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"620A26CBDA730340"
+				"38DF96F993008505"
+				"30C980B828A48306"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest2.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest2.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest2.description3}"
+			]
+			icon: "gtceu:coke_oven"
+			id: "4CF936349B23F7B3"
+			rewards: [
+				{
+					id: "4C068CE6DFACC554"
+					item: {
+						Count: 1
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "frontiers:multi/coke_oven"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5260F05B731404CE"
+					item: "cosmiccore:shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest2.subtitle}"
+			tasks: [
+				{
+					id: "77D1B4FA8A670D7E"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "1EBD636C4690B2AA"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest3.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest3.description2}"
+			]
+			hide_dependency_lines: true
+			id: "4A97D6CCF01BDE62"
+			rewards: [{
+				count: 8
+				id: "4E877EAF71F7E9B3"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest3.subtitle}"
+			tasks: [{
+				id: "68B250C4CCD1FE52"
+				item: "nether_remastered:seal_piece_2"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest4.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest4.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest4.description3}"
+			]
+			hide_dependency_lines: true
+			id: "09C2E893A1DA3F19"
+			rewards: [{
+				count: 8
+				id: "3F242AC0082D66B9"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest4.subtitle}"
+			tasks: [{
+				id: "1588847D1861C382"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest5.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest5.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest5.description3}"
+			]
+			hide_dependency_lines: true
+			id: "7033AD07689880E5"
+			rewards: [{
+				count: 8
+				id: "4841AC9AF8D2F802"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest5.subtitle}"
+			tasks: [{
+				id: "4B8365B941485934"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest6.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest6.description2}"
+			]
+			hide_dependency_lines: true
+			id: "6EEF7CE3D1BADDD4"
+			rewards: [{
+				count: 8
+				id: "1611096F246AEF5B"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest6.subtitle}"
+			tasks: [{
+				id: "6CD32CAED244760C"
+				item: "nether_remastered:seal_piece_4"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25D643EB580DE53E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest7.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest7.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest7.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest7.description4}"
+			]
+			id: "3CDE00DF0FC59117"
+			rewards: [{
+				count: 8
+				id: "30C958341A053903"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest7.subtitle}"
+			tasks: [{
+				id: "5FF715E9B527FC7B"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest8.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest8.description2}"
+			]
+			hide_dependency_lines: true
+			id: "620A26CBDA730340"
+			rewards: [{
+				count: 4
+				id: "688FBA8DDD7EBBAC"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest8.subtitle}"
+			tasks: [{
+				count: 256L
+				id: "6DFFC5C34FD1ADCD"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest9.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest9.description2}"
+			]
+			hide_dependency_lines: true
+			id: "38DF96F993008505"
+			rewards: [{
+				count: 4
+				id: "1094E296E4A4BEF8"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest9.subtitle}"
+			tasks: [{
+				id: "7CEE6D99E2292546"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest10.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest10.description2}"
+			]
+			id: "624885E31FBA82F2"
+			rewards: [{
+				count: 4
+				id: "5D574E80F31C16B2"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest10.subtitle}"
+			tasks: [{
+				id: "4D02C9E0A443E108"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest11.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest11.description2}"
+			]
+			id: "5B16C4D1A2356E3D"
+			rewards: [{
+				count: 4
+				id: "6E5716E1FAA097BC"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest11.subtitle}"
+			tasks: [{
+				id: "146AACE03C79B002"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5B16C4D1A2356E3D"
+				"3CDE00DF0FC59117"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest12.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest12.description2}"
+			]
+			id: "285AD74C71E4A9E7"
+			rewards: [{
+				count: 8
+				id: "66E9B47B9BD8B390"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest12.subtitle}"
+			tasks: [{
+				id: "071201F085017116"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["285AD74C71E4A9E7"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest13.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest13.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest13.description3}"
+			]
+			id: "77AEE0B940FD4728"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest13.subtitle}"
+			tasks: [{
+				id: "540D73572B00B4C1"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["285AD74C71E4A9E7"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest14.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest14.description2}"
+			]
+			id: "21AFCBA87724936B"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest14.subtitle}"
+			tasks: [{
+				id: "49EA403DC0A2B47E"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77AEE0B940FD4728"
+				"0FF5358645CE9BD5"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest15.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest15.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest15.description3}"
+			]
+			id: "181E5DA496BE1791"
+			rewards: [{
+				count: 8
+				id: "4FD016A81E7F1F5D"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest15.subtitle}"
+			tasks: [{
+				id: "1C3D71428A693DCC"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"21AFCBA87724936B"
+				"0FF5358645CE9BD5"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest16.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest16.description2}"
+			]
+			id: "0D8D58248BE2303B"
+			rewards: [{
+				count: 8
+				id: "1E221E8B68E3EC43"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest16.subtitle}"
+			tasks: [{
+				id: "2A93683554936527"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D643EB580DE53E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest17.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest17.description2}"
+			]
+			id: "1E5039DF8C3F7BB1"
+			rewards: [{
+				count: 8
+				id: "787346F6D916459F"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest17.subtitle}"
+			tasks: [{
+				id: "437B593814AC3C45"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18A9A17A7A12A615"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest18.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest18.description2}"
+			]
+			id: "25D643EB580DE53E"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest18.subtitle}"
+			tasks: [{
+				id: "3EC37665C2FA5DD5"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CF936349B23F7B3"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest19.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest19.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest19.description3}"
+			]
+			id: "18A9A17A7A12A615"
+			rewards: [{
+				count: 4
+				id: "1C3CBB52CF574AC8"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest19.subtitle}"
+			tasks: [{
+				id: "3E929817608097FD"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"285AD74C71E4A9E7"
+				"0FF5358645CE9BD5"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest20.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest20.description2}"
+			]
+			id: "69677FC2CCC2CC23"
+			rewards: [{
+				count: 8
+				id: "61FE86DFC74BFBFB"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest20.subtitle}"
+			tasks: [{
+				id: "586AD3DF2798291C"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest21.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest21.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest21.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest21.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest21.description5}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest21.description6}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest21.description7}"
+			]
+			icon: "create:cogwheel"
+			id: "6D0887AA0BEF3B4C"
+			rewards: [{
+				id: "40A681C7992AFB31"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest21.subtitle}"
+			tasks: [{
+				id: "43FEDA3B86D6B7D8"
+				title: "{ftbquests.chapter.rising_pressure_new.quest21.task_4899593393825822680.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest21.title}"
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["0FF5358645CE9BD5"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest22.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest22.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest22.description3}"
+			]
+			id: "61E763C4211D88C8"
+			rewards: [{
+				count: 4
+				id: "79C6C5AB0B8F7B27"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest22.subtitle}"
+			tasks: [{
+				id: "65AE3C684904305B"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"624885E31FBA82F2"
+				"5B16C4D1A2356E3D"
+				"2A2CF5863AD39845"
+				"43F169D6C6B48A5F"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest23.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest23.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest23.description3}"
+			]
+			id: "2B9A3BC69C35C442"
+			rewards: [{
+				count: 32
+				id: "3BA85DE51DFCC18F"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest23.subtitle}"
+			tasks: [{
+				id: "3C5BE5CFD20722E6"
+				item: "gtceu:steam_mixing_vessel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest23.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B9A3BC69C35C442"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest24.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest24.description2}"
+			]
+			id: "25C95934D627D7D4"
+			rewards: [{
+				count: 16
+				id: "625BA19CFF2A5EE5"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest24.subtitle}"
+			tasks: [{
+				id: "5135D510F9ADC829"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2B9A3BC69C35C442"
+				"7AAEE0AD98A72BE7"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest25.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest25.description2}"
+			]
+			id: "4360A0B97AC38F50"
+			rewards: [{
+				count: 8
+				id: "632C571625A18C9D"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest25.subtitle}"
+			tasks: [{
+				id: "045D4BFC88265A28"
+				item: "cosmiccore:fireclay_ball"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4360A0B97AC38F50"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest26.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest26.description2}"
+			]
+			icon: "gtceu:firebrick"
+			id: "02167B8ADA288FEA"
+			rewards: [{
+				count: 16
+				id: "75AEA145553A1392"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest26.subtitle}"
+			tasks: [
+				{
+					id: "3445DC1F6125A56B"
+					item: "gtceu:compressed_fireclay"
+					type: "item"
+				}
+				{
+					id: "43A48D57D8879A9B"
+					item: "gtceu:firebrick"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"624885E31FBA82F2"
+				"5B16C4D1A2356E3D"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest27.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest27.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_caster"
+			id: "7D085A647AEC2485"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest27.subtitle}"
+			tasks: [{
+				id: "0D87DCE88DE5D667"
+				item: "gtceu:steam_caster"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"25C95934D627D7D4"
+				"02167B8ADA288FEA"
+				"7D085A647AEC2485"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest28.description1}"
+				""
+				""
+			]
+			id: "756D0820A4A089A9"
+			rewards: [{
+				count: 4
+				id: "620EDEEFF6127E60"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest28.subtitle}"
+			tasks: [{
+				id: "17768BF1FD16E92B"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["756D0820A4A089A9"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest29.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest29.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest29.description3}"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "7A0DD41E3C9BA413"
+			rewards: [
+				{
+					id: "32D0A55C422D3264"
+					item: {
+						Count: 1
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "frontiers:multi/pbf"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7CFFD717A3D72D26"
+					item: "cosmiccore:large_shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest29.subtitle}"
+			tasks: [
+				{
+					id: "609DB1BE31CC3BF6"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C7A55FF5F34A1E5"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A0DD41E3C9BA413"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest30.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest30.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest30.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest30.description4}"
+			]
+			id: "0FF5358645CE9BD5"
+			rewards: [{
+				id: "624D8E0A4F1D3457"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest30.subtitle}"
+			tasks: [{
+				id: "6F3C261FF2B314CA"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FF5358645CE9BD5"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest31.description1}"]
+			id: "0BE6353107702382"
+			rewards: [{
+				count: 4
+				id: "4AB5E4D992F2A750"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest31.subtitle}"
+			tasks: [{
+				id: "1D8B3DD440A8D238"
+				item: "gtceu:steel_brick_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FF5358645CE9BD5"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest32.description1}"]
+			id: "29573D80E8D0BB9C"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest32.subtitle}"
+			tasks: [{
+				id: "41C3BAF24750BB22"
+				item: "gtceu:steel_firebox_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["624885E31FBA82F2"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest33.description1}"]
+			id: "7AAEE0AD98A72BE7"
+			rewards: [{
+				count: 4
+				id: "684510B5F6F337FF"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest33.subtitle}"
+			tasks: [{
+				id: "3D17FD019B51BF4C"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2640C7E596EFF4DD"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest34.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest34.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest34.description3}"
+			]
+			id: "3198297CB1D0E08C"
+			rewards: [{
+				count: 4
+				id: "75479054539A38E6"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest34.subtitle}"
+			tasks: [{
+				id: "2C56F09A4AFE57AC"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["624885E31FBA82F2"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest35.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest35.description2}"
+			]
+			id: "2640C7E596EFF4DD"
+			rewards: [{
+				count: 4
+				id: "110ABBA6B1D5445C"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest35.subtitle}"
+			tasks: [{
+				id: "6D994977169C2455"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3198297CB1D0E08C"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest36.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest36.description2}"
+			]
+			id: "5F4991D77370304B"
+			rewards: [{
+				count: 8
+				id: "555665003D208B95"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest36.subtitle}"
+			tasks: [{
+				id: "3D52A735C7B840DE"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0BE6353107702382"
+				"5F4991D77370304B"
+				"6E62B6EA78C96D90"
+			]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest37.description1}"]
+			id: "484F96C8892EB428"
+			rewards: [{
+				count: 16
+				id: "28FF35FFFAC78998"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest37.subtitle}"
+			tasks: [{
+				id: "0E1C8898BECFF0A3"
+				item: "gtceu:hp_steam_bender"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"29573D80E8D0BB9C"
+				"72CF3BE7238F35ED"
+				"484F96C8892EB428"
+				"6E62B6EA78C96D90"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest38.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest38.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest38.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest38.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest38.description5}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest38.description6}"
+			]
+			icon: "gtceu:high_pressure_assembler"
+			id: "5AB046A0E1BFBE1E"
+			rewards: [{
+				id: "3CC33E876B57145A"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest38.subtitle}"
+			tasks: [{
+				id: "7A49BD055E124C2B"
+				item: "gtceu:high_pressure_assembler"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest38.title}"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6EEF7CE3D1BADDD4"
+				"4A97D6CCF01BDE62"
+				"09C2E893A1DA3F19"
+				"7033AD07689880E5"
+				"1508AD860450CD0A"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest39.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest39.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest39.description3}"
+			]
+			id: "370680B11E59D49C"
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest39.subtitle}"
+			tasks: [{
+				id: "3FF85A727093876C"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FF5358645CE9BD5"]
+			hide_dependency_lines: true
+			id: "070ECF040C4872D7"
+			rewards: [{
+				count: 8
+				id: "521499D3E904CBE2"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest40.subtitle}"
+			tasks: [{
+				id: "1F13E0AC868FFEE1"
+				item: "gtceu:steel_brick_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"070ECF040C4872D7"
+				"2640C7E596EFF4DD"
+				"6E62B6EA78C96D90"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest41.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest41.description2}"
+			]
+			id: "72CF3BE7238F35ED"
+			rewards: [{
+				count: 16
+				id: "48171D418BC7FED9"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest41.subtitle}"
+			tasks: [{
+				id: "4F42DEDDEAF3FEFE"
+				item: "gtceu:hp_steam_wiremill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61E763C4211D88C8"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest42.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest42.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest42.description3}"
+			]
+			hide_dependent_lines: true
+			id: "6E62B6EA78C96D90"
+			rewards: [{
+				count: 8
+				id: "3077B72842C3A5D9"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest42.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "7DE82D1B1660B83A"
+				item: {
+					Count: 1
+					id: "gtceu:programmed_circuit"
+					tag: {
+						Configuration: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["370680B11E59D49C"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest43.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description4}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description5}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description6}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description7}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest43.description8}"
+			]
+			id: "00B281664EDD41AA"
+			min_width: 400
+			rewards: [{
+				count: 16
+				id: "70EEB9F245C3CADF"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest43.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4379C9F841081281"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest43.title}"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest44.description1}"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			id: "2A2CF5863AD39845"
+			shape: "gear"
+			tasks: [{
+				id: "346027CE05B131B2"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest44.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29573D80E8D0BB9C"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest45.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest45.description2}"
+			]
+			id: "0A51E3DC8A715171"
+			rewards: [{
+				count: 128
+				id: "1FD1F98DA7EEAD64"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest45.subtitle}"
+			tasks: [{
+				id: "534C830C7C617697"
+				item: "gtceu:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest46.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest46.description2}"
+			]
+			icon: "gtceu:sulfur_dust"
+			id: "7D756E7B36CC20BF"
+			rewards: [{
+				count: 8
+				id: "57714F2884B8B645"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest46.subtitle}"
+			tasks: [{
+				id: "03DF439E4C424B6E"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest46.title}"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest47.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest47.description2}"
+			]
+			id: "38B4C9DF175F1335"
+			optional: true
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest47.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "05739ECAC76FF7B3"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7D756E7B36CC20BF"
+				"60F828DDE76E191B"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest48.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest48.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest48.description3}"
+			]
+			id: "5011698F44048C68"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest48.subtitle}"
+			tasks: [{
+				id: "1C6257CC1657BAA8"
+				item: "occultism:chalk_gold_impure"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"366908EEF6ED8CD8"
+				"1A9A8E0C5ED3412B"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest49.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest49.description2}"
+			]
+			id: "65776EEC99D33056"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest49.subtitle}"
+			tasks: [{
+				id: "1AFDB997DC049AD5"
+				item: "occultism:chalk_purple_impure"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["388B1504B658C4AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest50.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest50.description2}"
+			]
+			icon: "occultism:spirit_attuned_gem"
+			id: "3D69DAAEDF09BFAE"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest50.subtitle}"
+			tasks: [
+				{
+					id: "5984924888772D0B"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+				{
+					id: "0AB743EBFA6E1B9F"
+					item: "occultism:datura"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["370680B11E59D49C"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest51.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest51.description4}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description5}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description6}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description7}"
+				"{ftbquests.chapter.rising_pressure_new.quest51.description8}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest51.description9}"
+				"{ftbquests.chapter.rising_pressure_new.quest51.description10}"
+				"{ftbquests.chapter.rising_pressure_new.quest51.description11}"
+				"{ftbquests.chapter.rising_pressure_new.quest51.description12}"
+			]
+			hide_dependency_lines: true
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "078A87C631741398"
+			min_width: 400
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest51.subtitle}"
+			tasks: [{
+				id: "7CB5CD2AE7DCA5CB"
+				title: "{ftbquests.chapter.rising_pressure_new.quest51.task_8986314215650010571.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest51.title}"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AB046A0E1BFBE1E"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest52.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest52.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest52.description3}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest52.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest52.description5}"
+			]
+			id: "188A3836799C51A4"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest52.subtitle}"
+			tasks: [{
+				id: "6C07F43458D3311A"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["188A3836799C51A4"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest53.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest53.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest53.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest53.description4}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest53.description5}"
+			]
+			icon: "occultism:ritual_dummy/custom_ritual"
+			id: "1508AD860450CD0A"
+			rewards: [{
+				id: "053473681942DEB3"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest53.subtitle}"
+			tasks: [
+				{
+					id: "577B214F3E97729E"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7B1EB75688AB3993"
+					item: { Count: 4, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "47C71C74F3BCADE3"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rising_pressure_new.quest53.title}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["370680B11E59D49C"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest54.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest54.description2}"
+			]
+			hide_dependency_lines: true
+			id: "40715CD8CF1577DB"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest54.subtitle}"
+			tasks: [{
+				id: "73B73D818DB0B4B6"
+				item: "kubejs:seal_shards"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest54.title}"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"39E43B6251DFC868"
+				"1E00A19BDAEB24F7"
+				"3D8F2FBB3DB24F7E"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest55.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest55.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest55.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest55.description4}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest55.description5}"
+			]
+			id: "1D6235CDF7886C1C"
+			min_width: 350
+			rewards: [{
+				id: "73B0DE1E6839BC0A"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest55.subtitle}"
+			tasks: [{
+				id: "2064EAF32F3DED7F"
+				item: "gtceu:runed_steel_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest55.title}"
+			x: -17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest56.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest56.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest56.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest56.description4}"
+			]
+			id: "36CCE4D31C32E6D7"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest56.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "1A1459236B3ABFB7"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest56.title}"
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest57.description1}"
+				""
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest57.description2}"
+			]
+			hide_dependency_lines: true
+			id: "36515C42E0E4AFF6"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest57.subtitle}"
+			tasks: [{
+				id: "3D43502335639D02"
+				item: "legendarysurvivaloverhaul:ice_fern_leaf"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"36CCE4D31C32E6D7"
+				"7001E68D0992C6E3"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest58.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest58.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest58.description3}"
+			]
+			id: "366908EEF6ED8CD8"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest58.subtitle}"
+			tasks: [{
+				id: "63C3EBAF96FDD5EA"
+				item: "gtceu:cinderwax_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest58.title}"
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"36515C42E0E4AFF6"
+				"7001E68D0992C6E3"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest59.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest59.description2}"
+			]
+			id: "1A9A8E0C5ED3412B"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest59.subtitle}"
+			tasks: [{
+				id: "1C0D638EAE26B5E9"
+				item: "gtceu:soulresin_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest59.title}"
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			id: "388B1504B658C4AA"
+			tasks: [{
+				id: "405D5872F0097D13"
+				item: "gtceu:certus_quartz_gem"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EED3FDCA680F992"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest61.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest61.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest61.description3}"
+			]
+			id: "60F828DDE76E191B"
+			rewards: [{
+				count: 4
+				id: "0724F41A375FC594"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest61.subtitle}"
+			tasks: [{
+				id: "0DC7CC9CBCDE9139"
+				item: "gtceu:ancient_debris_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest62.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest62.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest62.description3}"
+			]
+			id: "0EED3FDCA680F992"
+			rewards: [{
+				count: 8
+				id: "23F39F466A1D76D0"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest62.subtitle}"
+			tasks: [{
+				id: "347C76852F823253"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5011698F44048C68"]
+			id: "4A034254997FD7D5"
+			tasks: [{
+				id: "0C9E14A3482F7CC7"
+				item: {
+					Count: 1
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38986546A4EBEFBD"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest64.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest64.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest64.description3}"
+			]
+			id: "752ACBDD88BEEF85"
+			rewards: [{
+				count: 8
+				id: "3BE5B9483B03C154"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest64.subtitle}"
+			tasks: [{
+				id: "13B005CCB354983F"
+				item: "experienceobelisk:whisperglass"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest65.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest65.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest65.description3}"
+			]
+			id: "38986546A4EBEFBD"
+			rewards: [{
+				count: 8
+				id: "3F2D7A48E3315215"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest65.subtitle}"
+			tasks: [{
+				id: "44D9ED52E8855A5E"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0A51E3DC8A715171"
+				"7D756E7B36CC20BF"
+			]
+			id: "3D646A2F2F08B2D5"
+			tasks: [{
+				id: "6BBEF8D2C06AF80C"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D906FC110FE69D7"
+				"2D14D28D2CD892DD"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest67.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest67.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest67.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest67.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest67.description5}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest67.description6}"
+			]
+			id: "71A6EE771C80A7DE"
+			min_width: 350
+			rewards: [{
+				count: 32
+				id: "5F5B2CFE7C015902"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest67.subtitle}"
+			tasks: [{
+				id: "406B0A2126381306"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71A6EE771C80A7DE"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest68.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest68.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest68.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest68.description4}"
+			]
+			id: "1206EA8BA057A00F"
+			rewards: [{
+				id: "4766BD2BB75DC60E"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest68.subtitle}"
+			tasks: [{
+				id: "453CBCE9C69906F2"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1206EA8BA057A00F"
+				"0584B3650BE26B9C"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest69.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description4}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description5}"
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description6}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description7}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description8}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest69.description9}"
+			]
+			id: "6CA050964E1A8658"
+			min_width: 375
+			rewards: [{
+				count: 2
+				id: "6DC5ED95FA2DDEC2"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest69.subtitle}"
+			tasks: [{
+				id: "70689F9D4C0A5173"
+				item: {
+					Count: 1
+					id: "occultism:miner_foliot_unspecialized"
+					tag: {
+						Damage: 0
+						maxMiningTime: 400
+						rollsPerOperation: 1
+						spiritName: "Mjolthorryne"
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1206EA8BA057A00F"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest70.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest70.description2}"
+			]
+			id: "0584B3650BE26B9C"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest70.subtitle}"
+			tasks: [{
+				id: "474D41602B103AD3"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CA050964E1A8658"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest71.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest71.description2}"
+			]
+			id: "39E43B6251DFC868"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest71.subtitle}"
+			tasks: [{
+				id: "0EDABABED02EC20F"
+				item: "cosmiccore:rune_slate_tylomir"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CA050964E1A8658"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest72.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest72.description2}"
+			]
+			id: "1E00A19BDAEB24F7"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest72.subtitle}"
+			tasks: [{
+				id: "52F6FDD2796B3EF6"
+				item: "cosmiccore:rune_slate_zelothar"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CA050964E1A8658"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest73.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest73.description2}"
+			]
+			id: "29432A122031CB3E"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest73.subtitle}"
+			tasks: [{
+				id: "24BAB7AE0F6E4843"
+				item: "cosmiccore:rune_slate_khoruth"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CA050964E1A8658"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest74.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest74.description2}"
+			]
+			id: "459F7333F240D028"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest74.subtitle}"
+			tasks: [{
+				id: "661B9BE8728E72C9"
+				item: "cosmiccore:rune_slate_arklys"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"459F7333F240D028"
+				"29432A122031CB3E"
+				"739AF35CCA609F56"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest75.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest75.description2}"
+			]
+			id: "460CD4B7BA1C7DB5"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest75.subtitle}"
+			tasks: [{
+				id: "58F164559E6B4FEC"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["460CD4B7BA1C7DB5"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest76.description1}"]
+			id: "3D8F2FBB3DB24F7E"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest76.subtitle}"
+			tasks: [{
+				id: "0AE4891C33955F53"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"65776EEC99D33056"
+				"3D69DAAEDF09BFAE"
+				"4A034254997FD7D5"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest77.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest77.description2}"
+			]
+			id: "3D906FC110FE69D7"
+			rewards: [{
+				count: 32
+				id: "4F27115378ABAB33"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest77.subtitle}"
+			tasks: [{
+				id: "6CBE0B19DAA91825"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Xalmas"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"65776EEC99D33056"
+				"549B34408EBE9582"
+			]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest78.description1}"]
+			id: "2D14D28D2CD892DD"
+			rewards: [{
+				count: 4
+				id: "4ECAE255BC74477D"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest78.subtitle}"
+			tasks: [{
+				id: "559F3971827CEBCE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"366908EEF6ED8CD8"
+				"1A9A8E0C5ED3412B"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest79.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest79.description2}"
+			]
+			hide_dependency_lines: true
+			id: "739AF35CCA609F56"
+			invisible: true
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest79.subtitle}"
+			tasks: [{
+				id: "765DF3ECCD557029"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B16C4D1A2356E3D"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest80.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest80.description2}"
+			]
+			id: "226A43815ECB2818"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest80.subtitle}"
+			tasks: [{
+				id: "2DB4433301C27E71"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["226A43815ECB2818"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest81.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest81.description2}"
+			]
+			icon: "ulvcovm:ulv_electric_motor"
+			id: "43F169D6C6B48A5F"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest81.subtitle}"
+			tasks: [
+				{
+					id: "6C35AF1755B49786"
+					item: "cosmiccore:hardened_resin"
+					type: "item"
+				}
+				{
+					id: "15E8AE5F87080BA4"
+					item: "gtceu:lead_single_cable"
+					type: "item"
+				}
+				{
+					id: "03552BAA1EE6E1C5"
+					item: "ulvcovm:ulv_electric_motor"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ABAAE95062134B2"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest82.description1}"]
+			id: "468AFCF2423C2EB4"
+			rewards: [{
+				count: 4
+				id: "7C68297B1EA5A9CA"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest82.subtitle}"
+			tasks: [{
+				id: "77A216D429E99A0A"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest83.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest83.description2}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest83.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "integrateddynamics:mechanical_squeezer"
+			id: "7001E68D0992C6E3"
+			min_width: 300
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest83.subtitle}"
+			tasks: [{
+				id: "558F11F06B9F0D7F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(integrateddynamics:squeezer)item(integrateddynamics:mechanical_squeezer))"
+					}
+				}
+				title: "{ftbquests.chapter.rising_pressure_new.quest83.task_6165166139188907391.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest83.title}"
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["752ACBDD88BEEF85"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest84.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest84.description2}"
+			]
+			id: "549B34408EBE9582"
+			min_width: 300
+			rewards: [{
+				id: "7863147CC7E044E0"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest84.subtitle}"
+			tasks: [{
+				id: "6E516057CD291DE7"
+				item: "occultism:lenses"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D646A2F2F08B2D5"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest85.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest85.description2}"
+			]
+			id: "33480868A44F2743"
+			rewards: [{
+				count: 8
+				id: "665BDDE15337AE09"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest85.subtitle}"
+			tasks: [{
+				id: "407927980EF10D66"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"637A7706B52D2689"
+				"3838CDDEE8FD44E3"
+				"33480868A44F2743"
+				"60758D47DBE14AE7"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest86.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest86.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest86.description3}"
+			]
+			id: "66BB2CDC4D3FB464"
+			rewards: [{
+				count: 4
+				id: "7F49F26F3868097B"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest86.subtitle}"
+			tasks: [{
+				id: "393ABB0279292A75"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1D6235CDF7886C1C"
+				"272C72FCE24CC4E4"
+			]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest87.description1}"]
+			id: "124AD3DE3B043A7A"
+			rewards: [{
+				count: 4
+				id: "18153B29CE1D04E8"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest87.subtitle}"
+			tasks: [{
+				id: "19727BB48A812D6C"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A0DD41E3C9BA413"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest88.description1}"
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest88.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest88.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest88.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest88.description5}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest88.description6}"
+			]
+			hide_dependency_lines: true
+			id: "272C72FCE24CC4E4"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest88.subtitle}"
+			tasks: [{
+				id: "54015F656A4B9C1A"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"124AD3DE3B043A7A"
+				"66BB2CDC4D3FB464"
+			]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest89.description1}"]
+			icon: "createdeco:decal_up"
+			id: "14988E390F2CD204"
+			rewards: [{
+				id: "2430454B84B8BAA0"
+				item: {
+					Count: 1
+					id: "trofers:medium_plate"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "frontiers:materials/steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest89.subtitle}"
+			tasks: [{
+				id: "10219158B65B959D"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest89.title}"
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0FF5358645CE9BD5"]
+			id: "3838CDDEE8FD44E3"
+			tasks: [{
+				id: "4660EAB196177DE5"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47B9B1900C760C90"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest91.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest91.description2}"
+			]
+			id: "637A7706B52D2689"
+			rewards: [{
+				count: 16
+				id: "055FB7384119015A"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest91.subtitle}"
+			tasks: [{
+				id: "45FD228F597ACBEC"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E5E3392C13701E5"]
+			description: ["{ftbquests.chapter.rising_pressure_new.quest92.description1}"]
+			id: "379A4BCB53505229"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest92.subtitle}"
+			tasks: [{
+				id: "64464D2C2B864A4E"
+				item: "gtceu:cinderwax_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"00B281664EDD41AA"
+				"36CCE4D31C32E6D7"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest93.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest93.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest93.description3}"
+			]
+			hide_dependency_lines: true
+			id: "0E5E3392C13701E5"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest93.subtitle}"
+			tasks: [{
+				id: "2AFB1F8E80708E5D"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"468AFCF2423C2EB4"
+				"379A4BCB53505229"
+			]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest94.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest94.description2}"
+			]
+			id: "60758D47DBE14AE7"
+			rewards: [{
+				count: 16
+				id: "22B460D518B31D01"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest94.subtitle}"
+			tasks: [{
+				id: "48CEEFCAEB2993E4"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25D643EB580DE53E"]
+			hide_dependency_lines: true
+			id: "6ABAAE95062134B2"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest95.subtitle}"
+			tasks: [{
+				id: "24DE68D607EA77BC"
+				item: "gtceu:treated_wood_plate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest96.description1}"
+				""
+				""
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest96.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest96.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "occultism:storage_controller"
+			id: "2F1F0288053F5229"
+			min_width: 400
+			rewards: [{
+				id: "12805EA934AF0624"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest96.subtitle}"
+			tasks: [
+				{
+					id: "2CB0D82BBE9C3C35"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+				{
+					id: "15401EF3F84514DA"
+					type: "checkmark"
+				}
+			]
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2D14D28D2CD892DD"
+				"3D906FC110FE69D7"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest97.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest97.description2}"
+			]
+			hide_dependency_lines: true
+			id: "68AAF390B75DAD61"
+			optional: true
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest97.subtitle}"
+			tasks: [{
+				id: "1FE203ABFE1FC197"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36515C42E0E4AFF6"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest98.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest98.description2}"
+			]
+			hide_dependency_lines: true
+			id: "4BD0110554731D07"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest98.subtitle}"
+			tasks: [{
+				id: "250FAE5F8B05F26F"
+				item: "legendarysurvivaloverhaul:ice_fern_leaf"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BD0110554731D07"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest99.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest99.description2}"
+			]
+			id: "47B9B1900C760C90"
+			rewards: [{
+				count: 4
+				id: "0C3E499FBAB203B3"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest99.subtitle}"
+			tasks: [{
+				id: "164604097A3742F5"
+				item: "gtceu:soulresin_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest99.title}"
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["14988E390F2CD204"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest100.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest100.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest100.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest100.description4}"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			icon: "ars_nouveau:worn_notebook"
+			id: "70F95C537C54938A"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest100.subtitle}"
+			tasks: [{
+				id: "2E2868406D150CBC"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rising_pressure_new.quest100.title}"
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest101.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest101.description2}"
+			]
+			id: "732E5FCCE85F859A"
+			rewards: [{
+				count: 4
+				id: "76E0DB1563EB9ACB"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest101.subtitle}"
+			tasks: [
+				{
+					id: "7E447C8092ABA7C7"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "644F2502849FAB1E"
+					item: { Count: 8, id: "gtceu:sticky_resin" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["00B281664EDD41AA"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest102.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest102.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest102.description3}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest102.description4}"
+			]
+			hide_dependency_lines: true
+			id: "4B5B3DDD7F9C6D7C"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest102.subtitle}"
+			tasks: [{
+				id: "0FD23134CFF872C8"
+				item: "malum:natural_quartz"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+	]
+	title: "{ftbquests.chapter.rising_pressure_new.title}"
+}

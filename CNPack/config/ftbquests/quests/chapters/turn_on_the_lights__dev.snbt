@@ -1,0 +1,2199 @@
+{
+	autofocus_id: "2AA8C5151457CB01"
+	default_hide_dependency_lines: false
+	default_min_width: 275
+	default_quest_shape: ""
+	filename: "turn_on_the_lights__dev"
+	group: "43A79D0106662C02"
+	icon: {
+		Count: 1
+		id: "minecraft:light"
+		tag: {
+			BlockStateTag: {
+				level: "1"
+			}
+		}
+	}
+	id: "587D4E7488759F63"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14988E390F2CD204"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest1.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest1.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest1.description3}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest1.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest1.description5}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2AA8C5151457CB01"
+			min_width: 350
+			rewards: [{
+				count: 16
+				id: "5B5DF6ABC3AD89D7"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest1.subtitle}"
+			tasks: [{
+				id: "685ED3715032DF9D"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest2.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest2.description2}"
+			]
+			icon: "gtceu:rhodium_gear"
+			id: "65FD54A6C650C3B1"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest2.subtitle}"
+			tasks: [{
+				id: "3177ACE9548BFC30"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest2.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6692AF4C3F2CB86E"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest3.description1}"]
+			id: "67F2843C43454C64"
+			rewards: [{
+				count: 16
+				id: "5292DA9E1438DFCE"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest3.subtitle}"
+			tasks: [{
+				id: "17F013AE1585AF6E"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65FD54A6C650C3B1"
+				"2AA8C5151457CB01"
+			]
+			dependency_requirement: "one_completed"
+			icon: "createdeco:decal_right"
+			id: "6692AF4C3F2CB86E"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest4.subtitle}"
+			tasks: [{
+				id: "13B573034B3BDDCA"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest4.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65FD54A6C650C3B1"
+				"2AA8C5151457CB01"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest5.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest5.description2}"
+			]
+			icon: "createdeco:decal_left"
+			id: "6A04EC638948D1D4"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest5.subtitle}"
+			tasks: [{
+				id: "101908513F0274DE"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest5.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			id: "5B3088AFA253378C"
+			tasks: [{
+				id: "409916668D0F1D65"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6692AF4C3F2CB86E"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest7.description1}"]
+			id: "23C87C324BFC64C0"
+			rewards: [{
+				count: 16
+				id: "0E2ADB80B6C0A0E4"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest7.subtitle}"
+			tasks: [{
+				id: "0542BC8A1C1ED042"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6692AF4C3F2CB86E"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest8.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest8.description2}"
+			]
+			id: "286D3E97FFD11860"
+			rewards: [{
+				count: 16
+				id: "4DE43C37FB34D541"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest8.subtitle}"
+			tasks: [{
+				id: "4DD7CEC44025201B"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["025F72B3CCEFB60B"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest9.description1}"]
+			id: "1EBDF20678C330EB"
+			rewards: [{
+				id: "029B6146BB66C0A6"
+				item: {
+					Count: 1
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "frontiers:coils/cupro"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest9.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "26D34C7B4D3FC4CB"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest10.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest10.description2}"
+			]
+			id: "025F72B3CCEFB60B"
+			rewards: [{
+				count: 16
+				id: "0A6BBFD0229B2A8C"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest10.subtitle}"
+			tasks: [{
+				id: "7C29F363EF312542"
+				item: "gtceu:lv_spooling_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1EBDF20678C330EB"
+				"4D06F7D2790974AF"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description5}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description6}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest11.description7}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "2ABCB641104E43EC"
+			min_width: 400
+			rewards: [
+				{
+					id: "18750FA90C38CDC0"
+					item: {
+						Count: 1
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "frontiers:multi/ebf"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "416872D0D2FEC4F0"
+					item: "cosmiccore:cluster_of_perpetuity"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest11.subtitle}"
+			tasks: [
+				{
+					id: "07BC91C05CB26302"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4103464D13379A54"
+					item: { Count: 10, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "014F01732ADFB4D0"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "0B1B192119C7A401"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "1675190DBEA13A0D"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "6B758C8155D26016"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "520846527C63630B"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "743CF677EAAEE333"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["025F72B3CCEFB60B"]
+			id: "48E998D03D56099C"
+			tasks: [{
+				id: "4215065A2FB21C83"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48E998D03D56099C"]
+			id: "4D06F7D2790974AF"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest13.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "4710F4119B2354B4"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48E998D03D56099C"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest14.description1}"]
+			id: "5ABF9E529AEDFB8E"
+			rewards: [{
+				id: "42C56A9881764EAB"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest14.subtitle}"
+			tasks: [{
+				id: "02A14FE590E47CC0"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description5}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description6}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description7}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description8}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description9}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description10}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest15.description11}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "406A1949FA81968C"
+			min_width: 450
+			rewards: [{
+				count: 4
+				id: "673CF8B075216442"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest15.subtitle}"
+			tasks: [{
+				id: "6634D2264AF1B5FD"
+				title: "{ftbquests.chapter.turn_on_the_lights__dev.quest15.task_7364742352565548541.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest15.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest16.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest16.description2}"
+			]
+			id: "095BAC09633F34CF"
+			rewards: [{
+				count: 16
+				id: "3B785996CCF33CC0"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest16.subtitle}"
+			tasks: [{
+				id: "130B021FF6C6A1F1"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest17.description1}"]
+			id: "07BBA5C211143D67"
+			rewards: [{
+				count: 16
+				id: "586AF68D2FFC970F"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest17.subtitle}"
+			tasks: [{
+				id: "6E82B84C64BC3E63"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest18.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest18.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest18.description3}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest18.description4}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest18.description5}"
+			]
+			id: "61AC1570F49FF3DA"
+			min_width: 350
+			rewards: [{
+				id: "69E560D012B74A87"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest18.subtitle}"
+			tasks: [{
+				id: "128BDF9E80C1A6D9"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest19.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest19.description2}"
+			]
+			id: "6CCAB0FF4A5E6CBD"
+			rewards: [{
+				count: 16
+				id: "45D3ABA39A46416A"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest19.subtitle}"
+			tasks: [{
+				id: "6659ED9B6D09BCEB"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest20.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest20.description2}"
+			]
+			id: "2C0C30D3C4FEB1CA"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest20.subtitle}"
+			tasks: [{
+				id: "2215D205E42A7811"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest21.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest21.description2}"
+			]
+			icon: "gtceu:lv_ore_washer"
+			id: "6662011CCE399391"
+			rewards: [{
+				count: 16
+				id: "1B9712D4DC0445BD"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest21.subtitle}"
+			tasks: [{
+				id: "02C8121649051406"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04EC638948D1D4"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest22.description1}"]
+			id: "1FA44E93D85C2671"
+			rewards: [{
+				count: 16
+				id: "4F2609B0A866166F"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest22.subtitle}"
+			tasks: [{
+				id: "21DEC5E6CB14D5A6"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["406A1949FA81968C"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest23.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest23.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest23.description3}"
+			]
+			id: "2DC12827E0DB45CC"
+			rewards: [{
+				count: 4
+				id: "0AD71899643C8C32"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest23.subtitle}"
+			tasks: [{
+				id: "14D4ECB207626FBF"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2ABCB641104E43EC"
+				"316E8CF96721486D"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest24.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest24.description2}"
+			]
+			id: "29C938ED07AD78F8"
+			rewards: [{
+				count: 4
+				id: "6AA6AC202CA12144"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest24.subtitle}"
+			tasks: [{
+				id: "2218FD7F01DE0BD3"
+				item: "gtceu:arsenic_trioxide_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29C938ED07AD78F8"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest25.description1}"]
+			id: "69A50B020C30CEDB"
+			rewards: [{
+				count: 8
+				id: "46828DD3D6DAC830"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest25.subtitle}"
+			tasks: [{
+				id: "01E78220CC3DD1AD"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "316E8CF96721486D"
+			shape: "pentagon"
+			tasks: [{
+				id: "3BC687568CCC538A"
+				item: "gtceu:cobaltite_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			hide_until_deps_visible: true
+			id: "3E91CFE103BA1ED0"
+			tasks: [{
+				id: "1219F6E73058B9AE"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E91CFE103BA1ED0"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest28.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest28.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest28.description3}"
+			]
+			id: "35253C6E3085FAB3"
+			rewards: [{
+				count: 8
+				id: "3F0A42388DFEA1E8"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest28.subtitle}"
+			tasks: [{
+				id: "4AAE0EA521ADAF2F"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"35253C6E3085FAB3"
+				"69A50B020C30CEDB"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest29.description1}"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "16B4765B7DF64E34"
+			rewards: [{
+				count: 16
+				id: "29C2DFFD2B14F859"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest29.subtitle}"
+			tasks: [{
+				id: "45DF3EC2F6B326BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16B4765B7DF64E34"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest30.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest30.description2}"
+			]
+			id: "56C2326FD8A7A2EC"
+			rewards: [{
+				count: 16
+				id: "12075511A1D7E145"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest30.subtitle}"
+			tasks: [{
+				id: "4ABC0AF2A315C215"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"30931DB418B3BEFC"
+				"346DD543EE6D1C27"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest31.description1}"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "5D5C773CC6B64168"
+			rewards: [{
+				id: "76A1BDD244E872BD"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest31.subtitle}"
+			tasks: [
+				{
+					id: "0DB73985E5E40731"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "3A6B3B521E919505"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest31.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"56C2326FD8A7A2EC"
+				"00111BD9D1C2F047"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest32.description1}"]
+			id: "30931DB418B3BEFC"
+			rewards: [{
+				id: "730113605445038E"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest32.subtitle}"
+			tasks: [{
+				id: "1523E7A21FBD16EF"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest32.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"20BAD3C102E72EA1"
+				"7B77F3153085E884"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest33.description1}"]
+			hide_until_deps_complete: true
+			id: "346DD543EE6D1C27"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest33.subtitle}"
+			tasks: [
+				{
+					id: "6ACDBC3F50FF95E3"
+					item: "gtceu:blue_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "4247CD7131A3FEBB"
+					item: "gtceu:blue_alloy_dust"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DC12827E0DB45CC"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description5}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description6}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description7}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest34.description8}"
+			]
+			icon: "createdeco:decal_electrical"
+			id: "3DFF24F1BAF0B341"
+			min_width: 300
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest34.subtitle}"
+			tasks: [{
+				id: "40AAD69EEBEBE652"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest34.title}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DFF24F1BAF0B341"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest35.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest35.description2}"
+			]
+			id: "10EA8761CF143417"
+			rewards: [{
+				id: "15A4EF7087A5C504"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest35.subtitle}"
+			tasks: [{
+				id: "2A40FD0FC8C25A91"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DFF24F1BAF0B341"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest36.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest36.description2}"
+			]
+			id: "4D7E9F896A899416"
+			min_width: 300
+			rewards: [{
+				id: "426CB03B979D9830"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest36.subtitle}"
+			tasks: [{
+				id: "369884EF9359A9F4"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D7E9F896A899416"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest37.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest37.description2}"
+			]
+			id: "79E804B5F418DA5A"
+			rewards: [{
+				id: "1F7C8F3808C29B58"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest37.subtitle}"
+			tasks: [{
+				id: "5500856A80FA525D"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10EA8761CF143417"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest38.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest38.description2}"
+			]
+			id: "5FF1EFC2DF308C64"
+			rewards: [{
+				id: "1B6DC64F16C4BB0B"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest38.subtitle}"
+			tasks: [{
+				id: "19916AA22B701D75"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest39.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest39.description2}"
+			]
+			id: "20BAD3C102E72EA1"
+			rewards: [{
+				count: 8
+				id: "72B579D831CA947D"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest39.subtitle}"
+			tasks: [{
+				id: "331FA25B4B6CE894"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D5C773CC6B64168"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest40.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest40.description2}"
+			]
+			id: "1E6330F3215B0832"
+			rewards: [{
+				count: 8
+				id: "580B9CD88F294F20"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest40.subtitle}"
+			tasks: [{
+				id: "036718513CF6FD9B"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E6330F3215B0832"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest41.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest41.description2}"
+			]
+			id: "59BBC29F29B58DE7"
+			rewards: [{
+				count: 16
+				id: "5340B25BACBF2FF5"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest41.subtitle}"
+			tasks: [{
+				id: "634DE0C5C4371FC9"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest42.description1}"
+				""
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest42.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest42.description3}"
+			]
+			id: "7769523BB907D543"
+			rewards: [{
+				count: 8
+				id: "066631EA37E2F2CB"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest42.subtitle}"
+			tasks: [{
+				id: "2CF85BA284006C9D"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7769523BB907D543"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest43.description1}"]
+			id: "14A3403205AC0A2C"
+			rewards: [{
+				count: 4
+				id: "0DC4CDD613C53AB7"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest43.subtitle}"
+			tasks: [{
+				id: "0564D7286132A2CE"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7769523BB907D543"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest44.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest44.description2}"
+			]
+			id: "31FACE62E27454B1"
+			rewards: [{
+				count: 4
+				id: "1FBFC316ED20C6EB"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest44.subtitle}"
+			tasks: [{
+				id: "00D1FD5D2C354DAC"
+				item: "createlowheated:basic_burner"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7769523BB907D543"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest45.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest45.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest45.description3}"
+			]
+			id: "4179916981F6E7DA"
+			rewards: [{
+				count: 8
+				id: "3D988F7D015465AC"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest45.subtitle}"
+			tasks: [
+				{
+					id: "76F8C5F2FA253522"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "70D40CA402B84A2F"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"59BBC29F29B58DE7"
+				"5D5C773CC6B64168"
+				"3C9EB6B3762A6573"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest46.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest46.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest46.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest46.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest46.description5}"
+			]
+			id: "731671C69CDC758F"
+			rewards: [{
+				id: "5FE421A9A2A5FCA5"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest46.subtitle}"
+			tasks: [{
+				id: "64CD8349BFD9A98D"
+				item: "cosmiccore:rune_conjunction_arklythar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2ABCB641104E43EC"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest47.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest47.description2}"
+			]
+			id: "7D66D356E68ABD4C"
+			rewards: [{
+				count: 16
+				id: "447DAB04306890B4"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest47.subtitle}"
+			tasks: [{
+				id: "0C0819EC0393F53D"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4029EE9B8DEA0DFA"
+				"1E6330F3215B0832"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest48.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest48.description2}"
+			]
+			id: "70BAD81D816E94AC"
+			rewards: [{
+				count: 4
+				id: "6DD99419E947270C"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest48.subtitle}"
+			tasks: [{
+				id: "628228B34328D384"
+				item: "gtceu:crude_source_oils_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest48.title}"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20BAD3C102E72EA1"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest49.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest49.description2}"
+			]
+			id: "0EC4D47B333D61D7"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest49.subtitle}"
+			tasks: [{
+				id: "4C5A07558A81A8B6"
+				item: "gtceu:nether_sediment_sludge_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EC4D47B333D61D7"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest50.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest50.description2}"
+			]
+			id: "6D2C212D4312F3A3"
+			rewards: [{
+				count: 16
+				id: "21097213F626A797"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest50.subtitle}"
+			tasks: [{
+				id: "0246E56203D8C795"
+				item: "cosmiccore:blackstone_pustule"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EC4D47B333D61D7"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest51.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest51.description2}"
+			]
+			id: "3ABBC800E5AB71B7"
+			rewards: [{
+				count: 16
+				id: "3775D439F779D0AF"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest51.subtitle}"
+			tasks: [{
+				id: "704E7E3FE1664599"
+				item: "cosmiccore:overloaded_pearls"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6D2C212D4312F3A3"
+				"3ABBC800E5AB71B7"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest52.description1}"]
+			id: "4029EE9B8DEA0DFA"
+			rewards: [{
+				count: 16
+				id: "647158F052592A68"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest52.subtitle}"
+			tasks: [{
+				id: "2F4976D385B9074F"
+				item: "gtceu:nether_bioslurry_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest52.title}"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"731671C69CDC758F"
+				"70BAD81D816E94AC"
+				"59BBC29F29B58DE7"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest53.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest53.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest53.description3}"
+			]
+			id: "74BC6C51B6BCA358"
+			rewards: [{
+				count: 16
+				id: "7C8859B1BE500A32"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest53.subtitle}"
+			tasks: [{
+				id: "10CCF34CEEBBCF7E"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["74BC6C51B6BCA358"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest54.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest54.description2}"
+			]
+			id: "7DF6C7E855FF9CD9"
+			rewards: [{
+				count: 16
+				id: "460FD33DED96CF1B"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest54.subtitle}"
+			tasks: [{
+				id: "08F72FB5D2542841"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"30931DB418B3BEFC"
+				"3BAB558425960651"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest55.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest55.description2}"
+			]
+			id: "2E5CA2D2615A9D44"
+			rewards: [{
+				count: 4
+				id: "279D12826A71E92D"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest55.subtitle}"
+			tasks: [{
+				id: "4AAC608E2CFCF837"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5C6575216349AB84"
+				"333BADC53E165610"
+				"5B4BF323B68CAC96"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest56.description1}"]
+			id: "1187EE2E425DD12B"
+			rewards: [{
+				id: "7A2A224B47DFEE84"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest56.subtitle}"
+			tasks: [{
+				id: "436B38FFAABB3B62"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest56.title}"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"2E5CA2D2615A9D44"
+				"30931DB418B3BEFC"
+				"49DF852D965051B6"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest57.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest57.description2}"
+			]
+			id: "4F7C125D9EE9BC3F"
+			rewards: [{
+				id: "6CF6405EF2545AC4"
+				item: "cosmiccore:cluster_of_perpetuity"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest57.subtitle}"
+			tasks: [{
+				id: "2D7309A56AF03792"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74BC6C51B6BCA358"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest58.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest58.description2}"
+			]
+			id: "04172DA1817DD94C"
+			rewards: [{
+				count: 8
+				id: "79304B1D12A9C4C0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest58.subtitle}"
+			tasks: [{
+				id: "01AB1428DB54A479"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"744F5FFF77CE29E5"
+				"1D72F5120A79E124"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest59.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest59.description2}"
+			]
+			id: "00111BD9D1C2F047"
+			rewards: [{
+				count: 8
+				id: "5A918A8C9F063766"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest59.subtitle}"
+			tasks: [{
+				id: "5680B05A086E8462"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest60.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest60.description2}"
+			]
+			hide_dependency_lines: true
+			id: "1D72F5120A79E124"
+			rewards: [{
+				count: 8
+				id: "539852409431ED74"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest60.subtitle}"
+			tasks: [{
+				id: "25FB886CE5A8A278"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AA8C5151457CB01"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest61.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest61.description2}"
+			]
+			hide_dependency_lines: true
+			id: "744F5FFF77CE29E5"
+			rewards: [{
+				count: 8
+				id: "2392D6FD98AFA2E5"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest61.subtitle}"
+			tasks: [{
+				id: "34696C9D7A0FA91A"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2ABCB641104E43EC"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest62.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest62.description2}"
+			]
+			id: "1E2024C4083F2E46"
+			rewards: [{
+				count: 16
+				id: "7393CC9EDF34A060"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest62.subtitle}"
+			tasks: [{
+				id: "1684074E134AB7FE"
+				item: "gtceu:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E2024C4083F2E46"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest63.description1}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest63.description2}"
+			]
+			icon: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+			id: "623E9E16422D7D82"
+			rewards: [{
+				count: 16
+				id: "6EF02E5450CB4BA0"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest63.subtitle}"
+			tasks: [{
+				id: "1922FD684D826DCB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_gold_tier_upgrade)item(sophisticatedstorage:copper_to_gold_tier_upgrade)item(sophisticatedstorage:iron_to_gold_tier_upgrade))"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest63.title}"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E2024C4083F2E46"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest64.description1}"]
+			id: "5A3505D36A318205"
+			rewards: [{
+				count: 16
+				id: "142FCD5E047A5921"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest64.subtitle}"
+			tasks: [{
+				id: "32F38C9EF23969B9"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07BBA5C211143D67"]
+			id: "5B4C6D8FAA0C7A9F"
+			tasks: [{
+				id: "009AA434A009E4D8"
+				item: "gtceu:flawless_certus_quartz_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"310A5BD05D1C60AB"
+				"5DB465F3C5F5171A"
+				"040A441E24915620"
+			]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest66.description1}"]
+			id: "49DF852D965051B6"
+			rewards: [{
+				count: 8
+				id: "76AD615DC22B4745"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest66.subtitle}"
+			tasks: [{
+				id: "65B7D311CABF2A92"
+				item: "malum:cluster_of_brilliance"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D66D356E68ABD4C"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest67.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest67.description2}"
+			]
+			id: "310A5BD05D1C60AB"
+			rewards: [{
+				count: 4
+				id: "5E04F9953B719E63"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest67.subtitle}"
+			tasks: [{
+				id: "35EFBD38BDE26595"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310A5BD05D1C60AB"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest68.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest68.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest68.description3}"
+			]
+			icon: "malum:earthen_spirit"
+			id: "5DB465F3C5F5171A"
+			rewards: [{
+				count: 16
+				id: "376D001E78A4D8BD"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest68.subtitle}"
+			tasks: [{
+				id: "6DB18418D4A8D4B9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(malum:sacred_spirit)item(malum:wicked_spirit)item(malum:arcane_spirit)item(malum:eldritch_spirit)item(malum:aerial_spirit)item(malum:aqueous_spirit)item(malum:earthen_spirit)item(malum:infernal_spirit))"
+					}
+				}
+				title: "{ftbquests.chapter.turn_on_the_lights__dev.quest68.task_7904244063193846969.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest68.title}"
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5DB465F3C5F5171A"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest69.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest69.description2}"
+			]
+			id: "040A441E24915620"
+			rewards: [{
+				count: 4
+				id: "62CC00C45E98631F"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest69.subtitle}"
+			tasks: [{
+				id: "6C3159429AC979FB"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["040A441E24915620"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest70.description1}"]
+			id: "5C6575216349AB84"
+			rewards: [{
+				id: "6438F2F5276857FA"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest70.subtitle}"
+			tasks: [{
+				id: "7CE50A342290EDEE"
+				item: "malum:spirit_fabric"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DF6C7E855FF9CD9"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest71.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest71.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest71.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest71.description4}"
+			]
+			id: "3BAB558425960651"
+			rewards: [{
+				count: 8
+				id: "4F9E866AE3BD5814"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest71.subtitle}"
+			tasks: [
+				{
+					id: "5D7C9047AC39F685"
+					item: "gtceu:manasteel_double_cable"
+					type: "item"
+				}
+				{
+					id: "797DF485ECF8539B"
+					item: { Count: 2, id: "gtceu:manasteel_single_cable" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest71.title}"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69032BA5838613C8"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest72.description1}"]
+			icon: "aether:aether_portal_frame"
+			id: "09A62C4DA9DBF45A"
+			rewards: [
+				{
+					id: "5FC7659377E81E88"
+					item: {
+						Count: 1
+						id: "trofers:small_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "frontiers:misc/aether"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A32A6E608B3696"
+					item: "cosmiccore:cluster_of_perpetuity"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest72.subtitle}"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "2889CAB47DDB1247"
+				title: "{ftbquests.chapter.turn_on_the_lights__dev.quest72.task_2921088709880910407.title}"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["333BADC53E165610"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest73.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest73.description2}"
+			]
+			id: "69032BA5838613C8"
+			rewards: [{
+				count: 4
+				id: "49E4D2C56D23DE79"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest73.subtitle}"
+			tasks: [{
+				count: 10L
+				id: "1899ABE899A89B56"
+				item: "cosmiccore:plated_aerocloud"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1187EE2E425DD12B"
+				"09A62C4DA9DBF45A"
+			]
+			icon: "createdeco:decal_up"
+			id: "738518B9A3484AC1"
+			rewards: [{
+				id: "7CE2D97F46C6B728"
+				item: {
+					Count: 1
+					id: "trofers:medium_plate"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "frontiers:materials/manasteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest74.subtitle}"
+			tasks: [{
+				id: "528EFF5DB59725A9"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest74.title}"
+			x: -1.011904761904752d
+			y: 9.738095238095255d
+		}
+		{
+			dependencies: ["040A441E24915620"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest75.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest75.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest75.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest75.description4}"
+			]
+			id: "01E8872C0129F82F"
+			rewards: [{
+				count: 16
+				id: "20331839B9EFF705"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EE15D581057F976"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["01E8872C0129F82F"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest76.description1}"]
+			id: "333BADC53E165610"
+			rewards: [{
+				count: 16
+				id: "2E36C8A732515398"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest76.subtitle}"
+			tasks: [{
+				id: "4CC2967ACECDDD26"
+				item: "malum:soul_stained_steel_plating"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3ABBC800E5AB71B7"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest77.description1}"]
+			id: "31B8BBDFEFB33FA3"
+			min_width: 200
+			rewards: [{
+				id: "560BB7B4026A0B39"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest77.subtitle}"
+			tasks: [{
+				id: "68C326EB35D67278"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"14988E390F2CD204"
+				"2AA8C5151457CB01"
+			]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest78.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest78.description2}"
+			]
+			hide_dependency_lines: true
+			id: "14692B6B9EEE3212"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest78.subtitle}"
+			tasks: [{
+				id: "01568DEFD720028F"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest78.title}"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09A62C4DA9DBF45A"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description2}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description4}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description5}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest79.description6}"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			id: "207407600B778363"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest79.subtitle}"
+			tasks: [
+				{
+					id: "0E99AF58A2A806A3"
+					title: "{ftbquests.chapter.turn_on_the_lights__dev.quest79.task_1052064783188625059.title}"
+					type: "checkmark"
+				}
+				{
+					id: "14CF531866BA1FAD"
+					item: "cosmiccore:large_shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest79.title}"
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1FA44E93D85C2671"]
+			id: "7D15EC16C717C621"
+			tasks: [{
+				id: "0D7A3C20D37D4822"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6692AF4C3F2CB86E"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest81.description1}"]
+			id: "55B82C5A68261286"
+			rewards: [{
+				count: 16
+				id: "3FF27D4A47C8BC4B"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest81.subtitle}"
+			tasks: [{
+				id: "67634A1CE7BBF610"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"286D3E97FFD11860"
+				"7D15EC16C717C621"
+			]
+			id: "430D8ABB94DF8D05"
+			tasks: [{
+				id: "79410440AEC91B29"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7D085A647AEC2485"
+				"55B82C5A68261286"
+				"7D15EC16C717C621"
+			]
+			dependency_requirement: "one_completed"
+			id: "68E76B041CEBD925"
+			tasks: [{
+				id: "1C78AB1E5C6A2A9D"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09A62C4DA9DBF45A"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description4}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description5}"
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description6}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest84.description7}"
+			]
+			id: "21201907F9CE98F8"
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest84.subtitle}"
+			tasks: [{
+				id: "63135E981746CCE8"
+				title: "{ftbquests.chapter.turn_on_the_lights__dev.quest84.task_7139153841630924008.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest84.title}"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["310A5BD05D1C60AB"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest85.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest85.description2}"
+			]
+			id: "0F0AF809E26D9065"
+			rewards: [{
+				count: 8
+				id: "15CF31A655F0578E"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest85.subtitle}"
+			tasks: [{
+				id: "3360E612512DBDF0"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C6575216349AB84"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest86.description1}"]
+			id: "17803C36381D9F86"
+			rewards: [{
+				count: 16
+				id: "439486C2DF3FE491"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest86.subtitle}"
+			tasks: [{
+				id: "4B8CF5605B3F5B49"
+				item: "malum:spirit_pouch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D5C773CC6B64168"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest87.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest87.description2}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest87.description3}"
+			]
+			icon: "ars_nouveau:source_jar"
+			id: "73169F9AAA8A5F97"
+			rewards: [{
+				count: 16
+				id: "78822D218FC40DFC"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest87.subtitle}"
+			tasks: [
+				{
+					id: "3B83C541BA8EAB09"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "004D22BA668189FC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))"
+						}
+					}
+					title: "{ftbquests.chapter.turn_on_the_lights__dev.quest87.task_21711757185747452.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest87.title}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73169F9AAA8A5F97"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest88.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest88.description2}"
+				""
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest88.description3}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest88.description4}"
+			]
+			id: "0F9A06F667A36E7E"
+			rewards: [{
+				count: 16
+				id: "66FCC4CB4861E1E7"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest88.subtitle}"
+			tasks: [
+				{
+					id: "7CEA7951992CC93F"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "73959847E109FFFA"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest88.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7DF6C7E855FF9CD9"]
+			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest89.description1}"]
+			id: "5B4BF323B68CAC96"
+			rewards: [{
+				count: 16
+				id: "5C332369E5C243B3"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest89.subtitle}"
+			tasks: [{
+				id: "2B9D593260DF1069"
+				item: "gtceu:annealed_manasteel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+	]
+	title: "{ftbquests.chapter.turn_on_the_lights__dev.title}"
+}

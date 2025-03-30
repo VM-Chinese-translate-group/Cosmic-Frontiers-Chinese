@@ -1,0 +1,33 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_reward"
+	group: "74CC5D172863EBC5"
+	id: "315513863365827E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"{ftbquests.chapter.eternal_reward.quest1.description1}"
+			""
+			"{ftbquests.chapter.eternal_reward.quest1.description2}"
+			""
+			"{ftbquests.chapter.eternal_reward.quest1.description3}"
+			""
+			"{ftbquests.chapter.eternal_reward.quest1.description4}"
+		]
+		id: "56557720CAFDA087"
+		shape: "octagon"
+		size: 5.0d
+		subtitle: "{ftbquests.chapter.eternal_reward.quest1.subtitle}"
+		tasks: [{
+			id: "4156A35ABFCA7E30"
+			item: "kubejs:cosmic_meatballs"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{ftbquests.chapter.eternal_reward.title}"
+}

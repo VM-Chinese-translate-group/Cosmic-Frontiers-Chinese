@@ -1,0 +1,289 @@
+{
+	autofocus_id: "7E9BA1EC4CA7EEE8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_crack_in_the_sky_aether"
+	group: "4135A2BA7EBD719E"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:glowstone"
+	id: "0177AB58CEDC8C8D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["09A62C4DA9DBF45A"]
+			description: [
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest1.description1}"
+				""
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest1.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "aether:aether_portal_frame"
+			id: "57A955955309A292"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest1.subtitle}"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "3AE1D75234A2A2F4"
+				title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest1.task_4242909072030081780.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest1.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			id: "797990C3066AD3FB"
+			tasks: [{
+				id: "4E08A4070C9F22D9"
+				item: "gtceu:zanite_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			id: "436731F4DEA413B4"
+			tasks: [{
+				id: "5F96E269E9C7FD72"
+				item: "gtceu:ambrosium_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			id: "061A91DDA1032996"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest4.subtitle}"
+			tasks: [{
+				id: "6DF8BBF53A907F07"
+				item: "gtceu:raw_barite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			description: ["{ftbquests.chapter.a_crack_in_the_sky_aether.quest5.description1}"]
+			icon: "gtceu:distillation_tower"
+			id: "467DD8A59876EDFE"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest5.subtitle}"
+			tasks: [{
+				icon: "gtceu:distillation_tower"
+				id: "048244CDA891718D"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest5.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			id: "54EC104972ACAFA6"
+			tasks: [{
+				id: "1A8FB50295AC0997"
+				item: "gtceu:raw_bauxite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			id: "2501BE8FAD0FD89B"
+			rewards: [{
+				id: "7AD12FC7E8FC328B"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27BB007B27F8E57B"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2501BE8FAD0FD89B"]
+			id: "50401BF5E3938AE9"
+			rewards: [{
+				id: "15D9E7DD5F412FDF"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2169BC92AE58B60D"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50401BF5E3938AE9"]
+			id: "696EA94AB22229DA"
+			rewards: [{
+				id: "58812ED4EB18639B"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3579E811420BF9D5"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["696EA94AB22229DA"]
+			description: [
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest10.description1}"
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest10.description2}"
+			]
+			id: "62CC9117B051D7D4"
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest10.subtitle}"
+			tasks: [{
+				id: "795A44BA66C15782"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest10.title}"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			description: [
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest11.description1}"
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest11.description2}"
+			]
+			hide_dependency_lines: true
+			id: "7C79521446FA26B5"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest11.subtitle}"
+			tasks: [{
+				id: "4BFDB5621B245AD4"
+				title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest11.task_5475732154919181012.title}"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["467DD8A59876EDFE"]
+			description: ["{ftbquests.chapter.a_crack_in_the_sky_aether.quest12.description1}"]
+			icon: "gtceu:hv_gas_collector"
+			id: "1DDC620CBE8B3653"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest12.subtitle}"
+			tasks: [{
+				id: "4FBDD305CF318413"
+				item: "gtceu:hv_gas_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DDC620CBE8B3653"]
+			description: [
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest13.description1}"
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest13.description2}"
+				""
+				"{ftbquests.chapter.a_crack_in_the_sky_aether.quest13.description3}"
+			]
+			icon: "gtceu:liquid_aether_air_bucket"
+			id: "22495EC28729468F"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest13.subtitle}"
+			tasks: [
+				{
+					icon: "gtceu:liquid_aether_air_bucket"
+					id: "53B8B729A1EF546A"
+					item: "gtceu:liquid_aether_air_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6C2EA5CB592B0429"
+					title: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest13.task_7795350297817842729.title}"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22495EC28729468F"]
+			icon: "gtceu:tears_of_the_sky_bucket"
+			id: "65D3AF64EB06AADF"
+			tasks: [{
+				id: "5C994EA5BCB64AC6"
+				item: "gtceu:tears_of_the_sky_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22495EC28729468F"]
+			icon: "gtceu:ammonia_rich_aerocloud_solution_bucket"
+			id: "250E8B3A238E39B7"
+			tasks: [{
+				id: "7B279B6B3E3A6796"
+				item: "gtceu:ammonia_rich_aerocloud_solution_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22495EC28729468F"]
+			icon: "gtceu:thundering_aerocloud_solution_bucket"
+			id: "4FECDEFA391F9521"
+			tasks: [{
+				id: "05CF59A475E990CE"
+				item: "gtceu:thundering_aerocloud_solution_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["436731F4DEA413B4"]
+			id: "48525FDB778385BF"
+			tasks: [{
+				id: "767B4AF7D92E030C"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57A955955309A292"]
+			description: ["{ftbquests.chapter.a_crack_in_the_sky_aether.quest18.description1}"]
+			id: "07BA728E5C0C43FA"
+			subtitle: "{ftbquests.chapter.a_crack_in_the_sky_aether.quest18.subtitle}"
+			tasks: [{
+				id: "043C780622CF1645"
+				item: "cosmiccore:chromatic_flotation_plant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.a_crack_in_the_sky_aether.title}"
+}

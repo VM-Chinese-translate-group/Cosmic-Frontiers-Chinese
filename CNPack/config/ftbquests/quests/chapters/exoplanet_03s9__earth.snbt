@@ -1,0 +1,888 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exoplanet_03s9__earth"
+	group: "49DCE46B3EB22AEA"
+	icon: "gtceu:prospector.lv"
+	id: "706EB66D1162963D"
+	images: [
+		{
+			height: 3.0d
+			image: "frontiers:textures/questimages/miscicons/frontiersdefault.png"
+			order: 9999
+			rotation: 0.0d
+			width: 9.438805970149254d
+			x: 6.130952380952401d
+			y: -3.305229591836735d
+		}
+		{
+			height: 4.0d
+			image: "frontiers:textures/questimages/miscicons/wingedborder.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.103749111584953d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description2}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description5}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description6}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description7}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description8}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description9}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description10}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description11}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description12}"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:hsse_hammer"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "4D96DE63E82D8EAA"
+			min_width: 256
+			rewards: [{
+				id: "5305EDA65C560BED"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest1.subtitle}"
+			tasks: [{
+				id: "1AE9E7415B27B019"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest1.title}"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2F6DBFCBBC3A0827"
+				"5693AA8924634F44"
+			]
+			description: [
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description5}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest2.description6}"
+			]
+			icon: "minecraft:furnace"
+			id: "4276E47E7CF85DF0"
+			rewards: [{
+				count: 2
+				id: "412CAE2791191B42"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest2.subtitle}"
+			tasks: [{
+				count: 64L
+				id: "595D1BBD97722943"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest2.title}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description5}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description6}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description7}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description8}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description9}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description10}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description11}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description12}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description13}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description14}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description15}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						temperature: 36.2f
+					}
+				}
+				id: "legendarysurvivaloverhaul:thermometer"
+			}
+			id: "423EB7A96CB261A3"
+			rewards: [{
+				id: "0343745A0E5CD43E"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E6F7A6878D4F4C7"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest3.title}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest4.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest4.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest4.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest4.description4}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest4.description5}"
+			]
+			icon: "gtceu:prospector.lv"
+			id: "78DFF9184296F7F6"
+			optional: true
+			rewards: [
+				{
+					id: "288FB56F6F1C79E3"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "053320D905EF39AF"
+					item: {
+						Count: 1
+						id: "gtceu:energy_crystal"
+						tag: {
+							Charge: 6400000L
+							DischargeMode: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "006D430FCB0F5666"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest4.title}"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C2BA4D773E57683"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description1}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_mining_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 1535
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "5693AA8924634F44"
+			rewards: [
+				{
+					id: "59BDAF6281D18447"
+					item: {
+						Count: 1
+						id: "gtceu:steel_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 1535
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1
+							display: {
+								Name: "{\"text\":\"Weirdly Durable Hammer\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52D84DDE25372FDE"
+					item: "cosmiccore:shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest5.subtitle}"
+			tasks: [{
+				id: "08C287391F806DE9"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest5.title}"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["012D3A0EBD06AEB3"]
+			description: ["{ftbquests.chapter.exoplanet_03s9__earth.quest6.description1}"]
+			icon: "minecraft:oak_log"
+			id: "2F6DBFCBBC3A0827"
+			rewards: [{
+				count: 2
+				id: "66E981CB30D36635"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest6.subtitle}"
+			tasks: [{
+				id: "78F01614D58508A8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest6.title}"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4276E47E7CF85DF0"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description4}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description5}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description6}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description7}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description8}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description9}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest7.description10}"
+			]
+			id: "2B84E90B712B6CD3"
+			min_width: 350
+			rewards: [{
+				count: 32
+				id: "26EE20C7652D568C"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "3CD086DF3214B1FB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/hammers)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_4382150730607538683.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "1FCEBF1D7C6D4F12"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/wrenches)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_2291979393740656402.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "53845C521325E232"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/files)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_6018036509652148786.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "4BCF77A595638786"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/saws)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_5462716426083338118.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "4A1A547444B29038"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/screwdrivers)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_5339673166546636856.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "32F31D914A67040F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/mortars)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_3671310631092814863.title}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					id: "3F6E0509177C8A6F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(forge:tools/wire_cutters)"
+						}
+					}
+					title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.task_4570596208434514543.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest7.title}"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B84E90B712B6CD3"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest8.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest8.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest8.description3}"
+			]
+			id: "38DA0B4E0DBAC364"
+			rewards: [{
+				id: "50A86F862ABBC6AE"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest8.subtitle}"
+			tasks: [
+				{
+					count: 128L
+					id: "48ED4A3C61EEB9EF"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "75E94DE9FEC011EA"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest8.title}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["423EB7A96CB261A3"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest9.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest9.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest9.description3}"
+			]
+			icon: "paraglider:stamina_vessel"
+			id: "012D3A0EBD06AEB3"
+			rewards: [{
+				id: "6FB73E55958ADF15"
+				item: "cosmiccore:shard_of_perpetuity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest9.subtitle}"
+			tasks: [{
+				id: "0967F63809AE56C6"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest9.title}"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["423EB7A96CB261A3"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest10.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest10.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest10.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest10.description4}"
+			]
+			id: "536D3BFD33A78DBF"
+			optional: true
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest10.subtitle}"
+			tasks: [
+				{
+					id: "0A4E6B73A3070E6E"
+					item: "legendarysurvivaloverhaul:cooler"
+					type: "item"
+				}
+				{
+					id: "25ECF621490C048B"
+					item: "legendarysurvivaloverhaul:heater"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["012D3A0EBD06AEB3"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest11.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest11.description2}"
+			]
+			id: "5E8484FF7701ACE3"
+			optional: true
+			rewards: [{
+				id: "3F359B22B7FC83E6"
+				item: "paraglider:goddess_statue"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest11.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "1670C7288BF3A9EC"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest12.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest12.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest12.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest12.description4}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest12.description5}"
+			]
+			icon: "solonion:lunchbox"
+			id: "0588F46F605A2E88"
+			rewards: [{
+				id: "7F77AA88929CD09E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solonion:lunchbox"
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest12.subtitle}"
+			tasks: [{
+				id: "7C6730621E6A72E9"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest12.title}"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0588F46F605A2E88"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest13.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest13.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest13.description3}"
+			]
+			icon: "sereneseasons:calendar"
+			id: "5526F519E59B8C98"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "24A4404A7C2C330B"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0588F46F605A2E88"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest14.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest14.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest14.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest14.description4}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest14.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "thinair:respirator"
+				tag: {
+					Damage: 214
+					display: {
+						Name: "{\"text\":\"Oddly Damaged Respirator\"}"
+					}
+				}
+			}
+			id: "7C2BA4D773E57683"
+			optional: true
+			rewards: [
+				{
+					id: "76D335B0BAE970B0"
+					item: {
+						Count: 1
+						id: "botania:brew_vial"
+						tag: {
+							brewKey: "botania:water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FAD66946AD21656"
+					item: "cosmiccore:shard_of_perpetuity"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest14.subtitle}"
+			tasks: [{
+				id: "7E6F8B260B75D219"
+				title: "{ftbquests.chapter.exoplanet_03s9__earth.quest14.task_9110653566711091737.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest14.title}"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description5}"
+			]
+			icon: "cosmiccore:donk"
+			id: "192AC19C353976D9"
+			min_width: 350
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest15.subtitle}"
+			tasks: [{
+				id: "279E7A3098A3B6EF"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest15.title}"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest16.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest16.description2}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest16.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest16.description4}"
+			]
+			id: "0081FE452DFE9D6D"
+			shape: "gear"
+			tasks: [{
+				id: "454A30936336BE28"
+				title: "{ftbquests.chapter.exoplanet_03s9__earth.quest16.task_4992856546476473896.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C2BA4D773E57683"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest17.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest17.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest17.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest17.description4}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest17.description5}"
+			]
+			id: "1F5442CB5217C1B1"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest17.subtitle}"
+			tasks: [{
+				id: "0BA57AC9A721A3FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "kubejs:reinforced_respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description5}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description6}"
+			]
+			icon: "minecraft:writable_book"
+			id: "06070B096D0D65F5"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.subtitle}"
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.title}"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description2}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description3}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description4}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description5}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description6}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description7}"
+			]
+			icon: "minecraft:writable_book"
+			id: "001ABD786A9CF26D"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.subtitle}"
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.title}"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description2}"
+			]
+			id: "0746B093412C1AA8"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.subtitle}"
+			tasks: [{
+				id: "0F04030F98A99AEE"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.title}"
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+	subtitle: [
+		"{ftbquests.chapter.exoplanet_03s9__earth.subtitle0}"
+		"{ftbquests.chapter.exoplanet_03s9__earth.subtitle1}"
+	]
+	title: "{ftbquests.chapter.exoplanet_03s9__earth.title}"
+}
