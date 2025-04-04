@@ -207,23 +207,21 @@ def main() -> None:
             continue;
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
-    #低版本ftb不需要
-    # if(len(ftbquests_dict) > 0):
-    #     snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
-
-    #     # json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
-    #     # Escape quotation marks in the translated data
-    #     json_data = escape_quotes(snbt_dict)
-
-    #     # Convert the loaded JSON data to NBT format
-    #     nbt_data = json_to_nbt(json_data)
-
-    #     # Format the NBT structure as a pretty-printed SNBT string
-    #     formatted_snbt_string = format_snbt(nbt_data)
-    #     # Optionally save the formatted SNBT to a file
-    #     with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
-    #         snbt_file.write(formatted_snbt_string)
-
+    if(len(ftbquests_dict) > 0):
+        snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
+        # json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
+        # Escape quotation marks in the translated data
+        json_data = escape_quotes(snbt_dict)
+        # Convert the loaded JSON data to NBT format
+        nbt_data = json_to_nbt(json_data)
+        # Format the NBT structure as a pretty-printed SNBT string
+        formatted_snbt_string = format_snbt(nbt_data)
+        # Optionally save the formatted SNBT to a file
+        try:
+            with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
+                snbt_file.write(formatted_snbt_string)
+        except Exception as e:
+            print("该ftbquest版本低于1.21.1")
 
 if __name__ == "__main__":
     main()
