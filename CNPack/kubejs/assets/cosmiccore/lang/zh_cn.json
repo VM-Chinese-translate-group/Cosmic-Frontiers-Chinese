@@ -137,7 +137,7 @@
     "cosmiccore.multiblock.current_field_strength":"§fField Strength: %s",
     "cosmiccore.multiblock.fuel_star":"§a§lFuel Star Core",
     "cosmiccore.multiblock.hpsassem.tooltip.0":"§7§oLet's build an empire!",
-    "cosmiccore.multiblock.hpsassem.tooltip.1":"§f一台由钢铁制造的装配机，虽然体积很大，但效率很高。",
+    "cosmiccore.multiblock.hpsassem.tooltip.1":"§f一台由钢铁制造的组装机，虽然体积很大，但效率很高。",
     "cosmiccore.multiblock.hpsassem.tooltip.2":"§a并行数量§f: §b4x§r",
     "cosmiccore.multiblock.ipbf.tooltip.0":"§7§oTurn up the heat!",
     "cosmiccore.multiblock.ipbf.tooltip.1":"§fConsumes creosote with recipes to improve efficiency.",
