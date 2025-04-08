@@ -1,0 +1,12 @@
+{
+  "title": {
+    "bold": true,
+    "color": "aqua",
+    "translate": "frontiers.tips.prisoner.title"
+  },
+  "tip": {
+    "bold": false,
+    "color": "white",
+    "translate": "frontiers.tips.prisoner.message"
+  }
+}

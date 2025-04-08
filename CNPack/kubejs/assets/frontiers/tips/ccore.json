@@ -1,0 +1,12 @@
+{
+  "title": {
+    "bold": true,
+    "color": "yellow",
+    "translate": "frontiers.tips.ccore.title"
+  },
+  "tip": {
+    "bold": true,
+    "color": "green",
+    "translate": "frontiers.tips.ccore.message"
+  }
+}
