@@ -1038,7 +1038,6 @@
 				""
 				"{ftbquests.chapter.rising_pressure_new.quest39.description2}"
 				""
-				""
 				"{ftbquests.chapter.rising_pressure_new.quest39.description3}"
 			]
 			id: "370680B11E59D49C"
@@ -1935,6 +1934,7 @@
 				"459F7333F240D028"
 				"29432A122031CB3E"
 				"739AF35CCA609F56"
+				"2C512064C6836B59"
 			]
 			description: [
 				"{ftbquests.chapter.rising_pressure_new.quest75.description1}"
@@ -2062,7 +2062,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -14.0d
 			y: 4.5d
 		}
 		{
@@ -2437,56 +2437,21 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["30C980B828A48306"]
-			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest96.description1}"
-				""
-				""
-				""
-				"{ftbquests.chapter.rising_pressure_new.quest96.description2}"
-				""
-				"{ftbquests.chapter.rising_pressure_new.quest96.description3}"
-			]
-			hide_dependency_lines: true
-			icon: "occultism:storage_controller"
-			id: "2F1F0288053F5229"
-			min_width: 400
-			rewards: [{
-				id: "12805EA934AF0624"
-				item: "cosmiccore:shard_of_perpetuity"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest96.subtitle}"
-			tasks: [
-				{
-					id: "2CB0D82BBE9C3C35"
-					item: "occultism:storage_controller"
-					type: "item"
-				}
-				{
-					id: "15401EF3F84514DA"
-					type: "checkmark"
-				}
-			]
-			x: -14.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"2D14D28D2CD892DD"
 				"3D906FC110FE69D7"
 			]
 			dependency_requirement: "all_started"
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest97.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest96.description1}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest97.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest96.description2}"
 			]
 			hide_dependency_lines: true
 			id: "68AAF390B75DAD61"
 			optional: true
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest97.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest96.subtitle}"
 			tasks: [{
 				id: "1FE203ABFE1FC197"
 				item: {
@@ -2502,13 +2467,13 @@
 		{
 			dependencies: ["36515C42E0E4AFF6"]
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest98.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest97.description1}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest98.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest97.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4BD0110554731D07"
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest98.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest97.subtitle}"
 			tasks: [{
 				id: "250FAE5F8B05F26F"
 				item: "legendarysurvivaloverhaul:ice_fern_leaf"
@@ -2520,8 +2485,8 @@
 		{
 			dependencies: ["4BD0110554731D07"]
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest99.description1}"
-				"{ftbquests.chapter.rising_pressure_new.quest99.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest98.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest98.description2}"
 			]
 			id: "47B9B1900C760C90"
 			rewards: [{
@@ -2530,25 +2495,25 @@
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest99.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest98.subtitle}"
 			tasks: [{
 				id: "164604097A3742F5"
 				item: "gtceu:soulresin_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.rising_pressure_new.quest99.title}"
+			title: "{ftbquests.chapter.rising_pressure_new.quest98.title}"
 			x: -13.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["14988E390F2CD204"]
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest100.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest99.description1}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest100.description2}"
-				"{ftbquests.chapter.rising_pressure_new.quest100.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest99.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest99.description3}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest100.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest99.description4}"
 			]
 			hide_details_until_startable: true
 			hide_text_until_complete: true
@@ -2556,21 +2521,21 @@
 			icon: "ars_nouveau:worn_notebook"
 			id: "70F95C537C54938A"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest100.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest99.subtitle}"
 			tasks: [{
 				id: "2E2868406D150CBC"
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.rising_pressure_new.quest100.title}"
+			title: "{ftbquests.chapter.rising_pressure_new.quest99.title}"
 			x: -13.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["30C980B828A48306"]
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest101.description1}"
-				"{ftbquests.chapter.rising_pressure_new.quest101.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest100.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest100.description2}"
 			]
 			id: "732E5FCCE85F859A"
 			rewards: [{
@@ -2580,7 +2545,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest101.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest100.subtitle}"
 			tasks: [
 				{
 					id: "7E447C8092ABA7C7"
@@ -2600,18 +2565,18 @@
 		{
 			dependencies: ["00B281664EDD41AA"]
 			description: [
-				"{ftbquests.chapter.rising_pressure_new.quest102.description1}"
+				"{ftbquests.chapter.rising_pressure_new.quest101.description1}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest102.description2}"
+				"{ftbquests.chapter.rising_pressure_new.quest101.description2}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest102.description3}"
+				"{ftbquests.chapter.rising_pressure_new.quest101.description3}"
 				""
-				"{ftbquests.chapter.rising_pressure_new.quest102.description4}"
+				"{ftbquests.chapter.rising_pressure_new.quest101.description4}"
 			]
 			hide_dependency_lines: true
 			id: "4B5B3DDD7F9C6D7C"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.rising_pressure_new.quest102.subtitle}"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest101.subtitle}"
 			tasks: [{
 				id: "0FD23134CFF872C8"
 				item: "malum:natural_quartz"
@@ -2619,6 +2584,27 @@
 			}]
 			x: -12.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["30C980B828A48306"]
+			description: [
+				"{ftbquests.chapter.rising_pressure_new.quest102.description1}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest102.description2}"
+				""
+				"{ftbquests.chapter.rising_pressure_new.quest102.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2C512064C6836B59"
+			subtitle: "{ftbquests.chapter.rising_pressure_new.quest102.subtitle}"
+			tasks: [{
+				id: "48F1704ACD19CEAF"
+				item: "legendarysurvivaloverhaul:sun_fern_gold_leaf"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.rising_pressure_new.title}"

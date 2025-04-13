@@ -13,6 +13,1964 @@
 	id: "725B72A265F32F12"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6DA881815E8DE99D"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest1.description1}"
+				""
+				""
+				"{ftbquests.chapter.solar_dominance.quest1.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "1EDA6025077BAA5D"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest1.subtitle}"
+			tasks: [{
+				id: "4434E755BF9F2B0C"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "0EB37211BFB94473"
+			tasks: [{
+				id: "0B73237379F32641"
+				item: "gtceu:grading_fluid_4_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest2.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EB37211BFB94473"]
+			id: "00FD19CCFB41CF8A"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest3.subtitle}"
+			tasks: [{
+				id: "6D96D3D6A8A27225"
+				item: "cosmiccore:asc_blood_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"00FD19CCFB41CF8A"
+				"6F803279C5027E5C"
+			]
+			icon: "bloodmagic:dungeon_controller"
+			id: "6AA384B858690CAD"
+			shape: "octagon"
+			title: "{ftbquests.chapter.solar_dominance.quest4.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33E3A30B9A5C165B"]
+			id: "3DCCE7A7C2B39FCE"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest5.subtitle}"
+			tasks: [{
+				id: "1089A2E77561CCDB"
+				item: "gtceu:silicone_rubber_foil"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest5.title}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EB991442E63BE79"]
+			id: "2D8A52A43803DF61"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest6.subtitle}"
+			tasks: [{
+				id: "4CAFBD23894099B9"
+				item: "gtceu:nylon_6_6_foil"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest6.title}"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71EE1119F936C025"]
+			description: ["{ftbquests.chapter.solar_dominance.quest7.description1}"]
+			id: "6ABD6ECFF6A5ACE4"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest7.subtitle}"
+			tasks: [{
+				id: "4F598501D529E29A"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3DCCE7A7C2B39FCE"
+				"33E3A30B9A5C165B"
+			]
+			id: "1B24263AD9282E23"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest8.subtitle}"
+			tasks: [{
+				id: "23B7F1D9AE1D9C07"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest8.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E4004EE418B6CD6"]
+			id: "15D6856B141AD56E"
+			size: 1.25d
+			tasks: [{
+				id: "7FC4C2E489BEC822"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00FD19CCFB41CF8A"]
+			id: "33066F67B95D8F1B"
+			tasks: [{
+				id: "0816B481C153A189"
+				item: "gtceu:grading_fluid_6_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest10.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EB37211BFB94473"]
+			id: "0D3FA9F6A3AA0568"
+			tasks: [{
+				id: "42CC7F2963CD2A63"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1C26EFBD68B35D1F"
+				"71EE1119F936C025"
+				"1B8F799F797D7B62"
+			]
+			id: "0CA4111E6FFD6B3D"
+			tasks: [{
+				id: "5C351D8C55A50B84"
+				item: "gtceu:naquahine_superfuel_mk_two_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"71EE1119F936C025"
+				"22E893A69FB7C197"
+			]
+			id: "1B8F799F797D7B62"
+			tasks: [{
+				id: "16CBB612DEF4456E"
+				item: "gtceu:stardust_infused_gasoline_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest13.title}"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5087296EF0C8C152"
+				"059FE2EA330761B9"
+				"380EDB0E6E4C5BC6"
+			]
+			description: ["{ftbquests.chapter.solar_dominance.quest14.description1}"]
+			id: "647D1F76EE4D2AE1"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest14.subtitle}"
+			tasks: [{
+				id: "230AB8C0AF911222"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["77AC87C4258DCDD4"]
+			id: "22E893A69FB7C197"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest15.subtitle}"
+			tasks: [{
+				id: "39B0E3198F7B5F61"
+				item: "gtceu:star_metal_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest15.title}"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D95AAE11C69BE92"]
+			id: "026155575C4F9913"
+			tasks: [{
+				id: "4F3E91E2E861668B"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest16.title}"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "1FB14148DD45B90D"
+			shape: "pentagon"
+			tasks: [{
+				id: "5421E4482C135F13"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"426FAAA49BD81213"
+				"51AC9E9464EE5EE2"
+				"464A2E409E25DD93"
+				"6CF0A6DA136B0B1F"
+				"77AC87C4258DCDD4"
+			]
+			icon: "gtceu:grand_assembly_line"
+			id: "195241FCB0CC40DE"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest18.subtitle}"
+			tasks: [{
+				id: "4070E241A34E76AC"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest18.title}"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2D31FF8D1689647E"
+				"1FB14148DD45B90D"
+				"6CE9646FEF50045B"
+			]
+			id: "3FCCC1CCDEF90870"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "79EA8EA1CBD03519"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ABD6ECFF6A5ACE4"]
+			id: "5D60F7DF595E5B82"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DCFC28A546C6DBA"
+				item: "gtceu:mana_simulator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"057D9F8E4E2945C8"
+				"08A7BFAEA4D41E28"
+			]
+			id: "565FABB86902012B"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest21.subtitle}"
+			tasks: [{
+				id: "14BEBCD067CC1023"
+				item: "cosmiccore:vomahine_celestial_laser_bore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["56BF88E18FEDA2AC"]
+			id: "5C1A28DFEA13F6C1"
+			tasks: [{
+				id: "245377636037B2B2"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["08FAF69EBD16AF20"]
+			id: "6CAE04A3F2F4057F"
+			tasks: [{
+				id: "52E14FF7AAC8A2FF"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6CAE04A3F2F4057F"
+				"4CE90992174CC2C6"
+				"3076511246E4CB17"
+			]
+			id: "6CED2A043415127F"
+			tasks: [{
+				id: "5794B4CB5D76F755"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6CED2A043415127F"
+				"15761F4497FC0218"
+			]
+			id: "31CE310C898AC695"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest25.subtitle}"
+			tasks: [{
+				id: "3D1331D498844A7D"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest25.title}"
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["647D1F76EE4D2AE1"]
+			id: "14341C9117C05AC3"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest26.subtitle}"
+			tasks: [{
+				id: "42AA48404B0A1ED6"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["647D1F76EE4D2AE1"]
+			id: "43EB8098B004F233"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2547E50EA95692FC"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"647D1F76EE4D2AE1"
+				"14341C9117C05AC3"
+			]
+			id: "319AFED3381689C0"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest28.subtitle}"
+			tasks: [{
+				id: "4B8A47FFC7285C9E"
+				item: "cosmiccore:orbital_tempering_forge"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"33066F67B95D8F1B"
+				"0D3FA9F6A3AA0568"
+			]
+			id: "6F803279C5027E5C"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest29.subtitle}"
+			tasks: [{
+				id: "6BA03A63A44019F0"
+				item: "cosmiccore:void_blood_orb"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest29.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00FD19CCFB41CF8A"]
+			id: "053CA2DEB31524C1"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1ED5FB95B09F68E5"
+				item: "cosmiccore:zpm_soul_output_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["053CA2DEB31524C1"]
+			icon: "rechiseled:netherite_block_meteoric"
+			id: "7F030FBE37FF64FA"
+			shape: "gear"
+			size: 1.5d
+			title: "{ftbquests.chapter.solar_dominance.quest31.title}"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "23D6FB186E6B935B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3E8E34A4923FD101"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D6FB186E6B935B"]
+			icon: "ad_astra:mercury_globe"
+			id: "684AAECC1FC5BA3A"
+			shape: "hexagon"
+			title: "{ftbquests.chapter.solar_dominance.quest33.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23D6FB186E6B935B"]
+			icon: "ad_astra:venus_globe"
+			id: "2985993F79D84B6D"
+			title: "{ftbquests.chapter.solar_dominance.quest34.title}"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["684AAECC1FC5BA3A"]
+			id: "0695F0388872E64C"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest35.subtitle}"
+			tasks: [{
+				id: "6F8A515CF5491E17"
+				item: "gtceu:raw_wolframite"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest35.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["684AAECC1FC5BA3A"]
+			id: "261D67D401B54854"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest36.subtitle}"
+			tasks: [{
+				id: "52E4BD27D4B86EA4"
+				item: "gtceu:raw_luminite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1EDA6025077BAA5D"
+				"6ABD6ECFF6A5ACE4"
+				"6C96A9A80B62FC90"
+				"2066E83B44ACE6E6"
+			]
+			description: ["{ftbquests.chapter.solar_dominance.quest37.description1}"]
+			id: "3721D1E1F204378F"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest37.subtitle}"
+			tasks: [{
+				id: "35140276DD2926F3"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest37.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["37BF3CC9EC3905EB"]
+			id: "77AC87C4258DCDD4"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "5C2D3BB2260DDDEE"
+				item: "cosmiccore:reinforced_trinavine_coil_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77AC87C4258DCDD4"]
+			id: "71EE1119F936C025"
+			shape: "hexagon"
+			tasks: [{
+				id: "1AB71427C0CD1DCB"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "6CE9646FEF50045B"
+			shape: "pentagon"
+			tasks: [{
+				id: "3774BBB105DF3ED0"
+				item: "cosmiccore:neutronite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "0615EB6229CB18B0"
+			tasks: [{
+				id: "1901DB8065EBAAC8"
+				item: "gtceu:lake_water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0615EB6229CB18B0"
+				"3721D1E1F204378F"
+			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest42.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest42.description2}"
+			]
+			id: "2431C14B63E36559"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest42.subtitle}"
+			tasks: [{
+				id: "2CBCD08B07A3EFB9"
+				item: "gtceu:sterilized_lake_water_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest42.title}"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71C67C058286EB31"]
+			id: "41E6AA7712CB219E"
+			tasks: [{
+				id: "032A4F7E253F1672"
+				item: "gtceu:fungal_nutrient_waste_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["41E6AA7712CB219E"]
+			id: "7108E8F344508ACA"
+			tasks: [{
+				id: "31649996771B1D5D"
+				item: "gtceu:cultured_nutrient_solution_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0E24523BD92088A2"
+				"7108E8F344508ACA"
+			]
+			id: "7577F63597E52BA9"
+			tasks: [{
+				id: "17343CF09D1D2A2B"
+				item: "gtceu:bacteria_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["49B55FA57B05FDCC"]
+			id: "08E696248C2413EF"
+			tasks: [{
+				id: "1E27995E1D39ED99"
+				item: "gtceu:blacklight"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3FCCC1CCDEF90870"
+				"43EB8098B004F233"
+			]
+			id: "49B55FA57B05FDCC"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest47.subtitle}"
+			tasks: [{
+				id: "675511C821726EFC"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08E696248C2413EF"]
+			id: "0E24523BD92088A2"
+			tasks: [{
+				id: "4B244A7BA20F615A"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2431C14B63E36559"
+				"5412DB5A0EE7F677"
+			]
+			id: "71C67C058286EB31"
+			tasks: [{
+				id: "71C11A3FDB8AE208"
+				item: "undergarden:blood_mushroom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71C67C058286EB31"]
+			id: "025FA59D4D3FCEB1"
+			tasks: [{
+				id: "2E6A3C5CF96F2BD7"
+				item: "undergarden:blood_globule"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["025FA59D4D3FCEB1"]
+			id: "0F292AF96B77AF48"
+			tasks: [{
+				id: "4ADB863099E41F5E"
+				item: "bloodmagic:life_essence_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0615EB6229CB18B0"]
+			id: "691CAECD80AB159C"
+			tasks: [{
+				id: "6836C06179243548"
+				item: "gtceu:nutrient_solution_base_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"691CAECD80AB159C"
+				"0615EB6229CB18B0"
+			]
+			id: "5412DB5A0EE7F677"
+			tasks: [{
+				id: "1341F6845E29E6D6"
+				item: "gtceu:nutrient_solution_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"025FA59D4D3FCEB1"
+				"0F292AF96B77AF48"
+				"41E6AA7712CB219E"
+				"7577F63597E52BA9"
+			]
+			id: "21326F62D0A70DD8"
+			tasks: [{
+				id: "20D1387798F056BE"
+				item: "gtceu:raw_growth_medium_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"49B55FA57B05FDCC"
+				"14341C9117C05AC3"
+			]
+			id: "50F34E3143E529C9"
+			tasks: [{
+				id: "40A8642B7861539E"
+				item: "bloodmagic:componentframeparts"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"673924E69ADA2977"
+				"50F34E3143E529C9"
+				"11ECB692D24203DF"
+				"21326F62D0A70DD8"
+				"07CDFAD2D24E929F"
+			]
+			id: "1EC282333491563B"
+			tasks: [{
+				id: "314AA571E9984ACF"
+				item: "gtceu:sterilized_growth_medium_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "673924E69ADA2977"
+			shape: "square"
+			tasks: [{
+				id: "02963CBE4C42AF5C"
+				item: "bloodmagic:reagentgrowth"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"565FABB86902012B"
+				"4F671EE1854DA640"
+				"15761F4497FC0218"
+				"391543973682C8A6"
+			]
+			id: "38A4EF785F5765BF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3267B86F336DE899"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest58.title}"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00FD19CCFB41CF8A"]
+			id: "5BB9D2C0CB96AB3C"
+			tasks: [{
+				id: "7A71C524DDF3DEEF"
+				item: "gtceu:energy_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6AA384B858690CAD"
+				"5BB9D2C0CB96AB3C"
+				"6F78B755BD7972DE"
+			]
+			id: "78FB364EAC082F63"
+			tasks: [{
+				id: "7F613940FB94EB9F"
+				item: "gtceu:zpm_lapotronic_battery"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"319AFED3381689C0"
+				"1EF59593A9EA8676"
+				"380EDB0E6E4C5BC6"
+				"3076511246E4CB17"
+			]
+			id: "4CE90992174CC2C6"
+			tasks: [{
+				id: "75B9AD12A76E2C6B"
+				item: "cosmiccore:crystalline_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1B24263AD9282E23"
+				"1389F155BB2B4FE4"
+			]
+			id: "1EF59593A9EA8676"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DFAFA0AA9FC3899"
+				item: "gtceu:annealed_manasteel_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest62.title}"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EF59593A9EA8676"]
+			description: ["{ftbquests.chapter.solar_dominance.quest63.description1}"]
+			id: "750D6DED17C8C014"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest63.subtitle}"
+			tasks: [{
+				id: "738216F02D2B1399"
+				item: "botania:dragonstone_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "426FAAA49BD81213"
+			tasks: [{
+				id: "7D1798EB782A8564"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "51AC9E9464EE5EE2"
+			tasks: [{
+				id: "7410BB2801E541A7"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "464A2E409E25DD93"
+			tasks: [{
+				id: "108C93739A157E11"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "6CF0A6DA136B0B1F"
+			tasks: [{
+				id: "1D051582E5A8D918"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "497C88F09884E47E"
+			tasks: [{
+				id: "7AC72E742F7325B5"
+				item: "malum:sacred_spirit"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "23473D0783C4CA98"
+			tasks: [{
+				id: "201D99A91E78B513"
+				item: "malum:wicked_spirit"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "12C0977AC42F87E8"
+			tasks: [{
+				id: "48095896003BF100"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "1DBFD4E118C5FF5B"
+			tasks: [{
+				id: "676A5137E3974511"
+				item: "malum:aerial_spirit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "204189A22B9BCC11"
+			tasks: [{
+				id: "0F00480E64E0336E"
+				item: "malum:aqueous_spirit"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "668B16FEB0B0BF8C"
+			tasks: [{
+				id: "79191854882974CC"
+				item: "malum:earthen_spirit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "36963D57C67F3540"
+			tasks: [{
+				id: "1E4D7D44C7248275"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1DBFD4E118C5FF5B"
+				"497C88F09884E47E"
+				"668B16FEB0B0BF8C"
+				"204189A22B9BCC11"
+				"23473D0783C4CA98"
+				"12C0977AC42F87E8"
+				"36963D57C67F3540"
+				"0D95AAE11C69BE92"
+			]
+			id: "44DF4EBD1CB75DE1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5C4289D4CE7F45CE"
+				item: "malum:umbral_spirit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F030FBE37FF64FA"]
+			id: "0D95AAE11C69BE92"
+			tasks: [{
+				id: "45F830492348D860"
+				item: "gtceu:raw_opal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest76.title}"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["565FABB86902012B"]
+			id: "5E4004EE418B6CD6"
+			tasks: [{
+				id: "670BCA95209C3724"
+				item: "gtceu:raw_realgar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["026155575C4F9913"]
+			id: "08A7BFAEA4D41E28"
+			tasks: [{
+				id: "6112F5C9C205888C"
+				item: "cosmiccore:multi_purpose_interstellar_grade_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["78FB364EAC082F63"]
+			id: "057D9F8E4E2945C8"
+			tasks: [{
+				id: "29B9787921E48785"
+				item: "cosmiccore:ultra_powered_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["31CE310C898AC695"]
+			id: "5033B5CD528EDCAF"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5ACD41CF52A29341"
+				item: {
+					Count: 1
+					id: "cosmiccore:sanguine_warptech_helmet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6AA384B858690CAD"]
+			id: "6F78B755BD7972DE"
+			tasks: [{
+				id: "745DA0E9996C4D9E"
+				item: "cosmiccore:zpm_radio_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1EC282333491563B"
+				"3B5071D6C659C26F"
+			]
+			id: "19147C056A6C469C"
+			tasks: [{
+				id: "62675C0268AA2926"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38A4EF785F5765BF"]
+			icon: "createdeco:decal_up"
+			id: "38E8D3C8D4F791D8"
+			tasks: [{
+				id: "729B144D09DC01FF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["38E8D3C8D4F791D8"]
+			id: "250AC5E5038F03CC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "28BC8415AD0DAF70"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6ABD6ECFF6A5ACE4"]
+			id: "2BFC92DBF3A17A90"
+			tasks: [{
+				id: "7479020657946878"
+				item: "cosmiccore:mantle_bore"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2BFC92DBF3A17A90"]
+			id: "66F8003117849F50"
+			shape: "hexagon"
+			tasks: [{
+				id: "4D7252229169EF85"
+				item: "gtceu:cylinder_casting_mold"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6ABD6ECFF6A5ACE4"]
+			id: "2066E83B44ACE6E6"
+			size: 1.25d
+			tasks: [{
+				id: "2E11DE64D45CA4F7"
+				item: "gtceu:hpca_computation_component"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6ABD6ECFF6A5ACE4"]
+			id: "6C96A9A80B62FC90"
+			size: 1.25d
+			tasks: [{
+				id: "69EEC5FE7FC69A48"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["125538385CF65A31"]
+			id: "37BF3CC9EC3905EB"
+			tasks: [{
+				id: "171E6AADC3D06FB9"
+				item: "gtceu:trinanylon_6_6_foil"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2985993F79D84B6D"]
+			id: "29DC0AAC3ADF8FEA"
+			shape: "hexagon"
+			tasks: [{
+				id: "19EE0B120ACF6429"
+				item: "cosmiccore:polymerizer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E3463A518B1BC4B"]
+			id: "3D99615F43AE55B7"
+			tasks: [{
+				id: "014A4AEA8A577D3B"
+				item: "gtceu:ka_oil_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "1E3463A518B1BC4B"
+			tasks: [{
+				id: "11CF872286BCE620"
+				item: "gtceu:cyclohexane_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D99615F43AE55B7"]
+			id: "5A917E2170F393E5"
+			tasks: [{
+				id: "17F13EF365839CB3"
+				item: "gtceu:adipic_acid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "412B63DD9523D66F"
+			tasks: [{
+				id: "4123E7BDFB6DC0EE"
+				item: "gtceu:hydrogen_cyanide_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["412B63DD9523D66F"]
+			id: "665E249457F5900D"
+			tasks: [{
+				id: "3AF94853F0699B5B"
+				item: "gtceu:adiponitrile_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["665E249457F5900D"]
+			id: "2B762870F6086E7A"
+			tasks: [{
+				id: "3A82A9DAEABEE7B1"
+				item: "gtceu:hexamethylenediamine_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2B762870F6086E7A"
+				"5A917E2170F393E5"
+			]
+			id: "346F80CAAE2ABEE2"
+			shape: "hexagon"
+			tasks: [{
+				id: "4DCD67F4710E076B"
+				item: "gtceu:nylon_jelly_polymer_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"346F80CAAE2ABEE2"
+				"29DC0AAC3ADF8FEA"
+			]
+			id: "0EB991442E63BE79"
+			tasks: [{
+				id: "598EBC4507E27764"
+				item: "gtceu:nylon_6_6_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"346F80CAAE2ABEE2"
+				"29DC0AAC3ADF8FEA"
+			]
+			id: "125538385CF65A31"
+			tasks: [{
+				id: "176C673C9B179AEE"
+				item: "gtceu:trinanylon_6_6_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F030FBE37FF64FA"]
+			id: "7B9A47A4029E86FA"
+			tasks: [{
+				id: "7C1A175F9B639BFB"
+				item: "gtceu:raw_naquadah"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F030FBE37FF64FA"]
+			id: "4C2264B012D642E7"
+			tasks: [{
+				id: "3685C3BE10333539"
+				item: "gtceu:raw_trinium_metallic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C2264B012D642E7"]
+			id: "0B706188E9FA1808"
+			tasks: [{
+				id: "6CE61F11F9A6C823"
+				item: "gtceu:trinium_calx_solution_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C2264B012D642E7"]
+			id: "472BF8AE5724EFC2"
+			tasks: [{
+				id: "11932059C047C7D0"
+				item: "gtceu:vitrolic_slurry_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B706188E9FA1808"]
+			id: "608355BC1278AE34"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest104.subtitle}"
+			tasks: [{
+				id: "38CD69AECC28E563"
+				item: "gtceu:trinium_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3721D1E1F204378F"]
+			id: "2D31FF8D1689647E"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "280324C205EAD89F"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D95AAE11C69BE92"]
+			id: "7B72AB991FEECEB7"
+			tasks: [{
+				id: "62C4EB34D622C32F"
+				item: "cosmiccore:psionic_galvorn_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7B72AB991FEECEB7"]
+			id: "4F671EE1854DA640"
+			tasks: [{
+				id: "77571073EB5F7CF5"
+				item: "cosmiccore:psionic_galvorn_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["565FABB86902012B"]
+			id: "391543973682C8A6"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest108.subtitle}"
+			tasks: [{
+				id: "4E804DAD5670FE14"
+				item: "gtceu:sol_steel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1E8BB0C611E2AA8D"
+				"2CF053FB2CA94F43"
+			]
+			id: "15761F4497FC0218"
+			tasks: [{
+				id: "3EAE79564EAEE248"
+				item: "gtceu:voidspark_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B24263AD9282E23"]
+			id: "1389F155BB2B4FE4"
+			tasks: [{
+				id: "207CE03F5554001E"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1EF59593A9EA8676"
+				"1389F155BB2B4FE4"
+				"381B6F540EFA23B6"
+			]
+			id: "1E8BB0C611E2AA8D"
+			tasks: [{
+				id: "39CABC86AD71C595"
+				item: "gtceu:void_tar_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15D6856B141AD56E"]
+			id: "412EF339514E92AB"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest112.subtitle}"
+			tasks: [{
+				id: "2C51A451E2311E3B"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["319AFED3381689C0"]
+			id: "3076511246E4CB17"
+			tasks: [{
+				id: "24AFD19A8AFA297F"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["319AFED3381689C0"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest114.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest114.description2}"
+			]
+			id: "3B5071D6C659C26F"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest114.subtitle}"
+			tasks: [{
+				id: "7147DFA5DB0A4BDF"
+				item: "gtceu:star_metal_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3FCCC1CCDEF90870"]
+			id: "5087296EF0C8C152"
+			tasks: [{
+				id: "3589E56D2F851A85"
+				item: "gtceu:ultradense_neutronium_plasma_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3FCCC1CCDEF90870"]
+			id: "6EE245B5020684A4"
+			shape: "hexagon"
+			tasks: [{
+				id: "5D143D8847F4E928"
+				item: "gtceu:ultralight_neutronium_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FCCC1CCDEF90870"]
+			id: "1910A173A44CE16A"
+			tasks: [{
+				id: "35E6E9253D845E57"
+				item: "gtceu:moderate_neutronium_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6F803279C5027E5C"
+				"7F3BE65039BBDB8E"
+			]
+			id: "381B6F540EFA23B6"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest118.subtitle}"
+			tasks: [{
+				id: "19A070BBFDCE5673"
+				item: "gtceu:grading_fluid_6_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5087296EF0C8C152"]
+			id: "059FE2EA330761B9"
+			tasks: [{
+				id: "334DB084B4AFF203"
+				item: "gtceu:sifted_neutronium_plasma_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "6455ACF94BD2F79B"
+			tasks: [{
+				id: "78F2E9C68288EE5F"
+				item: "gtceu:ethylene_dichloride_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6455ACF94BD2F79B"]
+			id: "6FF7FDC43730FE21"
+			tasks: [{
+				id: "4109C84F4EAC0E28"
+				item: "gtceu:ethylenediamine_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FF7FDC43730FE21"]
+			id: "2B1D79AE8BD803B2"
+			tasks: [{
+				id: "3B97445392970192"
+				item: "gtceu:ethylene_thiourea_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			id: "3BCF396CCE1CDB62"
+			tasks: [{
+				id: "1FF1CC7CA4836225"
+				item: "gtceu:1_4_dichlorobutadiene_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BCF396CCE1CDB62"]
+			id: "5B876C986D5A7CDA"
+			tasks: [{
+				id: "70B6762C9F83D94C"
+				item: "gtceu:3_4_dichlorobutadiene_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B876C986D5A7CDA"]
+			id: "1035E707CE2FB728"
+			tasks: [{
+				id: "5C6AA63170C2CE3B"
+				item: "gtceu:chloroprene_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2B1D79AE8BD803B2"
+				"1035E707CE2FB728"
+			]
+			id: "33E3A30B9A5C165B"
+			tasks: [{
+				id: "61C44F75B88E67A4"
+				item: "gtceu:neoprene_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EE245B5020684A4"
+				"1910A173A44CE16A"
+			]
+			id: "380EDB0E6E4C5BC6"
+			tasks: [{
+				id: "373651346541B32B"
+				item: "gtceu:crystaline_neutronium_gas_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FCCC1CCDEF90870"]
+			hide_dependency_lines: true
+			id: "7F3BE65039BBDB8E"
+			shape: "pentagon"
+			tasks: [{
+				id: "3CE4FD7F48CBA423"
+				item: "gtceu:ultralight_neutronium_plasma_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1E8BB0C611E2AA8D"
+				"1EF59593A9EA8676"
+			]
+			description: ["{ftbquests.chapter.solar_dominance.quest129.description1}"]
+			id: "2CF053FB2CA94F43"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest129.subtitle}"
+			tasks: [{
+				id: "0151373CF726214E"
+				item: "cosmiccore:aberrant_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31CE310C898AC695"]
+			id: "6F8DE2247B7ED19C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "44B9F846BD4498DB"
+				item: "gtceu:me_pattern_buffer_proxy"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31CE310C898AC695"]
+			id: "5502492F581EEA27"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "394884A129F1027A"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5502492F581EEA27"]
+			id: "1D5A5C7500441494"
+			tasks: [{
+				id: "49C245249D7F0E16"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["025FA59D4D3FCEB1"]
+			id: "3A8C5B93CFD84477"
+			tasks: [{
+				id: "440679470DCF4131"
+				item: "gtceu:meat_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6E4059F0E708DB69"
+				"25204CE07A161122"
+			]
+			id: "11ECB692D24203DF"
+			tasks: [{
+				id: "13CBA5EA38972A38"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0F292AF96B77AF48"
+				"3A8C5B93CFD84477"
+			]
+			id: "57E569CE45636340"
+			tasks: [{
+				id: "63232FFC0621793F"
+				item: "gtceu:enriched_bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["57E569CE45636340"]
+			id: "6E4059F0E708DB69"
+			tasks: [{
+				id: "1E89DE37A1C2E485"
+				item: "gtceu:aether_augmented_sediment_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1EC282333491563B"
+				"643EC624429EABD5"
+			]
+			id: "59B6C50CF2D6A00A"
+			tasks: [{
+				id: "3C6BC75B3FB8766A"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"19147C056A6C469C"
+				"59B6C50CF2D6A00A"
+			]
+			id: "56BF88E18FEDA2AC"
+			tasks: [{
+				id: "20EFCB6655EA5640"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5C1A28DFEA13F6C1"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest139.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest139.description2}"
+			]
+			id: "08FAF69EBD16AF20"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest139.subtitle}"
+			tasks: [{
+				id: "00086EDFF0767BEB"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "2E8B849579C17E45"
+			shape: "pentagon"
+			tasks: [{
+				id: "07733A277ABA69B1"
+				item: "croptopia:orange"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E8B849579C17E45"]
+			id: "2A4F68212168B97F"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest141.subtitle}"
+			tasks: [{
+				id: "617817A0FFD76E30"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2A4F68212168B97F"]
+			id: "07CDFAD2D24E929F"
+			tasks: [{
+				id: "5E72801872F6DD60"
+				item: "gtceu:diluted_hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0F292AF96B77AF48"]
+			id: "25204CE07A161122"
+			tasks: [{
+				id: "071A7EF3E40FF327"
+				item: "gtceu:hemoglobin_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			description: ["{ftbquests.chapter.solar_dominance.quest144.description1}"]
+			id: "643EC624429EABD5"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest144.subtitle}"
+			tasks: [{
+				id: "758E9886A8B4A795"
+				item: "gtceu:nether_bioslurry_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1EF59593A9EA8676"]
+			id: "0EDFABC26AD3479F"
+			shape: "gear"
+			tasks: [{
+				id: "1337D88DD4459669"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EF59593A9EA8676"]
+			id: "69B506ACE264FACE"
+			shape: "gear"
+			tasks: [{
+				id: "1C69067134C3EB7B"
+				item: "gtceu:potent_mana_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"66F8003117849F50"
+				"53382ABFD35EBF0F"
+			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest147.description1}"
+				""
+				""
+				"{ftbquests.chapter.solar_dominance.quest147.description2}"
+			]
+			id: "1C26EFBD68B35D1F"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest147.subtitle}"
+			tasks: [{
+				id: "01DBD4824E7D6E6E"
+				item: "gtceu:ionized_fulgorinth_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BFC92DBF3A17A90"]
+			id: "53382ABFD35EBF0F"
+			tasks: [{
+				id: "6AA338AFD4EB2E6C"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["66F8003117849F50"]
+			id: "36712A8CD579394E"
+			tasks: [{
+				id: "14A7350620F30E72"
+				item: "bloodmagic:hellforgedparts"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36712A8CD579394E"]
+			id: "132E18897587A6CB"
+			tasks: [{
+				id: "53A5DB34EAC39338"
+				item: "bloodmagic:orbcapacityrune2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+	]
 	title: "{ftbquests.chapter.solar_dominance.title}"
 }

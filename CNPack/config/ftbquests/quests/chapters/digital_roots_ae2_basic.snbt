@@ -10,10 +10,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4F7C125D9EE9BC3F"
-				"5ABF9E529AEDFB8E"
-			]
+			dependencies: ["5ABF9E529AEDFB8E"]
+			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.digital_roots_ae2_basic.quest1.description1}"]
 			id: "30E09C21E7032519"
 			shape: "gear"

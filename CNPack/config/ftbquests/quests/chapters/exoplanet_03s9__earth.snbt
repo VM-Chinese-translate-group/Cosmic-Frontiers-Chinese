@@ -307,6 +307,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest6.subtitle}"
 			tasks: [{
+				icon: "minecraft:oak_log"
 				id: "78F01614D58508A8"
 				item: {
 					Count: 1
@@ -315,6 +316,7 @@
 						"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
 					}
 				}
+				title: "{ftbquests.chapter.exoplanet_03s9__earth.quest6.task_8714489557699332264.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest6.title}"

@@ -1919,6 +1919,7 @@
 				"{ftbquests.chapter.turn_on_the_lights__dev.quest78.description2}"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "14692B6B9EEE3212"
 			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest78.subtitle}"
 			tasks: [{

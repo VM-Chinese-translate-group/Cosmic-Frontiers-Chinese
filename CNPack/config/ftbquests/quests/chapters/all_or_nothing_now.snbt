@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "03E512D20DA05442"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "{ftbquests.chapter.all_or_nothing_now.title}"

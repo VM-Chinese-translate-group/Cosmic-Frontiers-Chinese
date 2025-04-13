@@ -134,7 +134,11 @@ ItemEvents.tooltip(event => {
     text.add(2, Text.translate('item.botania.alfheim_portal.tooltip.2').white().bold())
     text.add(3, Text.translate('item.botania.alfheim_portal.tooltip.3').darkPurple().italic())
   })
-
+  event.addAdvanced('cosmiccore:hellfire_foundry', (item, advanced, text) => {
+    text.add(1, Text.of('A crucible capable of processing ').gray())
+    text.add(2, Text.of('various alchemical reactions. ').gray())
+    text.add(3, [Text.of('Accepts ').white(), Text.of('One ').gold(), Text.of('Energy Input Hatch.').white()])
+  })
   event.addAdvanced('cosmiccore:drygmy_grove', (item, advanced, text) => {
     text.add(1, Text.translate('item.cosmiccore.drygmy_grove.tooltip.1').white().bold())
     text.add(2, Text.translate('item.cosmiccore.drygmy_grove.tooltip.2').aqua())
@@ -217,8 +221,15 @@ ItemEvents.tooltip(event => {
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
     text.add(1, Text.translate('item.ae2.condenser.tooltip.1').red())
   })
+  event.addAdvanced('gtceu:power_substation', (item, advanced, text) => {
+    text.add(1, Text.of('DEPRECATED: Use shapeless recipe to migrate to CosmicCore version!').red())
+    text.add(2, Text.of('Without it you will not be able to access wireless power! \n You have been warned!').red())
+  })
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
-    text.add(1, Text.translate('item.ae2.condenser.tooltip.1').red())
+    text.add(1, Text.of('Disabled: Use the GregTech based recipes!').red())
+  })
+  event.addAdvanced('bloodmagic:arc', (item, advanced, text) => {
+    text.add(1, Text.of('Disabled: Use the GregTech based recipes!').red())
   })
   event.addAdvanced('malum:encyclopedia_arcana', (item, advanced, text) => {
     text.add(1, Text.translate('item.malum.encyclopedia_arcana.tooltip.1').red())
