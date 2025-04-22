@@ -88,7 +88,7 @@
     "block.cosmiccore.suffering_chamber":"§c受难仓",
     "block.cosmiccore.tritanium_lined_heavy_neutronium_casing":"三钛镶框重型中子机械方块",
     "block.cosmiccore.uev_16a_wireless_energy_dynamo":"§a 16A UEV无线能源仓",
-    "block.cosmiccore.uev_16a_wireless_energy_hatch":"§a16A UEV 无线能源仓",
+    "block.cosmiccore.uev_16a_wireless_energy_hatch":"§a16A UEV无线能源仓",
     "block.cosmiccore.uev_4a_wireless_energy_dynamo":"§a4A UEV无线动力仓",
     "block.cosmiccore.uev_4a_wireless_energy_hatch":"§a4A UEV无线能源仓",
     "block.cosmiccore.uev_cosmic_parallel_hatch":"跃迁科技并行控制仓",
@@ -328,7 +328,7 @@
     "gtceu.naquahine_reactor":"§b硅岩反应堆",
     "gui.cosmiccore.soul_hatch.label.export":"灵魂输出仓",
     "gui.cosmiccore.soul_hatch.label.import":"灵魂输入仓",
-    "gui.cosmiccore.soul_hatch.lp":"存储的LP：%s",
+    "gui.cosmiccore.soul_hatch.lp":"LP存储量：%s",
     "gui.cosmiccore.soul_hatch.owner":"当前网络所有者：%d",
     "gui.cosmiccore.thermia_hatch.hatch_limit":"§c温度上限：",
     "gui.cosmiccore.thermia_hatch.label.export":"§6热能通风输出口",
@@ -473,5 +473,5 @@
     "tagprefix.prisma_frothed_ore":"异彩棱晶掺杂的%s矿石",
     "tooltip.cosmiccore.soul_hatch.input":"§c最大配方输入§f：§6 %s",
     "tooltip.cosmiccore.soul_hatch.output":"§c灵魂网络最大容积§f：§6 %s",
-    "tooltip.cosmiccore.thermia_hatch_limit":"§c温度上限：%s开尔文"
+    "tooltip.cosmiccore.thermia_hatch_limit":"§c温度上限：%sK"
 }
