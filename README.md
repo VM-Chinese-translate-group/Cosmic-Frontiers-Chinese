@@ -2,6 +2,10 @@
    <h1>Cosmic Frontiers 项目简体中文翻译</h1>
 </div>
 
+这只是一个Minecraft 1.20.1整合包而已，但它的主题是科幻，还有魔法！
+
+厌倦了格雷科技整合包千篇一律的玩法？想为游戏增添魔幻色彩和无厘头乐子，又不想被化工生产逼成化学学霸？
+
 CurseForge|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
 [链接](https://www.curseforge.com/minecraft/modpacks/cosmic-frontiers)|Forge|1.20.1 0.6.2a|*翻译中*|
@@ -17,44 +21,3 @@ CurseForge|加载器|整合包版本|汉化维护状态
 译者：[查看贡献者排行榜](https://paratranz.cn/projects/14073/leaderboard)
 
 
----
-
-# 整合包介绍
-
-整合包介绍
-
-# 自动化Paratranz同步教程
-
-## 1. 设置环境变量
-
-1. 到仓库顶部导航栏: `Settings -> Environments -> New environment` 新建 `PARATRANZ_ENV`
-2. 添加加密变量（Environment secrets）: 
-   | 名称        | 值                                              |
-   |-------------|-------------------------------------------------|
-   | API_KEY     | 你的Paratranz token，须有上传文件权限         |
-   token可在 <https://paratranz.cn/users/my> 中的设置部分获取。
-3. 添加环境变量（Environment variables）: 
-
-   | 名称   | 值                                   |
-   |--------|--------------------------------------|
-   | ID     | Paratranz项目ID，例如 `10719`         |
-
-
-## 2. 开始使用
-
-我们的工作流有两种功能：从Paratranz同步到github仓库和从github仓库同步到Paratranz。
-
-它们全都可以手动启动，操作方法请见下图所示：
-
-![](.github/action.png)
-
-其中，Paratranz同步到GitHub仓库工作流会在北京时间每天早上9点和晚上9点自动运行。
-
-下载译文至Github功能可自行修改`.github/workflows`文件夹中的`download_release.yml`自动执行时间，格式为[cron表达式](https://blog.csdn.net/Stromboli/article/details/141962560)。
-
-在有译文更改后，工作流会自动生成一个artifact构件，可在action的运行页面找到并下载。
-此外，每有一次译文更改都将自动发布一次标记为预发布的Release。
-
-注：从github仓库同步到Paratranz的工作流很少使用，故支持手动触发。
-
-如果项目已经完成，请在仓库设置（`Settings`）中禁用工作流运行。

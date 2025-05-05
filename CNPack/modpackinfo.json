@@ -1,0 +1,13 @@
+{
+  "modpack": {
+    "name": "Prominence II",
+    "version": "0.6.2.a",
+    "translation": {
+      "url": "https://vmct-cn.top/modpacks/cosmic-frontiers",
+      "language": "zh_cn",
+      "version": "1.0.0",
+      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/cosmic-frontiers.txt",
+      "resourcePackName": "VM汉化组模组汉化包1.19及以上"
+    }
+  }
+}
