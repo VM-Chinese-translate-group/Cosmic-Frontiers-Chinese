@@ -14,7 +14,7 @@ CurseForge|加载器|整合包版本|汉化维护状态
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/14073)
 
-汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/项目)
+汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/cosmic-frontiers)
 
 项目主管：琪露诺
 
