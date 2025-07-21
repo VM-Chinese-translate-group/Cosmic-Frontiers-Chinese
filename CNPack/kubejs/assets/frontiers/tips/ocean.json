@@ -1,7 +1,7 @@
 {
-  "tip": {
-    "bold": true,
-    "color": "green",
-    "translate": "frontiers.tips.ocean.message"
+    "tip": {
+      "text": "Sunken ruins hold a bounty of resources, go explore!",
+      "bold": true,
+      "color": "green"
+    }
   }
-}

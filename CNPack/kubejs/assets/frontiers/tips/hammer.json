@@ -1,7 +1,7 @@
 {
-  "tip": {
-    "bold": true,
-    "color": "green",
-    "translate": "frontiers.tips.hammer.message"
+    "tip": {
+      "text": "The 'weirdly durable hammer' has infinite durability.",
+      "bold": true,
+      "color": "green"
+    }
   }
-}

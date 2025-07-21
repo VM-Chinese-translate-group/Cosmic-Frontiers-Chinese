@@ -51,6 +51,11 @@
 				"{ftbquests.chapter.store_placeholder.quest2.description2}"
 				""
 				"{ftbquests.chapter.store_placeholder.quest2.description3}"
+				""
+				""
+				"{ftbquests.chapter.store_placeholder.quest2.description4}"
+				""
+				"{ftbquests.chapter.store_placeholder.quest2.description5}"
 			]
 			hide_until_deps_complete: true
 			icon: "botania:cosmetic_questgiver_mark"
@@ -112,9 +117,10 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 32L
 					id: "48D4937B7512B6A7"
-					item: { Count: 32, id: "cosmiccore:shard_of_perpetuity" }
+					item: "cosmiccore:shard_of_perpetuity"
 					type: "item"
 				}
 			]
@@ -479,52 +485,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["38DA0B4E0DBAC364"]
-			hide_until_deps_complete: true
-			icon: "legendarysurvivaloverhaul:ice_fern_leaf"
-			id: "68069806D0200CEF"
-			rewards: [{
-				count: 4
-				id: "4798D85166B9977B"
-				item: "legendarysurvivaloverhaul:ice_fern_seeds"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.store_placeholder.quest9.subtitle}"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "4D4623C7570B1822"
-				item: "cosmiccore:shard_of_perpetuity"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.store_placeholder.quest9.title}"
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["38DA0B4E0DBAC364"]
-			hide_until_deps_complete: true
-			icon: "legendarysurvivaloverhaul:sun_fern_leaf"
-			id: "1726749CD8452830"
-			rewards: [{
-				count: 4
-				id: "51F118AC6BEDD5BD"
-				item: "legendarysurvivaloverhaul:sun_fern_seeds"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.store_placeholder.quest10.subtitle}"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "593A5F311E2AEB0B"
-				item: "cosmiccore:shard_of_perpetuity"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.store_placeholder.quest10.title}"
-			x: -2.5d
-			y: 3.0d
-		}
-		{
 			can_repeat: true
 			dependencies: ["38DA0B4E0DBAC364"]
 			hide_until_deps_complete: true
@@ -535,7 +495,7 @@
 				item: "undergarden:gronglet"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.store_placeholder.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.store_placeholder.quest9.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -543,21 +503,21 @@
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest11.title}"
+			title: "{ftbquests.chapter.store_placeholder.quest9.title}"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["38DA0B4E0DBAC364"]
 			description: [
-				"{ftbquests.chapter.store_placeholder.quest12.description1}"
+				"{ftbquests.chapter.store_placeholder.quest10.description1}"
 				""
-				"{ftbquests.chapter.store_placeholder.quest12.description2}"
+				"{ftbquests.chapter.store_placeholder.quest10.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "6B9CFDEC789CAE40"
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.store_placeholder.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.store_placeholder.quest10.subtitle}"
 			tasks: [{
 				id: "0A67CD7EEE28D657"
 				type: "custom"
@@ -576,7 +536,7 @@
 				icon: "botania:cosmetic_anaglyph_glasses"
 				id: "0721DE6BAC101BC4"
 				table_id: 8641090701183774599L
-				title: "{ftbquests.chapter.store_placeholder.quest13.reward_513936386526550980.title}"
+				title: "{ftbquests.chapter.store_placeholder.quest11.reward_513936386526550980.title}"
 				type: "random"
 			}]
 			tasks: [{
@@ -586,7 +546,7 @@
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest13.title}"
+			title: "{ftbquests.chapter.store_placeholder.quest11.title}"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -614,7 +574,7 @@
 					}
 					id: "7F9A1F693DBE2217"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_9194696126098186775.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_9194696126098186775.title}"
 					type: "random"
 				}
 				{
@@ -622,7 +582,7 @@
 					exclude_from_claim_all: true
 					id: "489249F997908046"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_5229323453669081158.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_5229323453669081158.title}"
 					type: "loot"
 				}
 				{
@@ -630,7 +590,7 @@
 					exclude_from_claim_all: true
 					id: "7980DA0DC43DA88F"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_8755237428270049423.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_8755237428270049423.title}"
 					type: "loot"
 				}
 				{
@@ -638,7 +598,7 @@
 					exclude_from_claim_all: true
 					id: "4E5FD5579620A21E"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_5647467029903483422.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_5647467029903483422.title}"
 					type: "loot"
 				}
 				{
@@ -646,7 +606,7 @@
 					exclude_from_claim_all: true
 					id: "1B25194D20FAEE52"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_1955997432218840658.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_1955997432218840658.title}"
 					type: "loot"
 				}
 				{
@@ -654,7 +614,7 @@
 					exclude_from_claim_all: true
 					id: "4FA3F47B70C9F758"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_5738699161210582872.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_5738699161210582872.title}"
 					type: "loot"
 				}
 				{
@@ -662,7 +622,7 @@
 					exclude_from_claim_all: true
 					id: "7E2DAC110F084B2D"
 					table_id: 748972662919414220L
-					title: "{ftbquests.chapter.store_placeholder.quest14.reward_9092112411997522733.title}"
+					title: "{ftbquests.chapter.store_placeholder.quest12.reward_9092112411997522733.title}"
 					type: "loot"
 				}
 			]
@@ -673,7 +633,7 @@
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest14.title}"
+			title: "{ftbquests.chapter.store_placeholder.quest12.title}"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -697,8 +657,8 @@
 				item: "cosmiccore:shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest15.title}"
-			x: -1.0d
+			title: "{ftbquests.chapter.store_placeholder.quest13.title}"
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -720,9 +680,9 @@
 				item: { Count: 64, id: "cosmiccore:shard_of_perpetuity" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest16.title}"
-			x: 0.5d
-			y: 1.5d
+			title: "{ftbquests.chapter.store_placeholder.quest14.title}"
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -742,46 +702,9 @@
 				item: "cosmiccore:large_shard_of_perpetuity"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.store_placeholder.quest17.title}"
-			x: 0.5d
+			title: "{ftbquests.chapter.store_placeholder.quest15.title}"
+			x: -2.5d
 			y: 3.0d
-		}
-		{
-			can_repeat: false
-			dependencies: ["38DA0B4E0DBAC364"]
-			description: [
-				"{ftbquests.chapter.store_placeholder.quest18.description1}"
-				""
-				"{ftbquests.chapter.store_placeholder.quest18.description2}"
-				""
-				"{ftbquests.chapter.store_placeholder.quest18.description3}"
-			]
-			hide_until_deps_complete: true
-			icon: "gtceu:prospector.luv"
-			id: "4E5F99D0B1FEBE23"
-			rewards: [{
-				id: "0E446BE2D23F82EB"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.luv"
-					tag: {
-						Charge: 1000000000L
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.store_placeholder.quest18.subtitle}"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "5F544487EFB42CE6"
-				item: "cosmiccore:cluster_of_perpetuity"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.store_placeholder.quest18.title}"
-			x: 0.5d
-			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.store_placeholder.title}"

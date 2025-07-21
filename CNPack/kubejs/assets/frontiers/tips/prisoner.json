@@ -1,12 +1,12 @@
 {
-  "title": {
-    "bold": true,
-    "color": "aqua",
-    "translate": "frontiers.tips.prisoner.title"
-  },
-  "tip": {
-    "bold": false,
-    "color": "white",
-    "translate": "frontiers.tips.prisoner.message"
-  }
+    "title": {
+        "text": "Lore",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You're the only prisoner casted into this universe.",
+        "bold": false,
+        "color": "white"
+    }
 }

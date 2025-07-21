@@ -244,6 +244,7 @@
 				{
 					count: 169L
 					id: "326655AF3482D030"
+					item: "cosmiccore:naquadah_pressure_resistant_casing"
 					type: "item"
 				}
 				{
@@ -1481,7 +1482,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2C231CE663DDA562"]
+			dependencies: ["75E3A149361EA931"]
 			icon: "bloodmagic:ritualdiviner"
 			id: "4E823028C4B3309D"
 			tasks: [{
@@ -2083,12 +2084,21 @@
 		}
 		{
 			dependencies: ["3F5E81046FD4215B"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest123.description1}"
+				""
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest123.description2}"
+			]
 			icon: "createdeco:decal_up"
 			id: "6DA881815E8DE99D"
+			subtitle: "{ftbquests.chapter.worth_every_ingot.quest123.subtitle}"
 			tasks: [{
-				id: "5405C1F0DC7D29F5"
-				type: "checkmark"
+				id: "7C3A54535E325D8D"
+				title: "{ftbquests.chapter.worth_every_ingot.quest123.task_8951559926391659917.title}"
+				type: "custom"
 			}]
+			title: "{ftbquests.chapter.worth_every_ingot.quest123.title}"
 			x: 0.0d
 			y: -15.0d
 		}
@@ -2136,6 +2146,10 @@
 		}
 		{
 			dependencies: ["131B7870338CC02C"]
+			description: [
+				"{ftbquests.chapter.worth_every_ingot.quest127.description1}"
+				"{ftbquests.chapter.worth_every_ingot.quest127.description2}"
+			]
 			id: "52FDB03D36E94054"
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.worth_every_ingot.quest127.subtitle}"
@@ -2150,14 +2164,23 @@
 		{
 			dependencies: ["15FA1625BC0CB121"]
 			description: ["{ftbquests.chapter.worth_every_ingot.quest128.description1}"]
+			icon: "cosmiccore:vitrius_bucket"
 			id: "255DB5EC1085FA61"
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.worth_every_ingot.quest128.subtitle}"
-			tasks: [{
-				id: "1DC87E5A5BB6CCC8"
-				item: "cosmiccore:vitrius_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DC87E5A5BB6CCC8"
+					item: "cosmiccore:vitrius_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2386A2F1D740FA30"
+					title: "{ftbquests.chapter.worth_every_ingot.quest128.task_2559912597788883504.title}"
+					type: "checkmark"
+				}
+			]
 			x: 10.0d
 			y: -9.5d
 		}

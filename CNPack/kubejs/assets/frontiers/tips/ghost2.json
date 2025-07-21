@@ -1,7 +1,7 @@
 {
-  "tip": {
-    "bold": true,
-    "color": "gold",
-    "translate": "frontiers.tips.ghost2.message"
+    "tip": {
+      "text": "Ghostipedia : 'Imagine old gods, but it's jeff bezos'",
+      "bold": true,
+      "color": "gold"
+    }
   }
-}

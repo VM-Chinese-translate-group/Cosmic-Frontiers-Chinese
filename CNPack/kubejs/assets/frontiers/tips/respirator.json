@@ -1,12 +1,12 @@
 {
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "frontiers.tips.respirator.title"
-  },
-  "tip": {
-    "bold": false,
-    "color": "white",
-    "translate": "frontiers.tips.respirator.message"
-  }
+    "title": {
+        "text": "Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Out of breath? Craft a Respirator to survive deep underground.",
+        "bold": false,
+        "color": "white"
+    }
 }

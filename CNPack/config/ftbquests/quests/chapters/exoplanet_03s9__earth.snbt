@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "exoplanet_03s9__earth"
 	group: "49DCE46B3EB22AEA"
@@ -44,7 +45,9 @@
 				""
 				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description12}"
-				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description13}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description14}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest1.description15}"
 			]
 			icon: {
 				Count: 1
@@ -57,7 +60,7 @@
 				}
 			}
 			id: "4D96DE63E82D8EAA"
-			min_width: 256
+			min_width: 300
 			rewards: [{
 				id: "5305EDA65C560BED"
 				item: "cosmiccore:shard_of_perpetuity"
@@ -123,32 +126,26 @@
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description6}"
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description7}"
 				""
-				"{@pagebreak}"
-				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description8}"
 				""
-				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description9}"
-				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description10}"
-				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description11}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description12}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description13}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description14}"
 				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description15}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest3.description12}"
 			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 36.2f
+						temperature: 6.8f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
 			}
 			id: "423EB7A96CB261A3"
+			min_width: 400
 			rewards: [{
 				id: "0343745A0E5CD43E"
 				item: "cosmiccore:shard_of_perpetuity"
@@ -222,6 +219,8 @@
 				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description3}"
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description4}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest5.description5}"
 			]
 			icon: {
 				Count: 1
@@ -247,44 +246,36 @@
 				}
 			}
 			id: "5693AA8924634F44"
-			rewards: [
-				{
-					id: "59BDAF6281D18447"
-					item: {
-						Count: 1
-						id: "gtceu:steel_mining_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-								TorchPlacing: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 3
-								MaxDamage: 1535
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-							Unbreakable: 1
-							display: {
-								Name: "{\"text\":\"Weirdly Durable Hammer\"}"
-							}
+			rewards: [{
+				id: "77B394833AAFBC59"
+				item: {
+					Count: 1
+					id: "gtceu:steel_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 1535
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"Weirdly Durable Hammer\"}"
 						}
 					}
-					type: "item"
 				}
-				{
-					id: "52D84DDE25372FDE"
-					item: "cosmiccore:shard_of_perpetuity"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest5.subtitle}"
 			tasks: [{
 				id: "08C287391F806DE9"
@@ -869,17 +860,46 @@
 				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description2}"
 			]
+			icon: "ftbquests:book"
 			id: "0746B093412C1AA8"
 			shape: "gear"
 			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.subtitle}"
 			tasks: [{
-				id: "0F04030F98A99AEE"
-				item: "ftbquests:book"
-				type: "item"
+				id: "24328E93068BFC89"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.title}"
 			x: 6.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["4D96DE63E82D8EAA"]
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description1}"
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description2}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description3}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description4}"
+			]
+			icon: "minecraft:torch"
+			id: "61E27B0501373628"
+			rewards: [{
+				id: "33F44A4D2C0F8624"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest21.subtitle}"
+			tasks: [{
+				id: "2746BC2A90FB3060"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest21.title}"
+			x: 7.5d
+			y: 7.0d
 		}
 	]
 	subtitle: [

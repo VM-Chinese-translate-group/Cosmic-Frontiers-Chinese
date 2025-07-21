@@ -1,7 +1,7 @@
 {
-  "tip": {
-    "bold": true,
-    "color": "gold",
-    "translate": "frontiers.tips.ghost3.message"
+    "tip": {
+      "text": "Ghostipedia needs YOUR feedback, do your part to help make this pack awesome! <3",
+      "bold": true,
+      "color": "gold"
+    }
   }
-}

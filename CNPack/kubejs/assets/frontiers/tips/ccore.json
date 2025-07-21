@@ -1,12 +1,12 @@
 {
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "frontiers.tips.ccore.title"
-  },
-  "tip": {
-    "bold": true,
-    "color": "green",
-    "translate": "frontiers.tips.ccore.message"
+    "title": {
+        "text": "Fun Fact",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+      "text": "Cosmic Core is the heart that keeps this pack alive.",
+      "bold": true,
+      "color": "green"
+    }
   }
-}

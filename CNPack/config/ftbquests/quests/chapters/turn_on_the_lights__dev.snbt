@@ -15,6 +15,14 @@
 		}
 	}
 	id: "587D4E7488759F63"
+	images: [{
+		height: 3.5d
+		image: "frontiers:textures/questimages/miscicons/wingedborder.png"
+		rotation: 0.0d
+		width: 3.5d
+		x: 1.047619047619044d
+		y: 8.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -1029,7 +1037,11 @@
 		}
 		{
 			dependencies: ["7769523BB907D543"]
-			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest43.description1}"]
+			description: [
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest43.description1}"
+				""
+				"{ftbquests.chapter.turn_on_the_lights__dev.quest43.description2}"
+			]
 			id: "14A3403205AC0A2C"
 			rewards: [{
 				count: 4
@@ -1372,8 +1384,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.turn_on_the_lights__dev.quest56.title}"
-			x: 0.0d
-			y: 8.5d
+			x: 1.0d
+			y: 8.535714285714292d
 		}
 		{
 			dependencies: [
