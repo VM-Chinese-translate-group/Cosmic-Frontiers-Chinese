@@ -640,8 +640,8 @@
 			size: 1.75d
 			subtitle: "{ftbquests.chapter.safe_travels__ev.quest34.subtitle}"
 			tasks: [{
-				id: "0D4E388F306CC922"
-				item: "gtceu:power_substation"
+				id: "2D31288069EBC19E"
+				item: "cosmiccore:dimensional_energy_capacitor"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.safe_travels__ev.quest34.title}"

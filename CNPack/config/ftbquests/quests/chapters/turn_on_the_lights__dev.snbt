@@ -20,8 +20,8 @@
 		image: "frontiers:textures/questimages/miscicons/wingedborder.png"
 		rotation: 0.0d
 		width: 3.5d
-		x: 1.047619047619044d
-		y: 8.5d
+		x: 1.0714285714285694d
+		y: 8.488095238095234d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -700,7 +700,6 @@
 				"69A50B020C30CEDB"
 			]
 			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest29.description1}"]
-			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "16B4765B7DF64E34"
 			rewards: [{
@@ -805,7 +804,7 @@
 				"7B77F3153085E884"
 			]
 			description: ["{ftbquests.chapter.turn_on_the_lights__dev.quest33.description1}"]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "346DD543EE6D1C27"
 			subtitle: "{ftbquests.chapter.turn_on_the_lights__dev.quest33.subtitle}"
 			tasks: [
@@ -2028,7 +2027,8 @@
 				"55B82C5A68261286"
 				"7D15EC16C717C621"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "all_started"
+			hide_until_deps_visible: true
 			id: "68E76B041CEBD925"
 			tasks: [{
 				id: "1C78AB1E5C6A2A9D"

@@ -2085,10 +2085,13 @@
 		{
 			dependencies: ["3F5E81046FD4215B"]
 			description: [
+				""
 				"{ftbquests.chapter.worth_every_ingot.quest123.description1}"
 				""
 				""
 				"{ftbquests.chapter.worth_every_ingot.quest123.description2}"
+				""
+				"{ftbquests.chapter.worth_every_ingot.quest123.description3}"
 			]
 			icon: "createdeco:decal_up"
 			id: "6DA881815E8DE99D"

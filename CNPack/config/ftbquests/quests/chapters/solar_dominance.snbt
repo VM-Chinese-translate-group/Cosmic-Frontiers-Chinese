@@ -171,10 +171,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"71EE1119F936C025"
-				"22E893A69FB7C197"
-			]
+			dependencies: ["71EE1119F936C025"]
 			id: "1B8F799F797D7B62"
 			tasks: [{
 				id: "16CBB612DEF4456E"
@@ -204,7 +201,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["77AC87C4258DCDD4"]
+			dependencies: [
+				"77AC87C4258DCDD4"
+				"1137C5834EC09BDA"
+			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest14.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest14.description2}"
+			]
 			id: "22E893A69FB7C197"
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.solar_dominance.quest14.subtitle}"
@@ -2827,6 +2832,26 @@
 			}]
 			x: 7.0d
 			y: 21.0d
+		}
+		{
+			dependencies: [
+				"49B55FA57B05FDCC"
+				"2D31FF8D1689647E"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1137C5834EC09BDA"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Powerful Alloys"
+			tasks: [{
+				id: "12668DAB7B42BC2C"
+				item: "cosmiccore:orbital_tempering_forge"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.solar_dominance.title}"

@@ -625,8 +625,8 @@
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.rising_pressure_new.quest23.subtitle}"
 			tasks: [{
-				id: "3C5BE5CFD20722E6"
-				item: "gtceu:steam_mixing_vessel"
+				id: "31599924A84E7993"
+				item: "cosmiccore:steam_mixing_vessel"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rising_pressure_new.quest23.title}"
@@ -980,8 +980,8 @@
 			}]
 			subtitle: "{ftbquests.chapter.rising_pressure_new.quest37.subtitle}"
 			tasks: [{
-				id: "0E1C8898BECFF0A3"
-				item: "gtceu:hp_steam_bender"
+				id: "5CCACAB213BE9896"
+				item: "cosmiccore:hp_steam_bender"
 				type: "item"
 			}]
 			x: -2.0d
