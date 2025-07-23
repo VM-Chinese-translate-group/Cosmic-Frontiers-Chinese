@@ -1,4 +1,4 @@
 {
-    "groups.diet.psi_group.name":"PSI能量",
-    "groups.diet.mana_group.name":"魔力"
+    "groups.diet.psi.name":"Psi Energy",
+    "groups.diet.mana.name":"Mana"
 }
