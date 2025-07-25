@@ -1,7 +1,7 @@
 Platform.mods.kubejs.name = 'Cosmiccore'
 function registerAntiblock(event, color, color_displayname) {
     event.create(`cosmiccore:antiblock_${color}`)
-        .displayName(`${color_displayname} Antiblock`)
+        .displayName(`${color_displayname}纯色方块`)
         .requiresTool()
         .soundType(SoundType.AMETHYST)
         .tagBlock('minecraft:mineable/pickaxe')
