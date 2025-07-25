@@ -10,95 +10,95 @@ let boilaway = ['gtceu:bronze_large_boiler', 'gtceu:steel_large_boiler', 'gtceu:
 ItemEvents.tooltip(event => {
   // event.add('gtceu:manasteel_single_cable', Text.of('LV Superconductor'))
   event.addAdvanced('forbidden_arcanus:eternal_stella', (item, advanced, text) => {
-    text.add(1, Text.of('DISABLED - Currently Broken with GT TOOLS').red()) // Adds text in first line, pushing the items name down a line. If you want the line below the item name, the index must be 1
+    text.add(1, Text.of('已禁用：碰到GT工具会出问题。').red()) // Adds text in first line, pushing the items name down a line. If you want the line below the item name, the index must be 1
   })
   event.addAdvanced(cables, (item, advanced, text) => {
-    text.add(1, Text.of('LV Superconductor - Arcane Stabilization')) // Adds text in first line, pushing the items name down a line. If you want the line below the item name, the index must be 1
+    text.add(1, Text.of('LV超导体 - 奥术稳定')) // Adds text in first line, pushing the items name down a line. If you want the line below the item name, the index must be 1
   })
   //BOILER WARNING : 
   event.addAdvanced(boilaway, (item, advanced, text) => {
-    text.add(1, Text.of('Deprecated - Recipes will still run in Large Boilers, But come 0.6.0 the recipe map and recipes will be removed for the steam age overhaul').gray())
+    text.add(1, Text.of('已被禁用：大锅炉的配方仍可运作，但是在0.6.0的更新后因为蒸汽时代大改，该配方将会被移除。').gray())
   })
   //ECHO CIRCUITS
   event.addAdvanced(echo, (item, advanced, text) => {
-    text.add(1, Text.of('Circuits Resonating with the World').gray())
+    text.add(1, Text.of('和世界产生共鸣的电路板').gray())
   })
   event.addAdvanced('cosmiccore:echo_processor', (item, advanced, text) => {
-    text.add(2, Text.of('ZPM-Tier Circuit').darkAqua())
+    text.add(2, Text.of('ZPM级电路板').darkAqua())
   })
   event.addAdvanced('cosmiccore:echo_processor_assembly', (item, advanced, text) => {
-    text.add(2, Text.of('UV-Tier Circuit').darkAqua())
+    text.add(2, Text.of('UV级电路板').darkAqua())
   })
   event.addAdvanced('cosmiccore:echo_processor_supercomputer', (item, advanced, text) => {
-    text.add(2, Text.of('UHV-Tier Circuit').darkAqua())
+    text.add(2, Text.of('UHV级电路板').darkAqua())
   })
   event.addAdvanced('cosmiccore:echo_processor_mainframe', (item, advanced, text) => {
-    text.add(2, Text.of('UEV-Tier Circuit').darkAqua())
+    text.add(2, Text.of('UEV级电路板').darkAqua())
   })
   //OPTICAL CIRCUITS
   event.addAdvanced(optical, (item, advanced, text) => {
-    text.add(1, Text.of('Lightspeed Computation').gray())
+    text.add(1, Text.of('真正的“光速”计算').gray())
   })
   event.addAdvanced('cosmiccore:optical_processor', (item, advanced, text) => {
-    text.add(2, Text.of('UV-Tier Circuit').gold())
+    text.add(2, Text.of('UV级电路板').gold())
   })
   event.addAdvanced('cosmiccore:optical_processor_assembly', (item, advanced, text) => {
-    text.add(2, Text.of('UHV-Tier Circuit').gold())
+    text.add(2, Text.of('UHV级电路板').gold())
   })
   event.addAdvanced('cosmiccore:optical_processor_supercomputer', (item, advanced, text) => {
-    text.add(2, Text.of('UEV-Tier Circuit').gold())
+    text.add(2, Text.of('UEV级电路板').gold())
   })
   event.addAdvanced('cosmiccore:optical_processor_mainframe', (item, advanced, text) => {
-    text.add(2, Text.of('UIV-Tier Circuit').gold())
+    text.add(2, Text.of('UIV级电路板').gold())
   })
   //COSMIC CIRCUITS
   event.addAdvanced(cosmic, (item, advanced, text) => {
-    text.add(1, Text.of('Planck Computation').gray())
+    text.add(1, Text.of('量子计算').gray())
   })
   event.addAdvanced('cosmiccore:cosmic_processor', (item, advanced, text) => {
-    text.add(2, Text.of('UHV-Tier Circuit').darkPurple())
+    text.add(2, Text.of('UHV级电路板').darkPurple())
   })
   event.addAdvanced('cosmiccore:cosmic_processor_assembly', (item, advanced, text) => {
-    text.add(2, Text.of('UEV-Tier Circuit').darkPurple())
+    text.add(2, Text.of('UEV级电路板').darkPurple())
   })
   event.addAdvanced('cosmiccore:cosmic_processor_supercomputer', (item, advanced, text) => {
-    text.add(2, Text.of('UIV-Tier Circuit').darkPurple())
+    text.add(2, Text.of('UIV级电路板').darkPurple())
   })
   event.addAdvanced('cosmiccore:cosmic_processor_mainframe', (item, advanced, text) => {
-    text.add(2, Text.of('UXV-Tier Circuit').darkPurple())
+    text.add(2, Text.of('UXV级电路板').darkPurple())
   })
   //PSIONIC CIRCUITS
   event.addAdvanced(psionic, (item, advanced, text) => {
-    text.add(1, Text.of('Perfected Bioresonance Calculations').gray())
+    text.add(1, Text.of('完美生物共振计算').gray())
   })
   event.addAdvanced('cosmiccore:psionic_processor', (item, advanced, text) => {
-    text.add(2, Text.of('UEV-Tier Circuit').lightPurple())
+    text.add(2, Text.of('UEV级电路板').lightPurple())
   })
   event.addAdvanced('cosmiccore:psionic_processor_assembly', (item, advanced, text) => {
-    text.add(2, Text.of('UIV-Tier Circuit').lightPurple())
+    text.add(2, Text.of('UIV级电路板').lightPurple())
   })
   event.addAdvanced('cosmiccore:psionic_processor_supercomputer', (item, advanced, text) => {
-    text.add(2, Text.of('UXV-Tier Circuit').lightPurple())
+    text.add(2, Text.of('UXV级电路板').lightPurple())
   })
   event.addAdvanced('cosmiccore:psionic_processor_mainframe', (item, advanced, text) => {
-    text.add(2, Text.of('OPV-Tier Circuit').lightPurple())
+    text.add(2, Text.of('OPV级电路板').lightPurple())
   })
   //MACROVERSE CIRCUITS
   event.addAdvanced(macroverse, (item, advanced, text) => {
-    text.add(1, Text.of('The Universe in the Palm of Your Hands').red().bold())
+    text.add(1, Text.of('宇宙就在你的掌心之中').red().bold())
   })
   event.addAdvanced('cosmiccore:macroverse_processor', (item, advanced, text) => {
-    text.add(2, Text.of('UIV-Tier Circuit'))
+    text.add(2, Text.of('UIV级电路板'))
   })
   event.addAdvanced('cosmiccore:macroverse_processor_assembly', (item, advanced, text) => {
-    text.add(2, Text.of('UXV-Tier Circuit'))
+    text.add(2, Text.of('UXV级电路板'))
   })
   event.addAdvanced('cosmiccore:macroverse_processor_supercomputer', (item, advanced, text) => {
-    text.add(2, Text.of('OPV-Tier Circuit'))
+    text.add(2, Text.of('OPV级电路板'))
   })
   event.addAdvanced('cosmiccore:macroverse_processor_mainframe', (item, advanced, text) => {
-    text.add(2, Text.of('MAX-Tier Circuit'))
-    text.add(3, Text.of('Can run Minecraft without lagging, satisfactory!').gray())
+    text.add(2, Text.of('MAX级电路板'))
+    text.add(3, Text.of('可以玩我的世界，不会出现任何卡顿。真是幸福工厂给幸福开门，幸福到家了！').gray())
   })
   event.addAdvanced('botania:mana_diamond', (item, advanced, text) => {
     text.add(1, Text.of('MaC₄').yellow())
@@ -110,88 +110,88 @@ ItemEvents.tooltip(event => {
     text.add(1, Text.of('Ma(SiO₂)').yellow())
   })
   event.addAdvanced('gtceu:industrial_grade_floral_propagator', (item, advanced, text) => {
-    text.add(1, Text.of('Large Scale Agriculture').gray())
-    text.add(2, Text.of('Perfect Overclock').white().bold())
-    text.add(3, Text.of('Does not lose energy efficiency when overclocked.').darkPurple())
+    text.add(1, Text.of('大规模农业催生机').gray())
+    text.add(2, Text.of('完美超频').white().bold())
+    text.add(3, Text.of('超频时不会损失能源效率。').darkPurple())
   })
   event.addAdvanced('gtceu:arboreal_growth_facility', (item, advanced, text) => {
-    text.add(1, Text.of('Large Scale Arboriculture').gray())
-    text.add(2, Text.of('Perfect Overclock').white().bold())
-    text.add(3, Text.of('Does not lose energy efficiency when overclocked.').darkPurple())
+    text.add(1, Text.of('大规模植树机').gray())
+    text.add(2, Text.of('完美超频').white().bold())
+    text.add(3, Text.of('超频时不会损失能源效率。').darkPurple())
   })
   event.addAdvanced('gtceu:industrial_stoneworks', (item, advanced, text) => {
-    text.add(1, Text.of('Volcano in a Box').gray())
-    text.add(2, Text.of('Perfect Overclock').white().bold())
-    text.add(3, Text.of('Does not lose energy efficiency when overclocked.').darkPurple())
+    text.add(1, Text.of('盒中火山').gray())
+    text.add(2, Text.of('完美超频').white().bold())
+    text.add(3, Text.of('超频时不会损失能源效率。').darkPurple())
   })
   event.addAdvanced('kubejs:cosmic_meatballs', (item, advanced, text) => {
-    text.add(1, Text.of('Power of the Multiverse').white().bold())
-    text.add(2, Text.of('in one hearty meal.').white().bold())
-    text.add(3, Text.of('May contain stellar matter').darkPurple().italic())
+    text.add(1, Text.of('多元宇宙之力').white().bold())
+    text.add(2, Text.of('尽在这份暖心一餐之中。').white().bold())
+    text.add(3, Text.of('注意：可能含有恒星物质！').darkPurple().italic())
   })
   event.addAdvanced('botania:alfheim_portal', (item, advanced, text) => {
-    text.add(1, Text.of('A dimensional bridge to another world').white().bold())
-    text.add(2, Text.of('empty, silent, and void of life, hanging with a heavy smell of death.').white().bold())
-    text.add(3, Text.of('No trade with the elves will be possible').darkPurple().italic())
+    text.add(1, Text.of('一个能连接到异世的维度桥梁，').white().bold())
+    text.add(2, Text.of('但其中空无一物，寂静而渺无生机。唯一传来的是一股浓重的死亡气息。').white().bold())
+    text.add(3, Text.of('看来和精灵交易是完全不可能的了。').darkPurple().italic())
   })
   event.addAdvanced('cosmiccore:hellfire_foundry', (item, advanced, text) => {
-    text.add(1, Text.of('A crucible capable of processing ').gray())
-    text.add(2, Text.of('various alchemical reactions. ').gray())
-    text.add(3, [Text.of('Accepts ').white(), Text.of('One ').gold(), Text.of('Energy Input Hatch.').white()])
+    text.add(1, Text.of('一个可以处理许多炼金').gray())
+    text.add(2, Text.of('反应的巨大坩埚。').gray())
+    text.add(3, [Text.of('可以使用').white(), Text.of('One ').gold(), Text.of('能源仓').white()])
   })
   event.addAdvanced('cosmiccore:drygmy_grove', (item, advanced, text) => {
-    text.add(1, Text.of('The Infinite Forest').white().bold())
+    text.add(1, Text.of('无尽森林').white().bold())
     text.add(2, Text.of('------------------------------------------------------------').aqua())
-    text.add(3, Text.of('Creates a Grove with the perfect conditions to house an army of Drygmys'))
-    text.add(4, Text.of('Each Drygmy Token multiplies the recipes output with no upper limit'))
-    text.add(5, Text.of('(Recipe Output * Inserted Drygmy Token)').gold())
-    text.add(6, Text.of('Parallel Hatches scare away the harmony of nature, and unforms the multiblock.').red().italic())
+    text.add(3, Text.of('创建一个绝对完美的小树林，其中足以住下一支德格米军队。'))
+    text.add(4, Text.of('每个德格米护符都会成倍增加配方输出，最高无上限！'))
+    text.add(5, Text.of('（原配方输出x输入的德格米护符）').gold())
+    text.add(6, Text.of('但是并行仓中的科技会吓跑大自然的和谐，多方块将不会成型。').red().italic())
     text.add(7, Text.of('------------------------------------------------------------').aqua())
-    text.add(8, Text.of('Overclock Type : Imperfect'))
+    text.add(8, Text.of('超频类型：有损超频'))
   })
   event.addAdvanced('cosmiccore:vomahine_celestial_laser_bore', (item, advanced, text) => {
-    text.add(1, Text.of('Multiblock Classification: Megastructure').aqua().bold())
-    text.add(2, Text.of('Stellar Grade Mining Platform').white().bold())
-    text.add(3, Text.of('Selectively targets the planet below to extract a bounty of resources.'))
+    text.add(1, Text.of('多方块机器分类：巨构').aqua().bold())
+    text.add(2, Text.of('恒星级钻井平台').white().bold())
+    text.add(3, Text.of('选择性抽取下方的星球，然后抽取极其大量的资源。'))
     if (event.isShift()) {
       text.add(4, Text.of('------------------------------------------------------------').aqua())
-      text.add(5, [Text.of('Storage Cells').white(), Text.of(' dictate how much material one recipe cycle can collect.').gray()])
-      text.add(6, [Text.of('Dyson Grade Solar Panels').white(), Text.of(' will reduce the total EU required to run a recipe.').gray()])
-      text.add(7, [Text.of('Beam Coils').white(), Text.of(' will increase the total EU required to run but Overclock the recipe.').gray()])
+      text.add(5, [Text.of('存储单元').white(), Text.of('决定了每次执行配方所能收集的资源量。').gray()])
+      text.add(6, [Text.of('戴森球级太阳能板').white(), Text.of('会降低运行配方所需的总EU。').gray()])
+      text.add(7, [Text.of('射线发生线圈').white(), Text.of('会提升运行配方所需的总EU，但是可以执行配方超频。').gray()])
       text.add(8, Text.of('------------------------------------------------------------').aqua())
-      text.add(9, Text.of('Planets will collect Molten Slag, Fluids, and Ores').darkGreen())
-      text.add(10, Text.of('Gas Giants will collect Gasses, and Exotic Solids').gold())
-      text.add(11, Text.of('Stars and Blackholes will collect Plasma, Exotic Particles, and Rich Psionic Waveforms').yellow())
+      text.add(9, Text.of('从行星中会收集熔渣、流体和矿石。').darkGreen())
+      text.add(10, Text.of('从气态行星中会收集气体，以及奇异固态物质。').gold())
+      text.add(11, Text.of('从恒星和黑洞中会收集等离子体、奇异粒子和富灵能波态物。').yellow())
       text.add(12, Text.of('------------------------------------------------------------').aqua())
-      text.add(13, Text.of('EUTotal = (RecipeEU*BeamTier)/SolarTier').gold())
-      text.add(14, Text.of('Multiple Bores owned by the same user in a dimension will cause ALL bores to shut down').red().italic())
+      text.add(13, Text.of('总消耗EU=（配方EUx激光发生线圈等级）/太阳能板等级').gold())
+      text.add(14, Text.of('单个维度中如果一个玩家启动了多个恒星钻机，则会导致所有钻机全·部·关·机。').red().italic())
       text.add(15, Text.of('------------------------------------------------------------').aqua())
-      text.add(16, Text.of('Overclock Type : Exotic'))
+      text.add(16, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
   event.addAdvanced('cosmiccore:stellar_iris', (item, advanced, text) => {
-    text.add(1, Text.of('Embodiment of the Soul').aqua().bold())
-    text.add(2, Text.of('A massive structure linking the soul to stellar bodies and unkown perpetuity.'))
+    text.add(1, Text.of('灵魂共振').aqua().bold())
+    text.add(2, Text.of('一座能将灵魂连结到恒星星体，以及未知之处的永恒之上的一座巨构。'))
     if (event.isShift()) {
       text.add(3, Text.of('------------------------------------------------------------').aqua())
-      text.add(4, [Text.of('Star Ballast: ').white(), Text.of('Data Corruption Present').red()])
-      text.add(5, [Text.of('Somatic Uplink: ').white(), Text.of('Required for stellar bodies to form, will prevent a supernova by shattering the soul.').gray()])
-      text.add(6, [Text.of('Cosmic Weave: ').white(), Text.of('Threads Dense Stellar Matter into threads of potential.').gray()])
+      text.add(4, [Text.of('星能压载：').white(), Text.of('当前的数据损坏率').red()])
+      text.add(5, [Text.of('思维上载：').white(), Text.of('机器需要恒星星体才能成型，这台机器会通过灵魂破碎来防止这颗超新星爆发。').gray()])
+      text.add(6, [Text.of('宇宙编织：').white(), Text.of('将致密的恒星物质分散进宇宙潜在的脉络中。').gray()])
       text.add(7, Text.of('------------------------------------------------------------').aqua())
-      text.add(8, Text.of('Stars created within the core will have stats based on the "stellar seed" used').darkGreen())
-      text.add(9, Text.of('Stars will consume hydrogen, helium, nitrogen, and oxygen per tick.').gold())
-      text.add(10, Text.of('Stars and Blackholes will modify production rates and unlock recipes.').yellow())
+      text.add(8, Text.of('被创造出的恒星会处于机器中心，其状态取决于使用的“恒星之种”。').darkGreen())
+      text.add(9, Text.of('这颗恒星每tick都会消耗氢、氦、氮以及氧。').gold())
+      text.add(10, Text.of('恒星和黑洞会对产出资源速率产生变化，还会解锁不同配方。').yellow())
       text.add(11, Text.of('------------------------------------------------------------').aqua())
-      text.add(12, Text.of('TODO ; All the Fancy Multi-recipe handler stuff/modules/etc').gold())
-      text.add(13, Text.of('There seems to be more here, observe the GUI to learn more.').white())
-      text.add(14, Text.of('The Iris is bound to the soul(s) of the user(or team), catastrophic shutdown will kill all bound players instantly.').red().italic())
-      text.add(15, Text.of('There may only be one Stellar IRIS per team/player').red().italic())
+      text.add(12, Text.of('接下来要做的：一堆看起来非常漂亮的多配方执行器或者模块blablabla').gold())
+      text.add(13, Text.of('似乎有些知识只能亲身体会，查看GUI以了解更多。').white())
+      text.add(14, Text.of('群星之环绑定在玩家的灵魂之内，如果发生意外停机，则将会立即杀死所有绑定该机器的团队或玩家。').red().italic())
+      text.add(15, Text.of('每个团队或玩家只允许拥有一台群星之环。').red().italic())
       text.add(16, Text.of('------------------------------------------------------------').aqua())
-      text.add(17, Text.of('Overclock Type : ∞'))
+      text.add(17, Text.of('超频类型：∞'))
     } else {
-      text.add(3, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+      text.add(3, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -203,8 +203,8 @@ ItemEvents.tooltip(event => {
   //   text.add(2, Text.of('Mod NYI - Expect integration in future Updates.').white().bold())
   // })
   event.addAdvanced('gtceu:max_meteor_recipe_dummy', (item, advanced, text) => {
-    text.add(1, Text.of('Through my eyes, you will see the stars').red().italic())
-    text.add(2, Text.of('FAKE MACHINE - ALLOWS YOU TO VIEW VALID BLOODMAGIC METEORS.').white().bold())
+    text.add(1, Text.of('带上我的眼睛，你会从其中窥见群星。').red().italic())
+    text.add(2, Text.of('这是一台不存在的机器——你可以用它查看可用的血魔法坠星配方。').white().bold())
   })
   // event.addAdvanced(/naturesaura:(.*)/, (item, advanced, text) => {
   //   text.add(1, Text.of('The power of the Overseers hinders your mind.').red().italic())
@@ -216,76 +216,76 @@ ItemEvents.tooltip(event => {
   // })
   let quarktech = ['cosmiccore:space_advanced_quarktech_chestplate', 'gtceu:quarktech_leggings', 'gtceu:quarktech_boots', 'gtceu:quarktech_helmet', 'gtceu:quarktech_chestplate', 'gtceu:advanced_quarktech_chestplate', 'cosmiccore:space_quarktech_chestplate']
   event.addAdvanced(quarktech, (item, advanced, text) => {
-    text.add(1, Text.of('Adaptive Insulation').green())
+    text.add(1, Text.of('自适应性绝缘').green())
   })
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
-    text.add(1, Text.of('Disabled: Use the GregTech based recipes!').red())
+    text.add(1, Text.of('已被禁用：去用格雷科技的配方！').red())
   })
   event.addAdvanced('gtceu:power_substation', (item, advanced, text) => {
-    text.add(1, Text.of('DEPRECATED: Use shapeless recipe to migrate to CosmicCore version!').red())
-    text.add(2, Text.of('Without it you will not be able to access wireless power! \n You have been warned!').red())
+    text.add(1, Text.of('已被禁用：请把它无序合成为CosmicCore版的！').red())
+    text.add(2, Text.of('否则你用不了无线电！\n我警告过你了！').red())
   })
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
-    text.add(1, Text.of('Disabled: Use the GregTech based recipes!').red())
+    text.add(1, Text.of('已被禁用：去用格雷科技的配方！').red())
   })
   event.addAdvanced('bloodmagic:arc', (item, advanced, text) => {
-    text.add(1, Text.of('Disabled: Use the GregTech based recipes!').red())
+    text.add(1, Text.of('已被禁用：去用格雷科技的配方！').red())
   })
   event.addAdvanced('malum:encyclopedia_arcana', (item, advanced, text) => {
-    text.add(1, Text.of('Notice; Recipes may be incorrect, check EMI!').red())
+    text.add(1, Text.of('注意：书中的配方可能有问题，请查看EMI！').red())
   })
   event.addAdvanced('malum:encyclopedia_esoterica', (item, advanced, text) => {
-    text.add(1, Text.of('Notice; Recipes may be incorrect, check EMI!').red())
+    text.add(1, Text.of('注意：书中的配方可能有问题，请查看EMI！').red())
   })
   event.addAdvanced('kubejs:prismatic_lens', (item, advanced, text) => {
-    text.add(1, Text.of('Creates a laser energetic enough to cut metal').lightPurple())
+    text.add(1, Text.of('创造出一道激光，其能量之大足以切穿金属。').lightPurple())
   })
   event.addAdvanced('gtceu:primordial_oil', (item, advanced, text) => {
-    text.add(1, Text.of('An infinitely dense blob of primal perpetuity.').lightPurple())
-    text.add(2, Text.of('Tastes like peaches.').lightPurple())
+    text.add(1, Text.of('一股具有原始永恒之力的无限致密黏液。').lightPurple())
+    text.add(2, Text.of('尝起来有点像桃子。').lightPurple())
   })
   event.addAdvanced('integrateddynamics:mechanical_squeezer', (item, advanced, text) => {
-    text.add(1, Text.of('Energy Consumption was set to 0!').green())
-    text.add(2, Text.of('Will run without power!').green())
+    text.add(1, Text.of('配方的能量消耗已经设定为0了！').green())
+    text.add(2, Text.of('不用能量就能运行！').green())
   })
 })
 
 ItemEvents.tooltip(event => {
   event.addAdvanced('gtceu:grand_assembly_line', (item, advanced, text) => {
-    text.add(1, Text.of('Multiblock Classification: Superior Large Machine').aqua().bold())
-    text.add(2, Text.of('Puts Henry Ford to shame. ').white().bold())
-    text.add(3, Text.of('Assembles hardware at blinding speeds.'))
+    text.add(1, Text.of('多方块机器分类：超大机器').aqua().bold())
+    text.add(2, Text.of('让亨利·福特的装配线都羞愧难当。').white().bold())
+    text.add(3, Text.of('以闪瞎眼的速度组装各种部件。'))
     if (event.isShift()) {
       text.add(4, Text.of('------------------------------------------------------------').aqua())
-      text.add(5, [Text.of('Supports the use of').white(), Text.of(' Laser Target Hatches.').aqua()])
-      text.add(6, [Text.of('Takes').gray(), Text.of(' Computation').green(), Text.of(' to run, amount of CWU/t is dictated by base recipe tier and amount of energy overclocks.').gray()])
-      text.add(7, [Text.of('Accepts the use of').white(), Text.of(' Parallel Control Hatches.').gold()])
+      text.add(5, [Text.of('允许使用').white(), Text.of('激光靶仓。').aqua()])
+      text.add(6, [Text.of('需要消耗').gray(), Text.of('算力').green(), Text.of('才能运行，算力需求CWU/t取决于基础配方数值，以及超频电压数。').gray()])
+      text.add(7, [Text.of('允许使用').white(), Text.of('并行控制仓。').gold()])
       text.add(8, Text.of('------------------------------------------------------------').aqua())
-      text.add(9, Text.of('Placeholder for Computation Math Formula').gold())
-      text.add(10, Text.of('CWU/t Required Displayed in machine controller').white().italic())
+      text.add(9, Text.of('算力公式占位符').gold())
+      text.add(10, Text.of('所需的CWU/t显示在主机上了已经').white().italic())
       text.add(11, Text.of('------------------------------------------------------------').aqua())
-      text.add(12, Text.of('Overclock Type : Exotic'))
+      text.add(12, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
   event.addAdvanced('gtceu:lunar_tapestry', (item, advanced, text) => {
-    text.add(1, Text.of('Multiblock Classification: High Quality Lunar Sail').aqua().bold())
-    text.add(2, Text.of('Collecting the tears of stars. ').white().bold())
-    text.add(3, Text.of('Gathers otherworldly materials out of cosmic winds.'))
+    text.add(1, Text.of('多方块类型：高级月亮帆').aqua().bold())
+    text.add(2, Text.of('可以收集群星的泪水').white().bold())
+    text.add(3, Text.of('从宇宙风中收集特殊的材料'))
     if (event.isShift()) {
       text.add(4, Text.of('------------------------------------------------------------').aqua())
-      text.add(5, [Text.of('Can not be').white(), Text.of(' Overclocked!').aqua()])
-      text.add(6, [Text.of('Takes').gray(), Text.of(' Computation & EU/t').green(), Text.of(' to run.').gray()])
-      text.add(7, [Text.of('Generates exotic stellar liquids depending on').white(), Text.of(' the planet').gold(), Text.of(' it is placed on.').white()])
+      text.add(5, [Text.of('无法').white(), Text.of('超频！').aqua()])
+      text.add(6, [Text.of('需要消耗').gray(), Text.of('算力和EU').green(), Text.of('才能运行。').gray()])
+      text.add(7, [Text.of('按照它所在的行星产生').white(), Text.of('特殊的恒星液体').gold(), Text.of('。').white()])
       text.add(8, Text.of('------------------------------------------------------------').aqua())
-      text.add(9, Text.of('Change Optical Targeting Circuit to increase the collectors strength').gold())
-      text.add(10, Text.of('CWU/t Required is multiplied by 4 each time.').white().italic())
+      text.add(9, Text.of('改变目标电路板可以更改当前的收集强度。').gold())
+      text.add(10, Text.of('每次调整都会将当前的算力需求翻四倍。').white().italic())
       text.add(11, Text.of('------------------------------------------------------------').aqua())
-      text.add(12, Text.of('Overclock Type : SILENT'))
+      text.add(12, Text.of('超频类型：无'))
     } else {
-      text.add(4, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 })
