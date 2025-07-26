@@ -53,7 +53,7 @@ ItemEvents.tooltip(event => {
   })
   //COSMIC CIRCUITS
   event.addAdvanced(cosmic, (item, advanced, text) => {
-    text.add(1, Text.of('量子计算').gray())
+    text.add(1, Text.of('普朗克时间尺度级计算').gray())
   })
   event.addAdvanced('cosmiccore:cosmic_processor', (item, advanced, text) => {
     text.add(2, Text.of('UHV级电路板').darkPurple())
