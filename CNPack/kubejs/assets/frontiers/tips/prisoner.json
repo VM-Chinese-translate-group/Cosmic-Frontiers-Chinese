@@ -1,11 +1,11 @@
 {
     "title": {
-        "text": "Lore",
+        "text": "背景故事",
         "bold": true,
         "color": "aqua"
     },
     "tip": {
-        "text": "You're the only prisoner casted into this universe.",
+        "text": "你是这个宇宙中唯·一·一·个被关押的囚犯。",
         "bold": false,
         "color": "white"
     }

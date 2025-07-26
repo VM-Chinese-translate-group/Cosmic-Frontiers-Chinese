@@ -1,11 +1,11 @@
 {
     "title": {
-        "text": "Fun Fact",
+        "text": "小知识",
         "bold": true,
         "color": "yellow"
     },
     "tip": {
-      "text": "Cosmic Core is the heart that keeps this pack alive.",
+      "text": "Cosmic Core是这个包的核心mod。",
       "bold": true,
       "color": "green"
     }

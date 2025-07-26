@@ -1,11 +1,11 @@
 {
     "title": {
-        "text": "Tip",
+        "text": "小知识",
         "bold": true,
         "color": "yellow"
     },
     "tip": {
-        "text": "Out of breath? Craft a Respirator to survive deep underground.",
+        "text": "喘不过来气了？做个呼吸器就可以在地下生存了。",
         "bold": false,
         "color": "white"
     }
