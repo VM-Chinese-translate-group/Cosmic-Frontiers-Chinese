@@ -98,7 +98,7 @@ ItemEvents.tooltip(event => {
   })
   event.addAdvanced('cosmiccore:macroverse_processor_mainframe', (item, advanced, text) => {
     text.add(2, Text.of('MAX级电路板'))
-    text.add(3, Text.of('可以玩我的世界，不会出现任何卡顿。真是幸福工厂给幸福开门，幸福到家了！').gray())
+    text.add(3, Text.of('可以玩我的世界，而且不会出现任何卡顿。真是幸福工厂给幸福开门，幸福到家了！').gray())
   })
   event.addAdvanced('botania:mana_diamond', (item, advanced, text) => {
     text.add(1, Text.of('MaC₄').yellow())
@@ -203,7 +203,7 @@ ItemEvents.tooltip(event => {
   //   text.add(2, Text.of('Mod NYI - Expect integration in future Updates.').white().bold())
   // })
   event.addAdvanced('gtceu:max_meteor_recipe_dummy', (item, advanced, text) => {
-    text.add(1, Text.of('带上我的眼睛，你会从其中窥见群星。').red().italic())
+    text.add(1, Text.of('戴上我的眼睛，你会从其中窥见群星。').red().italic())
     text.add(2, Text.of('这是一台不存在的机器——你可以用它查看可用的血魔法坠星配方。').white().bold())
   })
   // event.addAdvanced(/naturesaura:(.*)/, (item, advanced, text) => {
@@ -280,7 +280,7 @@ ItemEvents.tooltip(event => {
       text.add(6, [Text.of('需要消耗').gray(), Text.of('算力和EU').green(), Text.of('才能运行。').gray()])
       text.add(7, [Text.of('按照它所在的行星产生').white(), Text.of('特殊的恒星液体').gold(), Text.of('。').white()])
       text.add(8, Text.of('------------------------------------------------------------').aqua())
-      text.add(9, Text.of('改变目标电路板可以更改当前的收集强度。').gold())
+      text.add(9, Text.of('改变光学校准电路板可以更改当前的收集强度。').gold())
       text.add(10, Text.of('每次调整都会将当前的算力需求翻四倍。').white().italic())
       text.add(11, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：无'))
