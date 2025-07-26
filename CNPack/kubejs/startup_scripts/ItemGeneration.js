@@ -38,7 +38,7 @@ StartupEvents.registry('item', event => {
     event.create('chromatically_doped_nether_star_boule').glow(true).displayName('异彩掺杂的单晶下界之星')
     //Nano Lithography 
     event.create('mana_deposited_wafer').displayName('魔力掺杂晶圆')
-    event.create('nano_cpu_mask').displayName('预处理纳米CPU晶圆')
+    event.create('nano_cpu_mask').displayName('纳米CPU掩膜')
     event.create('prepared_nano_cpu_wafer').displayName('预处理纳米CPU晶圆')
     //Quantum Lithography
     event.create('thundering_mana_deposited_wafer').displayName('雷鸣魔力掺杂晶圆')
