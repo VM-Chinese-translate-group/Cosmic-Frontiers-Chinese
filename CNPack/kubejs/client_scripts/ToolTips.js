@@ -98,7 +98,7 @@ ItemEvents.tooltip(event => {
   })
   event.addAdvanced('cosmiccore:macroverse_processor_mainframe', (item, advanced, text) => {
     text.add(2, Text.of('MAX级电路板'))
-    text.add(3, Text.of('可以玩我的世界，而且不会出现任何卡顿。真是幸福工厂给幸福开门，幸福到家了！').gray())
+    text.add(3, Text.of('可以玩Minecraft，而且不会出现任何卡顿。真是幸福工厂给幸福开门，幸福到家了！').gray())
   })
   event.addAdvanced('botania:mana_diamond', (item, advanced, text) => {
     text.add(1, Text.of('MaC₄').yellow())
