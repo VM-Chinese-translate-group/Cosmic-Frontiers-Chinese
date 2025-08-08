@@ -53,7 +53,7 @@ ItemEvents.tooltip(event => {
   })
   //COSMIC CIRCUITS
   event.addAdvanced(cosmic, (item, advanced, text) => {
-    text.add(1, Text.of('Planck Computation').gray())
+    text.add(1, Text.of('量子计算').gray())
   })
   event.addAdvanced('cosmiccore:suelescent_processor', (item, advanced, text) => {
     text.add(2, Text.of('UHV级电路板').darkPurple())
@@ -69,7 +69,7 @@ ItemEvents.tooltip(event => {
   })
   //akashic CIRCUITS
   event.addAdvanced(akashic, (item, advanced, text) => {
-    text.add(1, Text.of('Perfected Recordkeeping Calculations').gray())
+    text.add(1, Text.of('恒古记录电路板').gray())
   })
   event.addAdvanced('cosmiccore:akashic_processor', (item, advanced, text) => {
     text.add(2, Text.of('UEV级电路板').lightPurple())
@@ -113,7 +113,7 @@ ItemEvents.tooltip(event => {
     text.add(1, Text.of('大规模农业催生机').gray())
     text.add(2, Text.of('无损超频').white().bold())
     text.add(3, Text.of('超频时不会损失能源效率。').darkPurple())
-  })
+   })
   event.addAdvanced('gtceu:arboreal_growth_facility', (item, advanced, text) => {
     text.add(1, Text.of('大规模植树机').gray())
     text.add(2, Text.of('无损超频').white().bold())
@@ -135,9 +135,9 @@ ItemEvents.tooltip(event => {
     text.add(3, Text.of('看来和精灵交易是完全不可能的了。').darkPurple().italic())
   })
   event.addAdvanced('cosmiccore:hellfire_foundry', (item, advanced, text) => {
-    text.add(1, Text.of('一个可以处理许多炼金').gray())
+    text.add(1, Text.of('一个可以处理许多炼金 ').gray())
     text.add(2, Text.of('反应的巨大坩埚。').gray())
-    text.add(3, [Text.of('可以使用').white(), Text.of('One ').gold(), Text.of('能源仓').white()])
+    text.add(3, [Text.of('只能使用').white(), Text.of('单个').gold(), Text.of('能源仓。').white()])
   })
   event.addAdvanced('cosmiccore:drygmy_grove', (item, advanced, text) => {
     text.add(1, Text.of('无尽森林').white().bold())
@@ -168,7 +168,7 @@ ItemEvents.tooltip(event => {
       text.add(15, Text.of('------------------------------------------------------------').aqua())
       text.add(16, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
   event.addAdvanced('cosmiccore:stellar_iris', (item, advanced, text) => {
@@ -191,7 +191,7 @@ ItemEvents.tooltip(event => {
       text.add(16, Text.of('------------------------------------------------------------').aqua())
       text.add(17, Text.of('超频类型：∞'))
     } else {
-      text.add(3, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(3, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -216,14 +216,15 @@ ItemEvents.tooltip(event => {
   // })
   let quarktech = ['cosmiccore:space_advanced_quarktech_chestplate', 'gtceu:quarktech_leggings', 'gtceu:quarktech_boots', 'gtceu:quarktech_helmet', 'gtceu:quarktech_chestplate', 'gtceu:advanced_quarktech_chestplate', 'cosmiccore:space_quarktech_chestplate']
   event.addAdvanced(quarktech, (item, advanced, text) => {
-    text.add(1, Text.of('自适应性绝缘').green())
+    text.add(1, Text.of('自适应性隔热').green())
   })
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
     text.add(1, Text.of('已被禁用：去用格雷科技的配方！').red())
   })
   event.addAdvanced('gtceu:power_substation', (item, advanced, text) => {
     text.add(1, Text.of('已被禁用：请把它无序合成为CosmicCore版的！').red())
-    text.add(2, Text.of('否则你用不了无线电！\n我警告过你了！').red())
+    text.add(2, Text.of('否则你用不了无线电！').red())
+    text.add(3, Text.of('我警告过你了！').red())
   })
   event.addAdvanced('ae2:condenser', (item, advanced, text) => {
     text.add(1, Text.of('已被禁用：去用格雷科技的配方！').red())
@@ -238,7 +239,7 @@ ItemEvents.tooltip(event => {
     text.add(1, Text.of('注意：书中的配方可能有问题，请查看EMI！').red())
   })
   event.addAdvanced('kubejs:prismatic_lens', (item, advanced, text) => {
-    text.add(1, Text.of('创造出一道激光，其能量之大足以切穿金属。').lightPurple())
+    text.add(1, Text.of('创造出的激光足以切穿金属。').lightPurple())
   })
   event.addAdvanced('gtceu:primordial_oil', (item, advanced, text) => {
     text.add(1, Text.of('一股具有原始永恒之力的无限致密黏液。').lightPurple())
@@ -269,7 +270,7 @@ ItemEvents.tooltip(event => {
       text.add(11, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -288,7 +289,7 @@ ItemEvents.tooltip(event => {
       text.add(11, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：无'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -306,7 +307,7 @@ ItemEvents.tooltip(event => {
       text.add(8, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：有损tick超频'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
