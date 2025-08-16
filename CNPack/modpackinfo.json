@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "Cosmic Frontiers",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "translation": {
+      "id": "cosmic-frontiers",
       "url": "https://vmct-cn.top/modpacks/cosmic-frontiers",
       "language": "zh_cn",
-      "version": "1.0.0",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/cosmic-frontiers.txt",
+      "version": "1.1.0",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
