@@ -1533,7 +1533,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1A630507AAB765E6"]
@@ -1612,50 +1612,27 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["38032C6144C06B2B"]
-			icon: "gtceu:mixed_lre_leachate_bucket"
-			id: "3B6079B88AB61576"
-			tasks: [
-				{
-					id: "055D50D90E9D917B"
-					item: "gtceu:mixed_lre_leachate_bucket"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "03933F1576500CAA"
-					title: "{ftbquests.chapter.navigation_error__log_1_hv.quest92.task_257618965102070954.title}"
-					type: "checkmark"
-				}
-			]
-			x: 10.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["7C280469C5926E0A"]
 			description: [
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest93.description1}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest92.description1}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest93.description2}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest93.description3}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest92.description2}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest92.description3}"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "5BF71F8ED9059891"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest93.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest92.subtitle}"
 			tasks: [{
 				id: "74D95E478FE50492"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.navigation_error__log_1_hv.quest93.title}"
+			title: "{ftbquests.chapter.navigation_error__log_1_hv.quest92.title}"
 			x: 15.0d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"3B6079B88AB61576"
-				"483EDAD71360C4C4"
-			]
+			dependencies: ["483EDAD71360C4C4"]
 			id: "1A630507AAB765E6"
 			tasks: [{
 				id: "102D74DD3691DB10"
@@ -1726,15 +1703,15 @@
 		{
 			dependencies: ["49AFA999A2DCC1D8"]
 			description: [
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest100.description1}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest99.description1}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest100.description2}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest100.description3}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest99.description2}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest99.description3}"
 			]
 			id: "531BEE978A697B28"
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest100.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest99.subtitle}"
 			tasks: [{
 				id: "6D6E2BA27B21A9A6"
 				item: "cosmiccore:hv_wireless_charger"
@@ -1746,7 +1723,7 @@
 		{
 			dependencies: ["431BE27F4F577A4E"]
 			id: "119F5250E0C63F0C"
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest101.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest100.subtitle}"
 			tasks: [{
 				id: "3CA3B3E8B2C6D65B"
 				item: "gtceu:hv_macerator"
@@ -1758,13 +1735,13 @@
 		{
 			dependencies: ["431BE27F4F577A4E"]
 			description: [
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description1}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest101.description1}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description2}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description3}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest101.description2}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest101.description3}"
 			]
 			id: "4F7D3D13F0B1396C"
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest102.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest101.subtitle}"
 			tasks: [{
 				id: "452E1B4C136467D2"
 				item: "gtceu:hv_polarizer"
@@ -1776,22 +1753,22 @@
 		{
 			dependencies: ["685847565997C803"]
 			description: [
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description1}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description1}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description2}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description2}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description3}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description3}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description4}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description4}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description5}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description5}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description6}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description7}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description8}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description6}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description7}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description8}"
 				""
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description9}"
-				"{ftbquests.chapter.navigation_error__log_1_hv.quest103.description10}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description9}"
+				"{ftbquests.chapter.navigation_error__log_1_hv.quest102.description10}"
 			]
 			hide_text_until_complete: true
 			hide_until_deps_complete: true
@@ -1799,12 +1776,12 @@
 			icon: "minecraft:writable_book"
 			id: "4D1E521AC798D8C5"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest103.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest102.subtitle}"
 			tasks: [
 				{
 					disable_toast: true
 					id: "06A1EA6E7B1E8441"
-					title: "{ftbquests.chapter.navigation_error__log_1_hv.quest103.task_477920795710882881.title}"
+					title: "{ftbquests.chapter.navigation_error__log_1_hv.quest102.task_477920795710882881.title}"
 					type: "checkmark"
 				}
 				{
@@ -1813,7 +1790,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.navigation_error__log_1_hv.quest103.title}"
+			title: "{ftbquests.chapter.navigation_error__log_1_hv.quest102.title}"
 			x: 6.5d
 			y: -3.0d
 		}
@@ -1834,7 +1811,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest104.subtitle}"
+			subtitle: "{ftbquests.chapter.navigation_error__log_1_hv.quest103.subtitle}"
 			tasks: [{
 				id: "3F9914ECC5B0FC31"
 				type: "checkmark"

@@ -743,7 +743,11 @@
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description3}"
 				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description4}"
+				""
+				""
 				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description5}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description6}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest15.description7}"
 			]
 			icon: "cosmiccore:donk"
 			id: "192AC19C353976D9"
@@ -812,78 +816,36 @@
 			y: 4.5d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description1}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description2}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description3}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description4}"
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description5}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description6}"
-			]
-			icon: "minecraft:writable_book"
-			id: "06070B096D0D65F5"
-			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.subtitle}"
-			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.title}"
-			x: 1.5d
-			y: -5.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description1}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description2}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description3}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description4}"
-				""
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description5}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description6}"
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description7}"
-			]
-			icon: "minecraft:writable_book"
-			id: "001ABD786A9CF26D"
-			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.subtitle}"
-			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.title}"
-			x: 2.5d
-			y: -5.5d
-		}
-		{
 			dependencies: ["4D96DE63E82D8EAA"]
 			description: [
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description1}"
 				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description2}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest18.description2}"
 			]
 			icon: "ftbquests:book"
 			id: "0746B093412C1AA8"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.subtitle}"
 			tasks: [{
 				id: "24328E93068BFC89"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.title}"
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest18.title}"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4D96DE63E82D8EAA"]
 			description: [
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description1}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description1}"
 				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description2}"
-				""
-				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description2}"
 				""
 				""
-				"{ftbquests.chapter.exoplanet_03s9__earth.quest21.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description3}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest19.description4}"
 			]
 			icon: "minecraft:torch"
 			id: "61E27B0501373628"
@@ -892,14 +854,39 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest21.subtitle}"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.subtitle}"
 			tasks: [{
 				id: "2746BC2A90FB3060"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest21.title}"
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest19.title}"
 			x: 7.5d
 			y: 7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description1}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description2}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description3}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description4}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description5}"
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description6}"
+				""
+				""
+				"{ftbquests.chapter.exoplanet_03s9__earth.quest20.description7}"
+			]
+			icon: "create:schematic_and_quill"
+			id: "419FDB1DA84AD143"
+			subtitle: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.subtitle}"
+			tasks: [{
+				id: "56D8FCE812AA59ED"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.exoplanet_03s9__earth.quest20.title}"
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	subtitle: [

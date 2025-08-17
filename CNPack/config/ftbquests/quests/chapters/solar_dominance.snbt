@@ -113,8 +113,15 @@
 				"15761F4497FC0218"
 				"31CE310C898AC695"
 			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest7.description1}"
+				""
+				""
+				"{ftbquests.chapter.solar_dominance.quest7.description2}"
+			]
 			id: "15D6856B141AD56E"
 			size: 1.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest7.subtitle}"
 			tasks: [{
 				id: "7FC4C2E489BEC822"
 				item: {
@@ -124,6 +131,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.solar_dominance.quest7.title}"
 			x: 9.5d
 			y: -9.0d
 		}
@@ -131,16 +139,20 @@
 			dependencies: [
 				"00FD19CCFB41CF8A"
 				"7F3BE65039BBDB8E"
+				"1E8BB0C611E2AA8D"
+				"248C64F2AEC291A5"
 			]
 			id: "33066F67B95D8F1B"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0816B481C153A189"
 				item: "gtceu:grading_fluid_6_bucket"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.solar_dominance.quest8.title}"
-			x: 2.5d
-			y: -3.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0EB37211BFB94473"]
@@ -150,35 +162,50 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: [
-				"1C26EFBD68B35D1F"
 				"71EE1119F936C025"
 				"1B8F799F797D7B62"
+				"7DDF928C621AD72A"
+				"6D3991B1770CDB63"
+				"36C432DB5BEA82F4"
+				"1A763FC5DB4CCB47"
+			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest10.description1}"
+				""
+				""
+				""
+				"{ftbquests.chapter.solar_dominance.quest10.description2}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest10.description3}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest10.description4}"
 			]
 			id: "0CA4111E6FFD6B3D"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest10.subtitle}"
 			tasks: [{
 				id: "5C351D8C55A50B84"
 				item: "gtceu:naquahine_superfuel_mk_two_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 8.0d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["71EE1119F936C025"]
 			id: "1B8F799F797D7B62"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest11.subtitle}"
 			tasks: [{
-				id: "16CBB612DEF4456E"
-				item: "gtceu:stardust_infused_gasoline_bucket"
-				type: "item"
+				id: "3B1C1D5A467E9F2C"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.solar_dominance.quest11.title}"
-			x: -10.0d
-			y: 8.0d
+			x: -10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -213,25 +240,13 @@
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.solar_dominance.quest13.subtitle}"
 			tasks: [{
-				id: "4A5A19B2D219336F"
-				item: "cosmiccore:hot_starmetal_ingot"
+				id: "4C070013E01F5715"
+				item: "cosmiccore:starmetal_ingot"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.solar_dominance.quest13.title}"
 			x: -13.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["381B6F540EFA23B6"]
-			id: "026155575C4F9913"
-			tasks: [{
-				id: "4F3E91E2E861668B"
-				item: "gtceu:graphene_dust"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.solar_dominance.quest14.title}"
-			x: 3.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["1EDA6025077BAA5D"]
@@ -247,30 +262,26 @@
 		}
 		{
 			dependencies: [
-				"426FAAA49BD81213"
-				"51AC9E9464EE5EE2"
-				"464A2E409E25DD93"
-				"6CF0A6DA136B0B1F"
 				"0B97C846BEAA2ED8"
+				"6FC9F7B2AA41CDF5"
 			]
-			icon: "cosmiccore:arcane_distillery"
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest15.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest15.description2}"
+			]
+			icon: "cosmiccore:spirit_crucible"
 			id: "195241FCB0CC40DE"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest16.subtitle}"
-			tasks: [
-				{
-					id: "4070E241A34E76AC"
-					type: "checkmark"
-				}
-				{
-					id: "2B4DC65C7C363448"
-					item: "cosmiccore:arcane_distillery"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.solar_dominance.quest16.title}"
-			x: -16.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest15.subtitle}"
+			tasks: [{
+				id: "466AA4659C9D054E"
+				item: "cosmiccore:spirit_crucible"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest15.title}"
+			x: -13.5d
 			y: -4.0d
 		}
 		{
@@ -292,13 +303,13 @@
 		}
 		{
 			dependencies: [
-				"057D9F8E4E2945C8"
-				"08A7BFAEA4D41E28"
+				"6F78B755BD7972DE"
+				"33066F67B95D8F1B"
 			]
 			id: "565FABB86902012B"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest17.subtitle}"
 			tasks: [{
 				id: "14BEBCD067CC1023"
 				item: "cosmiccore:vomahine_celestial_laser_bore"
@@ -308,7 +319,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["70CCB18CA57E256F"]
+			dependencies: [
+				"70CCB18CA57E256F"
+				"0347EE525F6FA5E6"
+			]
 			id: "5C1A28DFEA13F6C1"
 			shape: "hexagon"
 			size: 1.75d
@@ -351,13 +365,13 @@
 			id: "31CE310C898AC695"
 			shape: "hexagon"
 			size: 1.75d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest22.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest21.subtitle}"
 			tasks: [{
 				id: "3D1331D498844A7D"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest22.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest21.title}"
 			x: 13.5d
 			y: -9.0d
 		}
@@ -382,7 +396,7 @@
 			id: "319AFED3381689C0"
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest24.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest23.subtitle}"
 			tasks: [{
 				id: "4B8A47FFC7285C9E"
 				item: "cosmiccore:orbital_tempering_forge"
@@ -390,22 +404,6 @@
 			}]
 			x: 8.0d
 			y: 5.5d
-		}
-		{
-			dependencies: [
-				"33066F67B95D8F1B"
-				"0D3FA9F6A3AA0568"
-			]
-			id: "6F803279C5027E5C"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest25.subtitle}"
-			tasks: [{
-				id: "6BA03A63A44019F0"
-				item: "cosmiccore:void_blood_orb"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.solar_dominance.quest25.title}"
-			x: 4.5d
-			y: -3.0d
 		}
 		{
 			dependencies: ["0EB37211BFB94473"]
@@ -430,8 +428,8 @@
 			id: "7F030FBE37FF64FA"
 			shape: "gear"
 			size: 1.5d
-			title: "{ftbquests.chapter.solar_dominance.quest27.title}"
-			x: -5.0d
+			title: "{ftbquests.chapter.solar_dominance.quest25.title}"
+			x: -6.0d
 			y: -3.0d
 		}
 		{
@@ -453,10 +451,23 @@
 		}
 		{
 			dependencies: ["23D6FB186E6B935B"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest27.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest27.description2}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest27.description3}"
+			]
 			icon: "ad_astra:mercury_globe"
 			id: "684AAECC1FC5BA3A"
+			rewards: [{
+				id: "1AAA5E5D9989674B"
+				item: "cosmiccore:large_shard_of_perpetuity"
+				type: "item"
+			}]
 			shape: "hexagon"
-			title: "{ftbquests.chapter.solar_dominance.quest29.title}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest27.subtitle}"
+			title: "{ftbquests.chapter.solar_dominance.quest27.title}"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -468,30 +479,30 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "7D8A2B6912693767"
-				title: "{ftbquests.chapter.solar_dominance.quest30.task_9046090531807508327.title}"
+				title: "{ftbquests.chapter.solar_dominance.quest28.task_9046090531807508327.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest30.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest28.title}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["684AAECC1FC5BA3A"]
 			id: "0695F0388872E64C"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest31.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest29.subtitle}"
 			tasks: [{
 				id: "6F8A515CF5491E17"
 				item: "gtceu:raw_wolframite"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest31.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest29.title}"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["684AAECC1FC5BA3A"]
 			id: "261D67D401B54854"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest32.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest30.subtitle}"
 			tasks: [{
 				id: "52E4BD27D4B86EA4"
 				item: "gtceu:raw_luminite"
@@ -507,17 +518,17 @@
 				"6C96A9A80B62FC90"
 				"2066E83B44ACE6E6"
 			]
-			description: ["{ftbquests.chapter.solar_dominance.quest33.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest31.description1}"]
 			id: "3721D1E1F204378F"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest33.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest31.subtitle}"
 			tasks: [{
 				id: "35140276DD2926F3"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest33.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest31.title}"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -561,7 +572,7 @@
 		{
 			dependencies: ["3FCCC1CCDEF90870"]
 			id: "49B55FA57B05FDCC"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest37.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest35.subtitle}"
 			tasks: [{
 				id: "675511C821726EFC"
 				item: "gtceu:tritanium_ingot"
@@ -579,12 +590,13 @@
 			id: "38A4EF785F5765BF"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest36.subtitle}"
 			tasks: [{
 				id: "3267B86F336DE899"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest38.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest36.title}"
 			x: 0.0d
 			y: -9.0d
 		}
@@ -601,16 +613,16 @@
 				item: "gtceu:somatic_mana_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest39.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest37.title}"
 			x: 8.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1EF59593A9EA8676"]
-			description: ["{ftbquests.chapter.solar_dominance.quest40.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest38.description1}"]
 			id: "750D6DED17C8C014"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest40.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest38.subtitle}"
 			tasks: [{
 				id: "738216F02D2B1399"
 				item: "botania:dragonstone_block"
@@ -620,54 +632,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1EDA6025077BAA5D"]
-			hide_dependency_lines: true
-			id: "426FAAA49BD81213"
-			tasks: [{
-				id: "7D1798EB782A8564"
-				item: "botania:rune_pride"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1EDA6025077BAA5D"]
-			hide_dependency_lines: true
-			id: "51AC9E9464EE5EE2"
-			tasks: [{
-				id: "7410BB2801E541A7"
-				item: "botania:rune_envy"
-				type: "item"
-			}]
-			x: -17.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1EDA6025077BAA5D"]
-			hide_dependency_lines: true
-			id: "464A2E409E25DD93"
-			tasks: [{
-				id: "108C93739A157E11"
-				item: "botania:rune_wrath"
-				type: "item"
-			}]
-			x: -17.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1EDA6025077BAA5D"]
-			hide_dependency_lines: true
-			id: "6CF0A6DA136B0B1F"
-			tasks: [{
-				id: "1D051582E5A8D918"
-				item: "botania:rune_sloth"
-				type: "item"
-			}]
-			x: -15.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["195241FCB0CC40DE"]
 			id: "497C88F09884E47E"
 			tasks: [{
@@ -675,7 +639,7 @@
 				item: "malum:sacred_spirit"
 				type: "item"
 			}]
-			x: -18.5d
+			x: -15.0d
 			y: -4.0d
 		}
 		{
@@ -686,8 +650,8 @@
 				item: "malum:wicked_spirit"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -4.5d
+			x: -15.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["195241FCB0CC40DE"]
@@ -697,8 +661,8 @@
 				item: "malum:arcane_spirit"
 				type: "item"
 			}]
-			x: -16.75d
-			y: -5.0d
+			x: -15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["195241FCB0CC40DE"]
@@ -708,7 +672,7 @@
 				item: "malum:aerial_spirit"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -12.0d
 			y: -6.0d
 		}
 		{
@@ -719,7 +683,7 @@
 				item: "malum:aqueous_spirit"
 				type: "item"
 			}]
-			x: -15.25d
+			x: -12.0d
 			y: -5.0d
 		}
 		{
@@ -730,40 +694,32 @@
 				item: "malum:earthen_spirit"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -4.5d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["195241FCB0CC40DE"]
+			hide_dependency_lines: true
 			id: "36963D57C67F3540"
 			tasks: [{
 				id: "1E4D7D44C7248275"
 				item: "malum:infernal_spirit"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -4.0d
+			x: -2.5d
+			y: -10.5d
 		}
 		{
-			dependencies: [
-				"1DBFD4E118C5FF5B"
-				"497C88F09884E47E"
-				"668B16FEB0B0BF8C"
-				"204189A22B9BCC11"
-				"23473D0783C4CA98"
-				"12C0977AC42F87E8"
-				"36963D57C67F3540"
-			]
+			dependencies: ["195241FCB0CC40DE"]
 			id: "44DF4EBD1CB75DE1"
-			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "5C4289D4CE7F45CE"
 				item: "malum:umbral_spirit"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -8.0d
+			x: -14.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["565FABB86902012B"]
@@ -775,28 +731,6 @@
 			}]
 			x: 1.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["026155575C4F9913"]
-			id: "08A7BFAEA4D41E28"
-			tasks: [{
-				id: "6112F5C9C205888C"
-				item: "cosmiccore:multi_purpose_interstellar_grade_casing"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6F78B755BD7972DE"]
-			id: "057D9F8E4E2945C8"
-			tasks: [{
-				id: "29B9787921E48785"
-				item: "cosmiccore:ultra_powered_casing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["31CE310C898AC695"]
@@ -816,26 +750,29 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["381B6F540EFA23B6"]
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
 			id: "6F78B755BD7972DE"
 			tasks: [{
 				id: "745DA0E9996C4D9E"
 				item: "cosmiccore:zpm_radio_module"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["38A4EF785F5765BF"]
 			icon: "createdeco:decal_up"
 			id: "38E8D3C8D4F791D8"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest50.subtitle}"
 			tasks: [{
 				id: "729B144D09DC01FF"
 				type: "checkmark"
 			}]
+			title: "{ftbquests.chapter.solar_dominance.quest50.title}"
 			x: 0.0d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["38E8D3C8D4F791D8"]
@@ -847,31 +784,9 @@
 				item: "minecraft:writable_book"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.solar_dominance.quest51.title}"
 			x: 0.0d
 			y: -12.5d
-		}
-		{
-			dependencies: ["6ABD6ECFF6A5ACE4"]
-			id: "2BFC92DBF3A17A90"
-			tasks: [{
-				id: "7479020657946878"
-				item: "cosmiccore:mantle_bore"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2BFC92DBF3A17A90"]
-			id: "66F8003117849F50"
-			shape: "hexagon"
-			tasks: [{
-				id: "4D7252229169EF85"
-				item: "gtceu:cylinder_casting_mold"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 8.0d
 		}
 		{
 			dependencies: ["6ABD6ECFF6A5ACE4"]
@@ -919,7 +834,7 @@
 			dependencies: ["2985993F79D84B6D"]
 			id: "29DC0AAC3ADF8FEA"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest65.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest55.subtitle}"
 			tasks: [{
 				id: "19EE0B120ACF6429"
 				item: "cosmiccore:polymerizer"
@@ -1047,8 +962,8 @@
 				item: "gtceu:raw_naquadah"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F030FBE37FF64FA"]
@@ -1058,8 +973,8 @@
 				item: "gtceu:raw_trinium_metallic"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -4.045238095238069d
+			y: -3.769047619047612d
 		}
 		{
 			dependencies: ["4C2264B012D642E7"]
@@ -1069,8 +984,8 @@
 				item: "gtceu:trinium_calx_solution_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -2.5452380952380693d
+			y: -3.769047619047612d
 		}
 		{
 			dependencies: ["4C2264B012D642E7"]
@@ -1080,20 +995,20 @@
 				item: "gtceu:vitrolic_slurry_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -3.0452380952380693d
+			y: -4.769047619047612d
 		}
 		{
 			dependencies: ["0B706188E9FA1808"]
 			id: "608355BC1278AE34"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest79.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest69.subtitle}"
 			tasks: [{
 				id: "38CD69AECC28E563"
 				item: "gtceu:trinium_dust"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -1.0452380952380693d
+			y: -3.769047619047612d
 		}
 		{
 			dependencies: ["3721D1E1F204378F"]
@@ -1111,10 +1026,12 @@
 		{
 			dependencies: [
 				"2C87BFC8DC901E3B"
+				"587A8BE39E9C9D9A"
 				"09F1559F5FDF2B74"
+				"36963D57C67F3540"
 			]
 			id: "391543973682C8A6"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest81.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest71.subtitle}"
 			tasks: [{
 				id: "31CB569B5CB2B59F"
 				item: "cosmiccore:sol_steel_ingot"
@@ -1137,6 +1054,7 @@
 				item: "cosmiccore:voidspark_ingot"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.solar_dominance.quest72.title}"
 			x: 6.0d
 			y: -9.0d
 		}
@@ -1167,8 +1085,13 @@
 		}
 		{
 			dependencies: ["15D6856B141AD56E"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest75.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest75.description2}"
+			]
 			id: "412EF339514E92AB"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest85.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest75.subtitle}"
 			tasks: [{
 				id: "2C51A451E2311E3B"
 				item: "ad_astra:glacio_globe"
@@ -1216,22 +1139,6 @@
 			}]
 			x: 6.0d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6F803279C5027E5C"
-				"1E8BB0C611E2AA8D"
-			]
-			icon: "gtceu:grading_fluid_7_bucket"
-			id: "381B6F540EFA23B6"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest89.subtitle}"
-			tasks: [{
-				id: "77B90406DA0AF93B"
-				item: "gtceu:grading_fluid_7_bucket"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["5087296EF0C8C152"]
@@ -1348,17 +1255,17 @@
 				item: "gtceu:ultralight_neutronium_plasma_bucket"
 				type: "item"
 			}]
-			x: 3.5089285714285836d
-			y: -2.3125000000000284d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"1E8BB0C611E2AA8D"
 				"1EF59593A9EA8676"
 			]
-			description: ["{ftbquests.chapter.solar_dominance.quest100.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest89.description1}"]
 			id: "2CF053FB2CA94F43"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest100.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest89.subtitle}"
 			tasks: [{
 				id: "0151373CF726214E"
 				item: "cosmiccore:aberrant_essence"
@@ -1407,13 +1314,13 @@
 		{
 			dependencies: ["6CED2A043415127F"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest104.description1}"
+				"{ftbquests.chapter.solar_dominance.quest93.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest104.description2}"
+				"{ftbquests.chapter.solar_dominance.quest93.description2}"
 			]
 			icon: "gtceu:assembly_line"
 			id: "08FAF69EBD16AF20"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest104.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest93.subtitle}"
 			tasks: [{
 				id: "7241F130C336875A"
 				type: "checkmark"
@@ -1447,60 +1354,6 @@
 		}
 		{
 			dependencies: [
-				"66F8003117849F50"
-				"53382ABFD35EBF0F"
-			]
-			description: [
-				"{ftbquests.chapter.solar_dominance.quest107.description1}"
-				""
-				""
-				"{ftbquests.chapter.solar_dominance.quest107.description2}"
-			]
-			id: "1C26EFBD68B35D1F"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest107.subtitle}"
-			tasks: [{
-				id: "01DBD4824E7D6E6E"
-				item: "gtceu:ionized_fulgorinth_ingot"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["2BFC92DBF3A17A90"]
-			id: "53382ABFD35EBF0F"
-			tasks: [{
-				id: "6AA338AFD4EB2E6C"
-				item: "ad_astra:mercury_globe"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["66F8003117849F50"]
-			id: "36712A8CD579394E"
-			tasks: [{
-				id: "14A7350620F30E72"
-				item: "bloodmagic:hellforgedparts"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["36712A8CD579394E"]
-			id: "132E18897587A6CB"
-			tasks: [{
-				id: "53A5DB34EAC39338"
-				item: "bloodmagic:orbcapacityrune2"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 6.5d
-		}
-		{
-			dependencies: [
 				"010925F22AA1F809"
 				"77B2690C199DA311"
 			]
@@ -1526,15 +1379,15 @@
 		}
 		{
 			dependencies: ["1853F776E3AD34A3"]
-			description: ["{ftbquests.chapter.solar_dominance.quest113.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest98.description1}"]
 			id: "62ED421DF727E379"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest113.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest98.subtitle}"
 			tasks: [{
 				id: "30912F0AA59A856E"
 				item: "gtceu:fungal_blood_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest113.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest98.title}"
 			x: 1.0d
 			y: 11.0d
 		}
@@ -1610,27 +1463,27 @@
 				item: "cosmiccore:gelatin_scaffold"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest119.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest104.title}"
 			x: 4.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["3721D1E1F204378F"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest120.description1}"
-				"{ftbquests.chapter.solar_dominance.quest120.description2}"
-				"{ftbquests.chapter.solar_dominance.quest120.description3}"
+				"{ftbquests.chapter.solar_dominance.quest105.description1}"
+				"{ftbquests.chapter.solar_dominance.quest105.description2}"
+				"{ftbquests.chapter.solar_dominance.quest105.description3}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest120.description4}"
-				"{ftbquests.chapter.solar_dominance.quest120.description5}"
+				"{ftbquests.chapter.solar_dominance.quest105.description4}"
+				"{ftbquests.chapter.solar_dominance.quest105.description5}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest120.description6}"
+				"{ftbquests.chapter.solar_dominance.quest105.description6}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest120.description7}"
+				"{ftbquests.chapter.solar_dominance.quest105.description7}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest120.description8}"
+				"{ftbquests.chapter.solar_dominance.quest105.description8}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest120.description9}"
+				"{ftbquests.chapter.solar_dominance.quest105.description9}"
 			]
 			icon: "cosmiccore:sculk_myofibroblast"
 			id: "77B2690C199DA311"
@@ -1642,12 +1495,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest120.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest105.subtitle}"
 			tasks: [{
 				id: "1A9C085E5A9F5152"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest120.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest105.title}"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1726,7 +1579,7 @@
 				"4908B167DF0F546F"
 			]
 			id: "55386D5CF8B7D512"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest126.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest111.subtitle}"
 			tasks: [{
 				id: "128FB37299F1BC8F"
 				item: "cosmiccore:saturated_sculk_hemocytoblast"
@@ -1783,7 +1636,7 @@
 			dependencies: ["284502B94635EDB1"]
 			id: "5A9D080A6A26E26B"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest131.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest116.subtitle}"
 			tasks: [{
 				id: "0E7A7735ED2816C0"
 				item: "cosmiccore:streptococcus_pyogenes"
@@ -1863,9 +1716,9 @@
 				"253A047A7B1E09B6"
 				"37C8F8158AE98020"
 			]
-			description: ["{ftbquests.chapter.solar_dominance.quest137.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest122.description1}"]
 			id: "59CD98CC80093BF4"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest137.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest122.subtitle}"
 			tasks: [{
 				id: "12C369AD688C9430"
 				item: "gtceu:bacteria_bucket"
@@ -1879,9 +1732,9 @@
 				"3AA1ED09059B8A0C"
 				"59CD98CC80093BF4"
 			]
-			description: ["{ftbquests.chapter.solar_dominance.quest138.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest123.description1}"]
 			id: "04BB51C45A750A1B"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest138.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest123.subtitle}"
 			tasks: [{
 				id: "38DA162621ADCFA3"
 				item: "gtceu:bacterial_sludge_bucket"
@@ -1921,9 +1774,9 @@
 				"04BB51C45A750A1B"
 				"142C68E3FBE0CEC9"
 			]
-			description: ["{ftbquests.chapter.solar_dominance.quest141.description1}"]
+			description: ["{ftbquests.chapter.solar_dominance.quest126.description1}"]
 			id: "68A24A357BA349D2"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest141.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest126.subtitle}"
 			tasks: [{
 				id: "69A7B38213DBDDD1"
 				item: "gtceu:enriched_bacterial_sludge_bucket"
@@ -1938,14 +1791,14 @@
 				"27DA9F6BC1806BFF"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest142.description1}"
+				"{ftbquests.chapter.solar_dominance.quest127.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest142.description2}"
+				"{ftbquests.chapter.solar_dominance.quest127.description2}"
 			]
 			id: "16A05076647BB77B"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest142.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest127.subtitle}"
 			tasks: [{
 				id: "7EA8CFBA32538096"
 				item: "gtceu:mutagen_bucket"
@@ -1971,13 +1824,13 @@
 				"704CBB18EA1C35D0"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest144.description1}"
+				"{ftbquests.chapter.solar_dominance.quest129.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest144.description2}"
+				"{ftbquests.chapter.solar_dominance.quest129.description2}"
 			]
 			id: "4908B167DF0F546F"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest144.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest129.subtitle}"
 			tasks: [{
 				id: "08432A5041EA29EA"
 				item: "gtceu:synthetic_blood_bucket"
@@ -1989,13 +1842,13 @@
 		{
 			dependencies: ["256A2F7C6199212E"]
 			id: "3072B32A21293DEF"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest145.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest130.subtitle}"
 			tasks: [{
 				id: "3B64391A6425F50A"
 				item: "gtceu:chitin_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest145.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest130.title}"
 			x: -6.0d
 			y: 18.5d
 		}
@@ -2010,7 +1863,7 @@
 				item: "gtceu:chitosan_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest146.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest131.title}"
 			x: -6.0d
 			y: 23.0d
 		}
@@ -2122,7 +1975,7 @@
 		{
 			dependencies: ["25CA54B1D9EB0211"]
 			id: "2A2BB37FB10C9C77"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest155.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest140.subtitle}"
 			tasks: [{
 				id: "69367A085107CE97"
 				item: "gtceu:sterilized_growth_medium_bucket"
@@ -2145,7 +1998,7 @@
 			]
 			id: "25CA54B1D9EB0211"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest156.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest141.subtitle}"
 			tasks: [{
 				id: "5A67742B36342FE9"
 				item: "gtceu:raw_growth_medium_bucket"
@@ -2162,19 +2015,19 @@
 				"5FC0EAF5ABF3666F"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest157.description1}"
+				"{ftbquests.chapter.solar_dominance.quest142.description1}"
 				""
 				""
-				"{ftbquests.chapter.solar_dominance.quest157.description2}"
+				"{ftbquests.chapter.solar_dominance.quest142.description2}"
 			]
 			id: "6F89E1D42D9EFB15"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest157.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest142.subtitle}"
 			tasks: [{
 				id: "4A0DE108A31144D7"
 				item: "gtceu:complex_multivitamin_solution_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest157.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest142.title}"
 			x: 8.5d
 			y: 18.5d
 		}
@@ -2552,13 +2405,13 @@
 				"4908B167DF0F546F"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest189.description1}"
-				"{ftbquests.chapter.solar_dominance.quest189.description2}"
+				"{ftbquests.chapter.solar_dominance.quest174.description1}"
+				"{ftbquests.chapter.solar_dominance.quest174.description2}"
 			]
 			id: "15D91ED5CBDA2B17"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest189.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest174.subtitle}"
 			tasks: [{
 				id: "27405B3F2F881FC9"
 				item: "cosmiccore:computation_support_unit"
@@ -2596,20 +2449,20 @@
 		{
 			dependencies: ["35CFF0BD416B2801"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest192.description1}"
-				"{ftbquests.chapter.solar_dominance.quest192.description2}"
+				"{ftbquests.chapter.solar_dominance.quest177.description1}"
+				"{ftbquests.chapter.solar_dominance.quest177.description2}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest192.description3}"
-				"{ftbquests.chapter.solar_dominance.quest192.description4}"
+				"{ftbquests.chapter.solar_dominance.quest177.description3}"
+				"{ftbquests.chapter.solar_dominance.quest177.description4}"
 				""
 				""
-				"{ftbquests.chapter.solar_dominance.quest192.description5}"
-				"{ftbquests.chapter.solar_dominance.quest192.description6}"
-				"{ftbquests.chapter.solar_dominance.quest192.description7}"
+				"{ftbquests.chapter.solar_dominance.quest177.description5}"
+				"{ftbquests.chapter.solar_dominance.quest177.description6}"
+				"{ftbquests.chapter.solar_dominance.quest177.description7}"
 			]
 			id: "03A4B381E49BE93A"
 			optional: true
-			subtitle: "{ftbquests.chapter.solar_dominance.quest192.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest177.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 100000000L
@@ -2617,7 +2470,7 @@
 				item: "croptopia:cheese"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest192.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest177.title}"
 			x: -7.5d
 			y: 11.0d
 		}
@@ -2649,9 +2502,9 @@
 		{
 			dependencies: ["32487CEABEA13790"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest195.description1}"
+				"{ftbquests.chapter.solar_dominance.quest180.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest195.description2}"
+				"{ftbquests.chapter.solar_dominance.quest180.description2}"
 			]
 			icon: "gtceu:large_engraving_laser"
 			id: "25BD7A1DD7EDD974"
@@ -2659,19 +2512,19 @@
 				id: "652F96EAF28791B5"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest195.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest180.title}"
 			x: 9.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3FCCC1CCDEF90870"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest196.description1}"
+				"{ftbquests.chapter.solar_dominance.quest181.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest196.description2}"
+				"{ftbquests.chapter.solar_dominance.quest181.description2}"
 			]
 			id: "32487CEABEA13790"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest196.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest181.subtitle}"
 			tasks: [{
 				id: "70425F32B7A81D48"
 				item: {
@@ -2684,7 +2537,7 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.solar_dominance.quest196.task_8089132552145083720.title}"
+				title: "{ftbquests.chapter.solar_dominance.quest181.task_8089132552145083720.title}"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -2729,13 +2582,13 @@
 				"4908B167DF0F546F"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest199.description1}"
-				"{ftbquests.chapter.solar_dominance.quest199.description2}"
+				"{ftbquests.chapter.solar_dominance.quest184.description1}"
+				"{ftbquests.chapter.solar_dominance.quest184.description2}"
 			]
 			hide_dependency_lines: true
 			id: "599DD95E8C657EE5"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest199.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest184.subtitle}"
 			tasks: [{
 				id: "07D3535DEB3D243F"
 				item: "cosmiccore:computation_support_unit"
@@ -2755,7 +2608,7 @@
 			id: "1137C5834EC09BDA"
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.solar_dominance.quest200.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest185.subtitle}"
 			tasks: [{
 				id: "12668DAB7B42BC2C"
 				item: "cosmiccore:orbital_tempering_forge"
@@ -2767,13 +2620,13 @@
 		{
 			dependencies: ["3721D1E1F204378F"]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest201.description1}"
+				"{ftbquests.chapter.solar_dominance.quest186.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest201.description2}"
+				"{ftbquests.chapter.solar_dominance.quest186.description2}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest201.description3}"
+				"{ftbquests.chapter.solar_dominance.quest186.description3}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest201.description4}"
+				"{ftbquests.chapter.solar_dominance.quest186.description4}"
 			]
 			hide_dependency_lines: true
 			id: "4ADA848674D06324"
@@ -2819,17 +2672,17 @@
 				"33E3A30B9A5C165B"
 			]
 			description: [
-				"{ftbquests.chapter.solar_dominance.quest204.description1}"
+				"{ftbquests.chapter.solar_dominance.quest189.description1}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest204.description2}"
+				"{ftbquests.chapter.solar_dominance.quest189.description2}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest204.description3}"
+				"{ftbquests.chapter.solar_dominance.quest189.description3}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest204.description4}"
+				"{ftbquests.chapter.solar_dominance.quest189.description4}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest204.description5}"
+				"{ftbquests.chapter.solar_dominance.quest189.description5}"
 				""
-				"{ftbquests.chapter.solar_dominance.quest204.description6}"
+				"{ftbquests.chapter.solar_dominance.quest189.description6}"
 			]
 			id: "6D0D429EFB77C382"
 			rewards: [{
@@ -2837,37 +2690,30 @@
 				item: "cosmiccore:cluster_of_perpetuity"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.solar_dominance.quest204.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest189.subtitle}"
 			tasks: [{
 				id: "367131A2D8C608FE"
 				item: "cosmiccore:dimensional_energy_interface"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solar_dominance.quest204.title}"
+			title: "{ftbquests.chapter.solar_dominance.quest189.title}"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["48BC2327A7121269"]
+			dependencies: [
+				"24651D97CC947814"
+				"22E893A69FB7C197"
+			]
+			hide_dependent_lines: true
 			id: "0B97C846BEAA2ED8"
 			tasks: [{
 				id: "2B237655A7CE864A"
 				item: "cosmiccore:heavy_starmetal_beam"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["22E893A69FB7C197"]
-			id: "48BC2327A7121269"
-			tasks: [{
-				id: "465B1D2E225B7D07"
-				item: "cosmiccore:submerged_welder"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 0.0d
+			x: -11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3721D1E1F204378F"]
@@ -2885,43 +2731,16 @@
 				"5B80F2DA944E24D2"
 				"7BC6D4CA5105DAD5"
 			]
+			description: ["{ftbquests.chapter.solar_dominance.quest192.description1}"]
 			id: "7BA050094A56DD8A"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest192.subtitle}"
 			tasks: [{
 				id: "2FDAC0FDDD7AE058"
 				item: "gtceu:copper_plasmites"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"693EC3E04A6F74B7"
-				"7BC6D4CA5105DAD5"
-				"5B80F2DA944E24D2"
-			]
-			id: "4BE0886804DD5181"
-			tasks: [{
-				id: "3D1BAFBB9D01C230"
-				item: "gtceu:iron_plasmites"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"7BC6D4CA5105DAD5"
-				"5B80F2DA944E24D2"
-			]
-			id: "275FCF17A5906780"
-			tasks: [{
-				id: "5342D297BF953DCE"
-				item: "gtceu:gold_plasmites"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -5.0d
+			x: -10.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2939,50 +2758,53 @@
 		}
 		{
 			dependencies: ["77AC87C4258DCDD4"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest194.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest194.description2}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest194.description3}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest194.description4}"
+			]
 			id: "5B80F2DA944E24D2"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest212.subtitle}"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.solar_dominance.quest194.subtitle}"
 			tasks: [{
 				id: "5E278446386FDDC3"
 				item: "cosmiccore:plasmite_distillery"
 				type: "item"
 			}]
 			x: -9.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["77B2690C199DA311"]
 			hide_dependency_lines: true
 			id: "7BC6D4CA5105DAD5"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest213.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest195.subtitle}"
 			tasks: [{
 				id: "5E7E4135BD71DB01"
 				item: "cosmiccore:saturated_sculk_hemocytoblast"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -5.0d
+			x: -10.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["5B80F2DA944E24D2"]
-			id: "693EC3E04A6F74B7"
-			tasks: [{
-				id: "446B706AAD91A474"
-				item: "gtceu:iron_plasma_bucket"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5B80F2DA944E24D2"]
+			dependencies: [
+				"5B80F2DA944E24D2"
+				"565FABB86902012B"
+			]
 			id: "5A99879DF7230F18"
 			tasks: [{
 				id: "69D42DEF930EC9D1"
 				item: "gtceu:ghost_matter_plasma_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -8.0d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["565FABB86902012B"]
@@ -3063,7 +2885,7 @@
 			dependencies: ["284502B94635EDB1"]
 			hide_dependency_lines: true
 			id: "704CBB18EA1C35D0"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest222.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest203.subtitle}"
 			tasks: [{
 				id: "182ACC35201E9F16"
 				item: "cosmiccore:streptococcus_pyogenes"
@@ -3077,7 +2899,7 @@
 			hide_dependency_lines: true
 			id: "256A2F7C6199212E"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.solar_dominance.quest223.subtitle}"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest204.subtitle}"
 			tasks: [{
 				id: "14B76345FDC1C5EF"
 				item: "croptopia:crab"
@@ -3097,6 +2919,234 @@
 			}]
 			x: 4.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "7DDF928C621AD72A"
+			tasks: [{
+				id: "1D82E71D6777D6FC"
+				item: "gtceu:naquadria_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			id: "36C432DB5BEA82F4"
+			shape: "pentagon"
+			tasks: [{
+				id: "3EEB6FFFA2FC9F0F"
+				item: "gtceu:tau_plasma_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"77633CDEDC947247"
+				"050D19FA0A97DAC3"
+				"0CA4111E6FFD6B3D"
+				"1A763FC5DB4CCB47"
+				"36C432DB5BEA82F4"
+			]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest208.description1}"
+				""
+				""
+				""
+				""
+				"{ftbquests.chapter.solar_dominance.quest208.description2}"
+			]
+			id: "2A629DC0EF7E9848"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest208.subtitle}"
+			tasks: [{
+				id: "2D430332CB0AB526"
+				item: "gtceu:naquahine_superfuel_mk_three_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "77633CDEDC947247"
+			tasks: [{
+				id: "0D4F675F86D280F6"
+				item: "gtceu:starlight_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1EDA6025077BAA5D"]
+			hide_dependency_lines: true
+			id: "050D19FA0A97DAC3"
+			tasks: [{
+				id: "73B01E56F9041DE4"
+				item: "gtceu:americium_plasmites"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"24651D97CC947814"
+				"22E893A69FB7C197"
+			]
+			hide_dependent_lines: true
+			id: "6299AC7703B67256"
+			tasks: [{
+				id: "572C3B5B81102FD5"
+				item: "cosmiccore:heavy_starmetal_beam"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"24651D97CC947814"
+				"22E893A69FB7C197"
+			]
+			hide_dependency_lines: true
+			id: "6FC9F7B2AA41CDF5"
+			tasks: [{
+				id: "4811AA8F240120C1"
+				item: "cosmiccore:heavy_starmetal_beam"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31CE310C898AC695"]
+			id: "31DC7272AC2FB97E"
+			tasks: [{
+				id: "2F118749E1FCC989"
+				item: "cosmiccore:atmo_pump"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["565FABB86902012B"]
+			hide_dependency_lines: true
+			id: "587A8BE39E9C9D9A"
+			tasks: [{
+				id: "79696B037555A56C"
+				item: "gtceu:naumannite_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["195241FCB0CC40DE"]
+			id: "502A142D1FE28D32"
+			tasks: [{
+				id: "23DEB9BF8B95E6B7"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09F1559F5FDF2B74"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest216.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest216.description2}"
+			]
+			id: "7BC802FE39FBA4BC"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest216.subtitle}"
+			tasks: [{
+				id: "7C652C6BA43C96FE"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.solar_dominance.quest216.title}"
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B80F2DA944E24D2"]
+			description: [
+				"{ftbquests.chapter.solar_dominance.quest217.description1}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest217.description2}"
+				""
+				"{ftbquests.chapter.solar_dominance.quest217.description3}"
+			]
+			id: "248C64F2AEC291A5"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest217.subtitle}"
+			tasks: [{
+				id: "1DC3E7F4C240C56A"
+				item: "gtceu:graphene_plasmites"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B80F2DA944E24D2"]
+			hide_dependency_lines: true
+			id: "0347EE525F6FA5E6"
+			shape: "hexagon"
+			tasks: [{
+				id: "57A9BD2FF66BEF4A"
+				item: "gtceu:copper_plasmites"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["71EE1119F936C025"]
+			id: "1F636D0FD518614F"
+			subtitle: "{ftbquests.chapter.solar_dominance.quest219.subtitle}"
+			tasks: [{
+				id: "2E190A92F57CBD23"
+				title: "{ftbquests.chapter.solar_dominance.quest219.task_3321697826462547235.title}"
+				type: "custom"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71EE1119F936C025"]
+			hide_dependency_lines: true
+			id: "6D3991B1770CDB63"
+			tasks: [{
+				id: "566DFAEA6F37C6B9"
+				item: "gtceu:starry_fuel_mixture_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71EE1119F936C025"]
+			hide_dependency_lines: true
+			id: "1A763FC5DB4CCB47"
+			shape: "pentagon"
+			tasks: [{
+				id: "359054C6801EEF0D"
+				item: "cosmiccore:stellar_neutronium_grade_magnet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.solar_dominance.title}"

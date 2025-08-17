@@ -1830,6 +1830,26 @@
 			x: 0.0d
 			y: -15.0d
 		}
+		{
+			dependencies: ["5A39803D8A6BF62D"]
+			description: [
+				"{ftbquests.chapter.burning_the_veil_iv.quest119.description1}"
+				""
+				"{ftbquests.chapter.burning_the_veil_iv.quest119.description2}"
+				""
+				""
+				"{ftbquests.chapter.burning_the_veil_iv.quest119.description3}"
+			]
+			id: "6FCCB7421CE9D6ED"
+			subtitle: "{ftbquests.chapter.burning_the_veil_iv.quest119.subtitle}"
+			tasks: [{
+				id: "4A4AEBF9BFB391D6"
+				item: "cosmiccore:linked_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
 	]
 	title: "{ftbquests.chapter.burning_the_veil_iv.title}"
 }
