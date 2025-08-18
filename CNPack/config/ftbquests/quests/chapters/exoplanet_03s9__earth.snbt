@@ -270,7 +270,7 @@
 						HideFlags: 2
 						Unbreakable: 1
 						display: {
-							Name: "{\"text\":\"Weirdly Durable Hammer\"}"
+							Name: "{\"text\":\"耐久高到奇怪的锤子\"}"
 						}
 					}
 				}
@@ -698,7 +698,7 @@
 				tag: {
 					Damage: 214
 					display: {
-						Name: "{\"text\":\"Oddly Damaged Respirator\"}"
+						Name: "{\"text\":\"受损的奇怪呼吸器\"}"
 					}
 				}
 			}
