@@ -168,7 +168,7 @@ ItemEvents.tooltip(event => {
       text.add(15, Text.of('------------------------------------------------------------').aqua())
       text.add(16, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
   event.addAdvanced('cosmiccore:stellar_iris', (item, advanced, text) => {
@@ -191,7 +191,7 @@ ItemEvents.tooltip(event => {
       text.add(16, Text.of('------------------------------------------------------------').aqua())
       text.add(17, Text.of('超频类型：∞'))
     } else {
-      text.add(3, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(3, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -270,7 +270,7 @@ ItemEvents.tooltip(event => {
       text.add(11, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：奇异'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -289,7 +289,7 @@ ItemEvents.tooltip(event => {
       text.add(11, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：无'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -307,7 +307,7 @@ ItemEvents.tooltip(event => {
       text.add(8, Text.of('------------------------------------------------------------').aqua())
       text.add(12, Text.of('超频类型：有损tick超频'))
     } else {
-      text.add(4, [Text.of('按住').gold(), Text.of('Shift ').yellow(), Text.of('可查看更多信息').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -316,20 +316,20 @@ ItemEvents.tooltip(event => {
   // Do not edit unless you are Ghostipedia or have explicit approval to do so, thank you!
   
   event.addAdvanced('cosmiccore:drone_station', (item, advanced, text) => {
-    text.add(1, Text.of('Multiblock Classification: The Repair Swarm').aqua().bold())
-    text.add(2, Text.of('What is all that noise!?').white().bold())
-    text.add(3, Text.of('Automatically repairs multiblock damage, with Bees!'))
+    text.add(1, Text.of('多方块类型：维护蜂群').aqua().bold())
+    text.add(2, Text.of('这b动静到底是哪来的？').white().bold())
+    text.add(3, Text.of('用无人机蜂群自动修复机器的各种维护问题！'))
     if (event.isShift()) {
       text.add(4, Text.of('-------------------------------------------').aqua())
-      text.add(5, [Text.of('Consumes Drones to Fix Structural Damage').white()])
-      text.add(6, [Text.of('Higher tier drones grant higher range, and Plasmatic grants cleanroom status.').gray()])
+      text.add(5, [Text.of('消耗无人机以修复机器维护问题。').white()])
+      text.add(6, [Text.of('无人机等级越高作用范围越远，放入菌落可以为机器提供超净间环境。').gray()])
       text.add(7, Text.of('-------------------------------------------').aqua())
-      text.add(8, Text.of('Credits:'))
-      text.add(9, Text.of('Major Code Contributors:').aqua())
+      text.add(8, Text.of('以下是该多方块机器的制作人员表'))
+      text.add(9, Text.of('主要代码贡献者：').aqua())
       text.add(10, Text.of('JurreJelle & Kathryne').white())
-      text.add(11, [Text.of('Art & UI: ').gold(), Text.of('Ghostipedia').white()])
+      text.add(11, [Text.of('美工及UI：').gold(), Text.of('Ghostipedia').white()])
     } else {
-      text.add(4, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+      text.add(4, [Text.of('按住').gold(), Text.of('Shift').yellow(), Text.of('可查看更多信息').gold()])
     }
   })
 
@@ -340,15 +340,16 @@ ItemEvents.tooltip(event => {
 ItemEvents.tooltip(event => {
 
   event.addAdvanced(/sophisticatedstorage:(.*)/, (item, advanced, text) => {
-    text.add(1, Text.of('DEPRECATED DEPRECATED DEPRECATED').red().italic())
-    text.add(2, Text.of('MOD REMOVAL IN 0.9.0').red().bold())
+    text.add(1, Text.of('已经被禁用了！已经被禁用了！！！').red().italic())
+    text.add(2, Text.of('0.9.0版后将会被移除，请尽快替换。').red().bold())
   })
 
 })
 
 ItemEvents.tooltip(event => {
   event.addAdvanced(/sophisticatedbackpacks:(.*)/, (item, advanced, text) => {
-    text.add(1, Text.of('DEPRECATED DEPRECATED DEPRECATED').red().italic())
-    text.add(2, Text.of('MOD REMOVAL IN 0.9.0').red().bold())
+    text.add(1, Text.of('已经被禁用了！已经被禁用了！！！').red().italic())
+    text.add(2, Text.of('0.9.0版后将会被移除，请尽快替换。').red().bold())
   })
+
 })
